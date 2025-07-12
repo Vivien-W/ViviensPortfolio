@@ -8,7 +8,7 @@ export const About = () => {
   return (
     
     <section
-      id="about"
+      id="Über Mich"
       className="min-h-screen flex items-center justify-center bg-white px-4 py-24"
     >
       <SlideInWhenVisible delay={0}>

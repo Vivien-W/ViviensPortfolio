@@ -16,7 +16,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       </button>
 
       {/* Navigation Links */}
-      {["Home", "About", "Projects", "Contact"].map((item, i) => (
+      {["Home", "Über Mich", "Projekte", "Kontakt"].map((item, i) => (
         <a
           key={i}
           href={`#${item.toLowerCase()}`}

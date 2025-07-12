@@ -35,7 +35,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
           {/* Desktop Links */}
           <div className="hidden md:flex items-center space-x-8">
-            {["Home", "About", "Projects", "Contact"].map((item, i) => (
+            {["Home", "Über Mich", "Projekte", "Kontakt"].map((item, i) => (
               <a
                 key={i}
                 href={`#${item.toLowerCase()}`}

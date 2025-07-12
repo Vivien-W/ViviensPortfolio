@@ -5,7 +5,7 @@ import SlideInWhenVisible from '../../components/SlideInWhenVisible';
 export const Contact = () => {
   return (
     <section
-      id="contact"
+      id="kontakt"
       className="min-h-screen flex items-center justify-center py-20 bg-white"
     >
       <SlideInWhenVisible delay={0}>

@@ -10,7 +10,7 @@ import SlideInWhenVisible from '../../components/SlideInWhenVisible';
 export const Projects = () => {
   return (
     <section
-      id="projects"
+      id="projekte"
       className="min-h-screen flex items-center justify-center bg-white px-4 py-20"
     >
       <div className="max-w-5xl mx-auto px-4">
