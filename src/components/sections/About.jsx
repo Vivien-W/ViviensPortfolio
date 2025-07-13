@@ -12,7 +12,8 @@ export const About = () => {
       className="min-h-screen flex items-center justify-center bg-white px-4 py-24"
     >
       <SlideInWhenVisible delay={0}>
-      <div className="max-w-4xl w-full backdrop-blur-xl bg-white/80 border border-white/70 shadow-xl rounded-3xl p-10">
+      <div className="max-w-4xl w-full backdrop-blur-md bg-white/80 border border-pink-100 rounded-2xl 
+                   hover:border-pink-300 shadow-2xl hover:-translate-y-1 transition-transform p-10">
         
         {/* Header-Bild */}
         <img
@@ -85,7 +86,7 @@ export const About = () => {
 
         {/* Zukunft */}
         <div>
-          <h3 className="text-xl font-semibold mb-4 text-gray-800">🌅 Zukunftspläne</h3>
+          <h3 className="text-xl font-semibold py-4 mb-4 text-gray-800">Zukunftspläne 🌊</h3>
           <p className="text-gray-700">
           Ich bin von der <span class="text-gray-800 font-semibold">Webentwicklung</span> fasziniert und verfolge das Ziel, mich sowohl im Frontend als auch im Backend kontinuierlich weiterzuentwickeln.
           Besonders begeistert mich die <span class="text-pink-400 font-semibold">Frontend-Entwicklung mit React </span> und modernes Webdesign. Hier kann ich meine kreative Ader voll ausleben und mein Gespür für Ästhetik und User Experience gezielt einsetzen, um <span class="text-gray-800 font-semibold">intuitive und ansprechende Benutzeroberflächen</span> zu gestalten.

@@ -16,7 +16,7 @@ export const Footer = () => {
           <a href="mailto:vivienwbaum@gmail.com" className="hover:underline hover:text-cyan-500 transition">
             E-Mail
           </a>
-          <a href="#projects" className="hover:underline hover:text-cyan-500 transition">
+          <a href="#projekte" className="hover:underline hover:text-cyan-500 transition">
             Projekte
           </a>
         </div>

@@ -6,7 +6,8 @@ export const Home = () => {
       id="home"
       className="min-h-screen flex items-center justify-center bg-white px-6 py-2"
     >
-      <div className="max-w-4xl w-full rounded-3xl overflow-hidden shadow-[0_8px_40px_rgba(0,0,0,0.05)] border border-white/80 backdrop-blur-2xl bg-white/60">
+      <div className="max-w-4xl w-full rounded-3xl overflow-hidden bg-white shadow-none backdrop-blur-0 border-none
+">
         
         {/* Headerbild */}
         <img

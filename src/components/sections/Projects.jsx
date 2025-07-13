@@ -22,7 +22,7 @@ export const Projects = () => {
                 />
         </SlideInWhenVisible>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2 ">
           {/* Festival Website */}
           <ProjectCard
             media={<video src={festivalwebsite} controls className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
@@ -85,7 +85,8 @@ export const Projects = () => {
 };
 
 const ProjectCard = ({ media, title, description, tech, link }) => (
-  <div className="backdrop-blur-xl bg-white/30 border border-white/30 rounded-xl p-6 shadow-lg hover:-translate-y-1 transition-transform">
+  <div className="backdrop-blur-md bg-white/80 border border-pink-100 rounded-2xl 
+                   hover:border-pink-300 p-6 shadow-2xl hover:-translate-y-1 transition-transform">
     {media}
     <h3 className="text-xl font-bold text-pink-600 mb-2">{title}</h3>
     <p className="text-gray-700 mb-4">{description}</p>

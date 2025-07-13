@@ -31,7 +31,7 @@ const SlideInWhenVisible = ({ children, from = 'left', delay = 0, className = ''
 
   return (
     <div
-      className={`${className} transition-all duration-1000 ease-out ${isVisible ? visibleClass : slideClass} ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+      className={`${className} transition-all duration-2000 ease-out ${isVisible ? visibleClass : slideClass} ${isVisible ? 'opacity-100' : 'opacity-0'}`}
       ref={domRef}
       style={{ transitionDelay: `${delay}ms` }}
     >

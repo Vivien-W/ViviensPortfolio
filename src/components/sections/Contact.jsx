@@ -10,8 +10,8 @@ export const Contact = () => {
     >
       <SlideInWhenVisible delay={0}>
       <div
-        className="backdrop-blur-md bg-white/80 border border-pink-100 shadow-xl rounded-2xl 
-                   transition-all p-6 hover:shadow-2xl hover:border-pink-300"
+        className="backdrop-blur-md bg-white/80 border border-pink-100 rounded-2xl 
+                   hover:border-pink-300 p-6 shadow-2xl hover:-translate-y-1 transition-transform"
       >
         <div className="px-4 w-full min-w-[300px] md:w-[600px] sm:w-2/3 p-2 text-center">
         <img src={Kontakt} alt="Überschrift Kontakt" className="h-14 mb-8 mx-auto" />
