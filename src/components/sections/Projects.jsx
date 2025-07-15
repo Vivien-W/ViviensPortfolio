@@ -85,8 +85,8 @@ export const Projects = () => {
 };
 
 const ProjectCard = ({ media, title, description, tech, link }) => (
-  <div className="backdrop-blur-md bg-white/80 border border-pink-100 rounded-2xl 
-                   hover:border-pink-300 p-6 shadow-2xl hover:-translate-y-1 transition-transform">
+  <div className="backdrop-blur-md bg-white/80 border border-cyan-100 rounded-2xl 
+                   hover:border-cyan-300 p-6 shadow-2xl hover:-translate-y-1 transition-transform">
     {media}
     <h3 className="text-xl font-bold text-pink-600 mb-2">{title}</h3>
     <p className="text-gray-700 mb-4">{description}</p>

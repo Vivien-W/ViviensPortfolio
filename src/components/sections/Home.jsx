@@ -1,17 +1,19 @@
-import blume from '../../assets/images/background.png';
+import WaterEffect from '../../components/WaterEffect'; // passe ggf. den Pfad an
+import backgroundImage from '../../assets/images/Background.png';
 
 export const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-white px-6 py-2"
+      className="relative min-h-screen flex items-center justify-center bg-white px-6 py-2 overflow-hidden"
     >
-      <div className="max-w-4xl w-full rounded-3xl overflow-hidden bg-white shadow-none backdrop-blur-0 border-none
-">
-        
+      {/* Wasser-Shader-Hintergrund */}
+      <WaterEffect />
+
+      <div className="max-w-4xl w-full rounded-3xl overflow-hidden bg-white shadow-none backdrop-blur-0 border-none">
         {/* Headerbild */}
         <img
-          src={blume}
+          src={backgroundImage}
           alt="Header"
           className="w-full object-cover h-auto"
         />

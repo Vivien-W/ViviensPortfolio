@@ -1,4 +1,5 @@
 import Kontakt from '../../assets/images/Kontakt.png';
+import Butterfische from '../../assets/images/Butterfische.png';
 import SlideInWhenVisible from '../../components/SlideInWhenVisible';
 
 
@@ -10,15 +11,13 @@ export const Contact = () => {
     >
       <SlideInWhenVisible delay={0}>
       <div
-        className="backdrop-blur-md bg-white/80 border border-pink-100 rounded-2xl 
-                   hover:border-pink-300 p-6 shadow-2xl hover:-translate-y-1 transition-transform"
+        className="backdrop-blur-md bg-white/80 border border-cyan-100 rounded-2xl 
+                   hover:border-cyan-300 p-6 shadow-2xl hover:-translate-y-1 transition-transform"
       >
         <div className="px-4 w-full min-w-[300px] md:w-[600px] sm:w-2/3 p-2 text-center">
         <img src={Kontakt} alt="Überschrift Kontakt" className="h-14 mb-8 mx-auto" />
+        <img src={Butterfische} alt="Überschrift Kontakt" className="h-14 mb-8 mx-auto" />
 
-          <h2 className="text-3xl font-bold mb-6 mt-4 bg-gradient-to-r from-pink-600 to-cyan-400 bg-clip-text text-transparent">
-            Jetzt mal Butter bei die Fische...
-          </h2>
 
           <div className="mb-10 text-gray-700 leading-relaxed text-left">
             <p className="mb-4">

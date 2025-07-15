@@ -1,9 +1,15 @@
 import UeberMich from '../../assets/images/UeberMich.png';
+import Circle from '../../assets/images/Circle.jpg';
+import Lernquellen from '../../assets/images/Lernquelle.svg';
 import SlideInWhenVisible from '../../components/SlideInWhenVisible';
+import { useState } from 'react';
 
 export const About = () => {
   const frontendSkills = ["React", "HTML5", "CSS3", "TailwindCSS", "Javascript"];
-  const backendSkills = ["SQL", "Python", "Javascript", "MySQL Workbench", "Flask"];
+  const backendSkills = ["SQL", "Python", "Javascript", "PHP", "Flask"];
+  const softwareSkills = ["MySQL Workbench", "Github", "VS Code"];
+
+  const [showSources, setShowSources] = useState(false);
 
   return (
     
@@ -12,8 +18,8 @@ export const About = () => {
       className="min-h-screen flex items-center justify-center bg-white px-4 py-24"
     >
       <SlideInWhenVisible delay={0}>
-      <div className="max-w-4xl w-full backdrop-blur-md bg-white/80 border border-pink-100 rounded-2xl 
-                   hover:border-pink-300 shadow-2xl hover:-translate-y-1 transition-transform p-10">
+      <div className="max-w-4xl w-full backdrop-blur-md bg-white/80 border border-cyan-100 rounded-2xl 
+                   hover:border-cyan-300 shadow-2xl hover:-translate-y-1 transition-transform p-10">
         
         {/* Header-Bild */}
         <img
@@ -25,17 +31,16 @@ export const About = () => {
         {/* Abschnitt 1 */}
         <div className="mb-12 text-gray-700 leading-relaxed">
           <p className="mb-6">
-            Ich bin angehende Softwareentwicklerin mit einem Master in Informationsmanagement. Mein Fokus liegt auf moderner Webentwicklung mit React, TailwindCSS und JavaScript. Besonders begeistern mich elegante UI/UX-Designs und datengetriebene Anwendungen. Ich suche den Einstieg in ein innovatives Entwicklerteam.
+            Ich bin angehende Softwareentwicklerin mit einem Master in Informationsmanagement. Mein Fokus liegt auf moderner <span class="text-gray-600 font-semibold text-md">Webentwicklung mit React, TailwindCSS und JavaScript</span>. Besonders begeistern mich elegante UI/UX-Designs und datengetriebene Anwendungen. Ich suche den Einstieg in ein innovatives Entwicklerteam.
           </p>
 
-          <h3 className="text-xl font-semibold mb-4 text-gray-800">🎓 Studium</h3>
-          <ul className="list-disc list-inside space-y-2 text-gray-600">
+          <h3 className="text-xl font-semibold mb-4 text-pink-500 font-xl ml-24 mt-12" >Mein Studium</h3>
+          <ul className="list-disc list-inside space-y-2 text-gray-600 ml-24">
             <li><strong>M.S. in Information, Medien, Bibliothek</strong> – HAW Hamburg (2017–2019)</li>
             <li><strong>B.S. in Bibliotheks- und Informationsmanagement</strong> – HAW Hamburg (2013–2017)</li>
             <li>Fokus: IT-Grundlagen, Datenbanktechnologie, Usability & UX</li>
           </ul>
         </div>
-        
 
         {/* Abschnitt 2 */}
         <div className="mb-12 text-gray-700 leading-relaxed">
@@ -45,21 +50,24 @@ export const About = () => {
           <p className="mb-6">
             Nach dem Studium war ich mehrere Jahre in einer leitenden Position im Kinobereich tätig. Nun, nach einer Elternzeit, habe ich mich bewusst für einen beruflichen Neustart entschieden: Ich möchte als Softwareentwicklerin einsteigen, meine Fähigkeiten weiter ausbauen und mich langfristig in einem professionellen Entwicklungsteam etablieren.
           </p>
-          <p>
-            In meinen Projekten achte ich auf sauberen Code, Wiederverwendbarkeit, durchdachte Architektur und sorgfältige Dokumentation.
+          <h3 className="text-xl font-semibold text-center mt-12 mb-6 text-pink-500 font-xl" >Kenntnisse und Fähigkeiten</h3>
+        ` <p>
+            In den folgenden Bereichen verfüge ich über solide Grundkenntnisse bis hin zu routinierter Anwendung. Zusätzlich bringe ich Erfahrung im Umgang mit Tools wie Jira, Confluence, Jupyter Notebook, MS Office sowie Photoshop und GIMP mit - insbesondere im Rahmen projektbasierter Zusammenarbeit, Dokumentation und visuellem Prototyping.
+            Ich arbeite gerne mit modernen Tools und Technologien und erweitere mein Know-how durch kontinuierliches Lernen und praktische Anwendung.
+
           </p>
         </div>
 
         {/* Skills */}
-        <div className="grid md:grid-cols-2 gap-10 mb-12">
+        <div className="grid md:grid-cols-2 gap-10 mb-8">
           <SlideInWhenVisible delay={100}>
           <div>
-            <h3 className="text-xl font-semibold mb-4 text-gray-800">Frontend</h3>
+            <h3 className="text-md font-semibold mb-4 text-gray-800">Frontend</h3>
             <div className="flex flex-wrap gap-3">
               {frontendSkills.map((skill, i) => (
                 <span
                   key={i}
-                  className="bg-pink-100 text-pink-900 py-1 px-3 rounded-full text-sm hover:bg-pink-200 transition"
+                  className="bg-pink-100 text-pink-500 py-1 px-3 rounded-full text-sm hover:bg-pink-200 transition"
                 >
                   {skill}
                 </span>
@@ -69,12 +77,12 @@ export const About = () => {
           </SlideInWhenVisible>
           <div>
             <SlideInWhenVisible delay={300}>
-            <h3 className="text-xl font-semibold mb-4 text-gray-800">Backend</h3>
+            <h3 className="text-md font-semibold mb-4 text-gray-800">Backend</h3>
             <div className="flex flex-wrap gap-3">
               {backendSkills.map((skill, i) => (
                 <span
                   key={i}
-                  className="bg-cyan-100 text-cyan-800 py-1 px-3 rounded-full text-sm hover:bg-cyan-200 transition"
+                  className="bg-cyan-100 text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-200 transition"
                 >
                   {skill}
                 </span>
@@ -82,20 +90,94 @@ export const About = () => {
             </div>
             </SlideInWhenVisible>
           </div>
+          </div>
+          <SlideInWhenVisible delay={300}>
+              <h3 className="text-md font-semibold mb-4 text-gray-800 text-center">Tools & Anwendungen</h3>
+              <div className="flex flex-wrap gap-3 justify-center mb-18">
+                {softwareSkills.map((skill, i) => (
+                  <span
+                    key={i}
+                    className="bg-gray-100 text-gray-500 py-1 px-3 rounded-full text-sm hover:bg-gray-200 transition"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+              </SlideInWhenVisible>
+              <p className="text-gray-700">
+              Zusätzlich bringe ich Erfahrung im Umgang mit Tools wie Jira, Confluence, Jupyter Notebook, MS Office sowie Photoshop und GIMP mit - insbesondere im Rahmen projektbasierter Zusammenarbeit, Dokumentation und visuellem Prototyping.
+              Ich arbeite gerne mit modernen Tools und Technologien und erweitere mein Know-how durch kontinuierliches Lernen und praktische Anwendung.
+
+          </p>
+        
+
+        {/* Lernquellen */}
+
+  <div className="mt-12 mb-8">
+    <img
+  src={Lernquellen}
+  alt="Lernquellen anzeigen"
+  onClick={() => setShowSources(!showSources)}
+  className="h-16 cursor-pointer mb-4 hover:scale-105 transition duration-200 justify-center"
+/>
+
+    {showSources && (
+      <div className="mt-6 bg-cyan-50 border border-gray-200 rounded-xl p-6 text-sm text-gray-800 shadow-inner space-y-4">
+        <div>
+          <p className="font-semibold text-gray-700 mb-1">📚 Empfehlenswerte Bücher & E-Books</p>
+          <ul className="list-disc list-inside ml-4">
+            <li><em>Eloquent JavaScript</em> – Marijn Haverbeke</li>
+            <li><em>HTML & CSS: Design and Build Websites</em> – Jon Duckett</li>
+          </ul>
         </div>
+        <div>
+          <p className="font-semibold text-gray-700 mb-1">💻 FreeCodeCamp-Kurse</p>
+          <ul className="list-disc list-inside ml-4">
+            <li>Responsive Web Design</li>
+            <li>JavaScript Algorithms and Data Structures</li>
+            <li>Front End Development Libraries</li>
+          </ul>
+        </div>
+        <div>
+          <p className="font-semibold text-gray-700 mb-1">▶ YouTube-Kanäle</p>
+          <ul className="list-disc list-inside ml-4">
+            <li>Web Dev Simplified</li>
+            <li>Traversy Media</li>
+            <li>Kevin Powell</li>
+          </ul>
+        </div>
+      </div>
+    )}
+  </div>
+
+
+       <SlideInWhenVisible delay={400}>
+        <p className="text-gray-700">
+           In meinen Projekten achte ich auf sauberen Code, Wiederverwendbarkeit, eine durchdachte Architektur und sorgfältige Dokumentation. Ebenso lege ich großen Wert auf eine benutzerfreundliche, barrierefreie und performante Umsetzung, die sich an den Bedürfnissen der Nutzer:innen orientiert. Ob im Code, im Layout oder in der User Experience – ich verbinde moderne Frontend-Technologien mit kreativen Ideen.  – für digitale Erlebnisse, die sowohl technisch als auch visuell überzeugen.
+        </p>
+          {/* Circle-Bild */}.
+        <img
+          src={Circle}
+          alt="Über mich"
+          className="h-48 mx-auto my-8"
+        />
+        </SlideInWhenVisible>
 
         {/* Zukunft */}
+         <SlideInWhenVisible delay={500}>
         <div>
-          <h3 className="text-xl font-semibold py-4 mb-4 text-gray-800">Zukunftspläne 🌊</h3>
+          <h3 className="text-xl font-semibold text-center mb-4 text-pink-500 font-xl" >Zukunftspläne</h3>
           <p className="text-gray-700">
-          Ich bin von der <span class="text-gray-800 font-semibold">Webentwicklung</span> fasziniert und verfolge das Ziel, mich sowohl im Frontend als auch im Backend kontinuierlich weiterzuentwickeln.
-          Besonders begeistert mich die <span class="text-pink-400 font-semibold">Frontend-Entwicklung mit React </span> und modernes Webdesign. Hier kann ich meine kreative Ader voll ausleben und mein Gespür für Ästhetik und User Experience gezielt einsetzen, um <span class="text-gray-800 font-semibold">intuitive und ansprechende Benutzeroberflächen</span> zu gestalten.
-          Gleichzeitig fasziniert mich die <span class="text-cyan-500 font-semibold">Backend-Entwicklung mit Python</span>. Insbesondere die Arbeit mit Datenbanken, APIs und serverseitiger Logik reizt mich, da ich hier meine analytischen Fähigkeiten einbringen kann, um  <span class="text-gray-800 font-semibold">robuste und performante Anwendungen</span> zu entwickeln.
+          Ich bin von der <span class="text-gray-800 font-semibold text-sm">Webentwicklung</span> fasziniert und verfolge das Ziel, mich sowohl im Frontend als auch im Backend kontinuierlich weiterzuentwickeln.
+          Besonders begeistert mich die <span class="text-gray-800 font-semibold text-sm">Frontend-Entwicklung mit React </span> und modernes Webdesign. Hier kann ich meine kreative Ader voll ausleben und mein Gespür für Ästhetik und User Experience gezielt einsetzen, um <span class="text-gray-800 font-semibold text-sm">intuitive und ansprechende Benutzeroberflächen</span> zu gestalten.
+          Gleichzeitig fasziniert mich die <span class="text-gray-800 font-semibold text-sm">Backend-Entwicklung mit Python</span>. Insbesondere die Arbeit mit Datenbanken, APIs und serverseitiger Logik reizt mich, da ich hier meine analytischen Fähigkeiten einbringen kann, um  <span class="text-gray-800 font-semibold text-sm">robuste und performante Anwendungen</span> zu entwickeln.
           Mein übergeordnetes Ziel ist es, meine Fähigkeiten in beiden Bereichen so zu vertiefen, dass ich als vielseitige Softwareentwicklerin in einem innovativen und kollaborativen Team zum Einsatz kommen kann. Ich freue mich darauf, an spannenden Projekten mitzuwirken, die sowohl technologisch herausfordernd sind als auch einen direkten Mehrwert für Nutzer*innen schaffen. 
           </p>
         </div>
+        </SlideInWhenVisible>
       </div>
       </SlideInWhenVisible>
+  
     </section>
     
   );
