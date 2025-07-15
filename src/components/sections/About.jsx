@@ -126,8 +126,8 @@ export const About = () => {
         <div>
           <p className="font-semibold text-gray-700 mb-1">📚 Empfehlenswerte Bücher & E-Books</p>
           <ul className="list-disc list-inside ml-4">
-            <li><em>Eloquent JavaScript</em> – Marijn Haverbeke</li>
-            <li><em>HTML & CSS: Design and Build Websites</em> – Jon Duckett</li>
+            <li><em>...</em> – </li>
+            <li><em>...</em> – </li>
           </ul>
         </div>
         <div>
@@ -141,9 +141,9 @@ export const About = () => {
         <div>
           <p className="font-semibold text-gray-700 mb-1">▶ YouTube-Kanäle</p>
           <ul className="list-disc list-inside ml-4">
-            <li>Web Dev Simplified</li>
-            <li>Traversy Media</li>
-            <li>Kevin Powell</li>
+            <li>...</li>
+            <li>...</li>
+            <li>...</li>
           </ul>
         </div>
       </div>
