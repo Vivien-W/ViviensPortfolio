@@ -39,7 +39,7 @@ function SubtleWaterPlane() {
             varying vec2 vUv;
 
             void main() {
-              gl_FragColor = vec4(color, 0.09); // sehr transparent
+              gl_FragColor = vec4(color, 0.05); // sehr transparent
             }
           `,
           transparent: true,

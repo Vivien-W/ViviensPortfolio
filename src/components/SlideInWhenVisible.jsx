@@ -14,7 +14,7 @@ const SlideInWhenVisible = ({ children, from = 'left', delay = 0, className = ''
         }
       });
     }, {
-      threshold: 0.05 // Auslöser, wenn 5% des Elements sichtbar sind
+      threshold: 0.02 // Auslöser, wenn 2% des Elements sichtbar sind
     });
 
     observer.observe(domRef.current);
@@ -31,7 +31,7 @@ const SlideInWhenVisible = ({ children, from = 'left', delay = 0, className = ''
 
   return (
     <div
-      className={`${className} transition-all duration-2000 ease-out ${isVisible ? visibleClass : slideClass} ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+      className={`${className} transition-all duration-1500 ease-out ${isVisible ? visibleClass : slideClass} ${isVisible ? 'opacity-100' : 'opacity-0'}`}
       ref={domRef}
       style={{ transitionDelay: `${delay}ms` }}
     >

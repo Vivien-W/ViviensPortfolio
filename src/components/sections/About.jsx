@@ -3,6 +3,7 @@ import Circle from '../../assets/images/Circle.jpg';
 import Lernquellen from '../../assets/images/Lernquelle.svg';
 import SlideInWhenVisible from '../../components/SlideInWhenVisible';
 import { useState } from 'react';
+import WaterEffect from '../../components/WaterEffect'; 
 
 export const About = () => {
   const frontendSkills = ["React", "HTML5", "CSS3", "TailwindCSS", "Javascript"];
@@ -14,9 +15,11 @@ export const About = () => {
   return (
     
     <section
-      id="Über Mich"
-      className="min-h-screen flex items-center justify-center bg-white px-4 py-24"
-    >
+      id="about"
+      className="min-h-screen flex items-center justify-center bg-white px-4 py-24">
+       {/* Wasser-Shader-Hintergrund */}
+      <WaterEffect />
+
       <SlideInWhenVisible delay={0}>
       <div className="max-w-4xl w-full backdrop-blur-md bg-white/80 border border-cyan-100 rounded-2xl 
                    hover:border-cyan-300 shadow-2xl hover:-translate-y-1 transition-transform p-10">
@@ -34,7 +37,7 @@ export const About = () => {
             Ich bin angehende Softwareentwicklerin mit einem Master in Informationsmanagement. Mein Fokus liegt auf moderner <span class="text-gray-600 font-semibold text-md">Webentwicklung mit React, TailwindCSS und JavaScript</span>. Besonders begeistern mich elegante UI/UX-Designs und datengetriebene Anwendungen. Ich suche den Einstieg in ein innovatives Entwicklerteam.
           </p>
 
-          <h3 className="text-xl font-semibold mb-4 text-pink-500 font-xl ml-24 mt-12" >Mein Studium</h3>
+          <h3 className="text-xl font-semibold mb-4 text-pink-600 font-xl ml-24 mt-12" >Mein Studium</h3>
           <ul className="list-disc list-inside space-y-2 text-gray-600 ml-24">
             <li><strong>M.S. in Information, Medien, Bibliothek</strong> – HAW Hamburg (2017–2019)</li>
             <li><strong>B.S. in Bibliotheks- und Informationsmanagement</strong> – HAW Hamburg (2013–2017)</li>
@@ -50,10 +53,9 @@ export const About = () => {
           <p className="mb-6">
             Nach dem Studium war ich mehrere Jahre in einer leitenden Position im Kinobereich tätig. Nun, nach einer Elternzeit, habe ich mich bewusst für einen beruflichen Neustart entschieden: Ich möchte als Softwareentwicklerin einsteigen, meine Fähigkeiten weiter ausbauen und mich langfristig in einem professionellen Entwicklungsteam etablieren.
           </p>
-          <h3 className="text-xl font-semibold text-center mt-12 mb-6 text-pink-500 font-xl" >Kenntnisse und Fähigkeiten</h3>
+          <h3 className="text-xl font-semibold text-center mt-12 mb-6 text-pink-600 font-xl" >Kenntnisse und Fähigkeiten</h3>
         ` <p>
-            In den folgenden Bereichen verfüge ich über solide Grundkenntnisse bis hin zu routinierter Anwendung. Zusätzlich bringe ich Erfahrung im Umgang mit Tools wie Jira, Confluence, Jupyter Notebook, MS Office sowie Photoshop und GIMP mit - insbesondere im Rahmen projektbasierter Zusammenarbeit, Dokumentation und visuellem Prototyping.
-            Ich arbeite gerne mit modernen Tools und Technologien und erweitere mein Know-how durch kontinuierliches Lernen und praktische Anwendung.
+            In den folgenden Bereichen verfüge ich über solide Grundkenntnisse bis hin zu routinierter Anwendung: 
 
           </p>
         </div>
@@ -67,7 +69,7 @@ export const About = () => {
               {frontendSkills.map((skill, i) => (
                 <span
                   key={i}
-                  className="bg-pink-100 text-pink-500 py-1 px-3 rounded-full text-sm hover:bg-pink-200 transition"
+                  className="bg-pink-100 text-pink-600 py-1 px-3 rounded-full text-sm hover:bg-pink-200 transition"
                 >
                   {skill}
                 </span>
@@ -158,7 +160,7 @@ export const About = () => {
         </div>
         <div>
           <p className="font-semibold text-gray-700 mb-1">▶ YouTube-Kanäle</p>
-          <ul className="list-disc list-inside ml-4">
+          <ul className="list-none ml-4">
             <li>@GreatStack</li>
             <li>@Programmierenlernen</li>
             <li>@Pedro Tech</li>
@@ -184,13 +186,13 @@ export const About = () => {
 
         {/* Zukunft */}
          <SlideInWhenVisible delay={500}>
-        <div>
-          <h3 className="text-xl font-semibold text-center mb-4 text-pink-500 font-xl" >Zukunftspläne</h3>
+        <div className="mb-12 mt-12 text-gray-700 leading-relaxed">
+          <h3 className="text-xl font-semibold text-center mb-4 text-pink-600 font-xl" >Zukunftspläne</h3>
           <p className="text-gray-700">
-          Ich bin von der <span class="text-gray-800 font-semibold text-sm">Webentwicklung</span> fasziniert und verfolge das Ziel, mich sowohl im Frontend als auch im Backend kontinuierlich weiterzuentwickeln.
-          Besonders begeistert mich die <span class="text-gray-800 font-semibold text-sm">Frontend-Entwicklung mit React </span> und modernes Webdesign. Hier kann ich meine kreative Ader voll ausleben und mein Gespür für Ästhetik und User Experience gezielt einsetzen, um <span class="text-gray-800 font-semibold text-sm">intuitive und ansprechende Benutzeroberflächen</span> zu gestalten.
-          Gleichzeitig fasziniert mich die <span class="text-gray-800 font-semibold text-sm">Backend-Entwicklung mit Python</span>. Insbesondere die Arbeit mit Datenbanken, APIs und serverseitiger Logik reizt mich, da ich hier meine analytischen Fähigkeiten einbringen kann, um  <span class="text-gray-800 font-semibold text-sm">robuste und performante Anwendungen</span> zu entwickeln.
-          Mein übergeordnetes Ziel ist es, meine Fähigkeiten in beiden Bereichen so zu vertiefen, dass ich als vielseitige Softwareentwicklerin in einem innovativen und kollaborativen Team zum Einsatz kommen kann. Ich freue mich darauf, an spannenden Projekten mitzuwirken, die sowohl technologisch herausfordernd sind als auch einen direkten Mehrwert für Nutzer*innen schaffen. 
+          Ich bin von der <span class="text-gray-600 font-semibold text-md">Webentwicklung</span> fasziniert und verfolge das Ziel, mich sowohl im Frontend als auch im Backend kontinuierlich weiterzuentwickeln.
+          Besonders begeistert mich die <span class="text-gray-600 font-semibold text-md">Frontend-Entwicklung mit React </span> und modernes Webdesign. Hier kann ich meine kreative Ader voll ausleben und mein Gespür für Ästhetik und User Experience gezielt einsetzen, um <em>intuitive und ansprechende Benutzeroberflächen</em> zu gestalten.
+          Gleichzeitig fasziniert mich die <span class="text-gray-600 font-semibold text-md">Backend-Entwicklung mit Python</span>. Insbesondere die Arbeit mit Datenbanken, APIs und serverseitiger Logik reizt mich, da ich hier meine analytischen Fähigkeiten einbringen kann, um  <em>robuste und performante Anwendungen</em> zu entwickeln.
+          Mein übergeordnetes Ziel ist es, meine Fähigkeiten in beiden Bereichen so zu vertiefen, dass ich als vielseitige Softwareentwicklerin in einem innovativen und kollaborativen Team zum Einsatz kommen kann. Ich freue mich darauf, an spannenden Projekten mitzuwirken, die sowohl technologisch herausfordernd sind als auch einen direkten <em>Mehrwert für Nutzer*innen</em> schaffen. 
           </p>
         </div>
         </SlideInWhenVisible>
