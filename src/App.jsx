@@ -10,6 +10,7 @@ import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/sections/Footer";
 
 
+
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);

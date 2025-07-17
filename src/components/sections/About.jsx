@@ -122,12 +122,29 @@ export const About = () => {
 />
 
     {showSources && (
-      <div className="mt-6 bg-cyan-50 border border-gray-200 rounded-xl p-6 text-sm text-gray-800 shadow-inner space-y-4">
+      <div className="mt-6 bg-cyan-50 border border-gray-200 rounded-xl p-6 text-xs text-gray-800 shadow-inner space-y-4">
         <div>
           <p className="font-semibold text-gray-700 mb-1">📚 Empfehlenswerte Bücher & E-Books</p>
           <ul className="list-disc list-inside ml-4">
-            <li><em>...</em> – </li>
-            <li><em>...</em> – </li>
+            <li>Korthaus, Claudia (2018): <em>Das Design-Buch für Nicht-Designer</em>. Rheinwerk Verlag GmbH.  ISBN 978-3-8362-6580-5 </li>
+            <li>Wegener, Gudrun (2020): <em>Stile & Looks: Design- Ideen für Print und Web </em>. Rheinwerk Verlag GmbH.  ISBN 978-3-8362-6738-0 </li>
+            <li>Semler, Jan / Tschierschke, Kira (2019): <em>App-Design: Das umfassende Handbuch</em>. Rheinwerk Verlag GmbH.  ISBN 978-3-8362-7052-6 </li>
+            <li>Jacobsen, Jens / Meyer, Lorena (2024): <em>Praxisbuch Usability und UX</em>. Rheinwerk Verlag GmbH.  ISBN 978-3-8362-9905-3 </li>
+            <li>Maurice, Florence (2023): <em>HTML & CSS für Dummies</em>. Wiley-VCH GmbH.  ISBN 978-3-527-72014-9 </li>
+            <li>Lederer, Anke (2021): <em>GitHub – Eine praktische Einführung</em>. dpunkt.verlag GmbH. ISBN 978-3-96010-427-8 </li>
+            <li>Inden, Michael (2023): <em>Python lernen: kurz & gut</em>. dpunkt.verlag GmbH. ISBN 978-3-96010-721-7 </li>
+            <li>Zhao, Alice (2022): <em>SQL lernen: kurz & gut</em>. dpunkt.verlag GmbH. ISBN 978-3-96010-693-7 </li>
+            <li>Lampe, Jürgen (2020): <em>Clean Code für Dummies</em>. WILEY-VCH Verlag GmbH & Co. KGaA.  ISBN 978-3-527-82392-5 </li>
+            <li>Springer, Sebastian (2023): <em>React: Das umfassende Handbuch</em>. Rheinwerk Verlag GmbH.  ISBN 978-3-8362-9256-6 </li>
+            <li>Kersken, Sascha (2023): <em>IT-Handbuch für Fachinformatiker*innen: Der Ausbildungsbegleiter</em>. Rheinwerk Verlag GmbH. ISBN 978-3-8362-9593-2 </li>
+          </ul>
+        </div>
+        <div>
+          <p className="font-semibold text-gray-700 mb-1">💻 Online-Ressourcen</p>
+          <ul className="list-disc list-inside ml-4">
+            <li>Dokumentation: <em>TailwindCSS</em> https://tailwindcss.com </li>
+            <li>W3School: https://www.w3schools.com/</li>
+            <li>MOOC HarvardX CS50: <em>Introduction to Computer Science.</em> https://home.edx.org/</li>
           </ul>
         </div>
         <div>
@@ -136,14 +153,16 @@ export const About = () => {
             <li>Responsive Web Design</li>
             <li>JavaScript Algorithms and Data Structures</li>
             <li>Front End Development Libraries</li>
+            <li>Scientific Computing with Python</li>
           </ul>
         </div>
         <div>
           <p className="font-semibold text-gray-700 mb-1">▶ YouTube-Kanäle</p>
           <ul className="list-disc list-inside ml-4">
-            <li>...</li>
-            <li>...</li>
-            <li>...</li>
+            <li>@GreatStack</li>
+            <li>@Programmierenlernen</li>
+            <li>@Pedro Tech</li>
+            <li>@Tech with Tim</li>
           </ul>
         </div>
       </div>

@@ -1,5 +1,6 @@
-import WaterEffect from '../../components/WaterEffect'; // passe ggf. den Pfad an
-import backgroundImage from '../../assets/images/Background.png';
+import WaterEffect from '../../components/WaterEffect'; 
+import PearlScene from '../../components/PearlScene'; 
+import backgroundImage from '../../assets/images/Background3.png';
 
 export const Home = () => {
   return (
@@ -10,13 +11,20 @@ export const Home = () => {
       {/* Wasser-Shader-Hintergrund */}
       <WaterEffect />
 
-      <div className="max-w-4xl w-full rounded-3xl overflow-hidden bg-white shadow-none backdrop-blur-0 border-none">
-        {/* Headerbild */}
-        <img
-          src={backgroundImage}
-          alt="Header"
-          className="w-full object-cover h-auto"
-        />
+        {/* Container um Bild + Perle */}
+  <div className="relative w-full max-w-3xl mx-auto">
+    {/* Muschelbild */}
+    <img
+      src={backgroundImage}
+      alt="Muschel"
+      className="w-full h-auto object-contain pointer-events-none select-none"
+    />
+
+    {/* Perle*/}
+    <div className="hidden md:block absolute top-[60%] left-[26%] w-[30vw] max-w-[110px] aspect-square -translate-x-1/2 -translate-y-1/2 z-10 hover: cursor-pointer">
+      <PearlScene />
+    </div>
+  
 
         {/* Button-Gruppe */}
         <div className="flex justify-center gap-4 px-6 py-6 bg-white/50 backdrop-blur-xl">
@@ -36,8 +44,12 @@ export const Home = () => {
           >
             Kontakt
           </button>
+
         </div>
+        
       </div>
     </section>
+
+    
   );
 };
