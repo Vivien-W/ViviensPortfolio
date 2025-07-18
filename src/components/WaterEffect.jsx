@@ -51,7 +51,7 @@ function SubtleWaterPlane() {
 
 export default function WaterEffect() {
   return (
-    <div className="hidden md:block fixed inset-0 pointer-events-none z-0">
+    <div className="fixed inset-0 pointer-events-none z-0">
       <Canvas camera={{ position: [0, 0, 5], fov: 50 }}>
         <ambientLight intensity={0.6} />
         <SubtleWaterPlane />
