@@ -1,9 +1,9 @@
-import Sternenfeuer1 from "../../assets/images/Sternenfeuer1.JPG";
+import Sternenfeuer1 from "../../assets/videos/Raketenspiel.mp4";
 import festivalwebsite from "../../assets/videos/festival-demo.mp4";
 import bibliAmour from "../../assets/videos/bibliAmour.mp4";
 import dashboard from "../../assets/videos/dashboard.mp4";
 import wetterapp from "../../assets/videos/wetter-app.mp4";
-import portfolio from "../../assets/images/Portfolio_Background.jpg";
+import portfolio from "../../assets/videos/dark.mp4";
 import MeineProjekte from "../../assets/images/MeineProjekte.png";
 import SlideInWhenVisible from '../../components/SlideInWhenVisible';
 
@@ -62,7 +62,7 @@ export const Projects = () => {
 
           {/* Raketenspiel */}
           <ProjectCard
-            media={<img src={Sternenfeuer1} alt="Raketenspiel Screenshot" className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
+            media={<video src={Sternenfeuer1} controls alt="Demo vom Spiel" className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
             title="2D-Raketenspiel"
             description="Browserbasiertes Javascript-Spiel mit Score-System, mehreren Levels und Game-Loop-Logik. Fokus: Logik, Animation & Spielfluss."
             tech={["Javascript", "HTML5", "CSS3"]}
@@ -71,7 +71,7 @@ export const Projects = () => {
 
           {/* Portfolio */}
           <ProjectCard
-            media={<img src={portfolio} alt="Screenshot von der Portfolio-Website" className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
+            media={<video src={portfolio} controls alt="Demo von der Portfolio-Website" className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
             title="Portfolio-Website: dark theme"
             description="Individuell gestaltete Portfolio-Seite mit React und TailwindCSS: animiertes Logo, Ladebildschirm, Scroll-Effekte und responsive Umsetzung."
             tech={["React", "Javascript", "TailwindCSS", "CSS3", "HTML5"]}
