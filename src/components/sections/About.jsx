@@ -16,7 +16,7 @@ export const About = () => {
     
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center bg-white px-4 py-24">
+      className="min-h-screen flex items-center justify-center bg-white py-12 md:py-24 px-4 md:px-8">
        {/* Wasser-Shader-Hintergrund */}
       <WaterEffect />
 
