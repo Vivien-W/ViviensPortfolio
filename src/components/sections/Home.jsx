@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center bg-white px-6 py-2 overflow-hidden z-10"
+      className="relative min-h-screen flex items-center justify-center bg-white px-6 py-2 overflow-hiddens"
     >
      
 

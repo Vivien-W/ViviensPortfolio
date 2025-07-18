@@ -7,7 +7,7 @@ export const Contact = () => {
   return (
     <section
       id="kontakt"
-      className="min-h-screen flex items-center justify-center py-20 bg-white"
+      className="min-h-screen flex items-center justify-center py-20 bg-white scroll-mt-24"
     >
       <SlideInWhenVisible delay={0}>
       <div
