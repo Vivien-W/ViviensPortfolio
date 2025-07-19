@@ -43,7 +43,7 @@ export const Contact = () => {
               und mich langfristig in der Webentwicklung zu etablieren – ich bin neugierig und lernbereit
               für vielseitige Aufgaben.
             </p>
-            <p className="font-bold text-md text-pink-600">
+            <p className="font-bold text-md text-pink-600 font-dancing text-xl mt-8">
               Haben Sie eine passende Position? Ich freue mich darauf, mehr zu erfahren!
             </p>
             
