@@ -11,9 +11,9 @@ export const Projects = () => {
   return (
     <section
       id="projekte"
-      className="min-h-screen flex items-center justify-center bg-white px-4 py-20"
+      className="min-h-screen flex items-center justify-center bg-white py-12 md:py-24 px-4 md:px-8"
     >
-      <div className="max-w-5xl mx-auto px-4">
+      <div className="w-full max-w-5xl mx-auto px-2 sm:px-4">
         <SlideInWhenVisible delay={0}>
         <img
                   src={MeineProjekte}
@@ -21,6 +21,7 @@ export const Projects = () => {
                   className="h-14 mb-8 mx-auto"
                 />
         </SlideInWhenVisible>
+
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2 ">
           {/* Festival Website */}
