@@ -60,7 +60,7 @@ body {
     width: 0;
   }
   to {
-    width: 40ch; /* Passe die Länge an deinen Text an */
+    width: 6ch; /* Passe die Länge an deinen Text an */
   }
 }
 

@@ -1,18 +1,20 @@
 import Header from '../../assets/images/PortfolioHeader.png';
-import Muschel from '../../assets/images/Muschel.jpg';
+import Muschel from '../../assets/images/Muschel.png';
 import PearlScene from '../../components/PearlScene'; 
-import WaterGlobe from '../../components/WaterGlobe';
+import WaterEffect from '../../components/WaterEffect';
 
 export const Home = () => {
   return (
     <section id="home"
-      className="relative min-h-screen flex flex-col items-center justify-start bg-white px-2 md:px-6 py-6 z-10"
+      className="relative min-h-screen flex flex-col items-center justify-start bg-white px-2 md:px-6 pt-20 sm:pt-32 md:pt-10 pb-6"
     >
+      <WaterEffect className="pointer-events-none" />
+
       {/* Header-Bild */}
       <img
         src={Header}
         alt="Hintergrundbild mit Titel"
-        className="w-64 max-w-5xl h-auto object-contain pointer-events-none select-none mb-4 mt-14"
+        className="relative z-10 w-64 max-w-5xl h-auto object-contain pointer-events-none select-none mb-4 mt-14"
       />
 
       {/* Muschel + PearlScene */}
@@ -20,7 +22,7 @@ export const Home = () => {
         <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-60 md:h-60">
           <img src={Muschel} alt="Muschel" className="w-full h-full object-contain" />
           <div className="absolute inset-0 flex items-center justify-center hover:cursor-pointer">
-            <div className="w-2/3 h-2/3 translate-y-[12px] sm:translate-y-[16px] md:translate-y-[24px] lg:translate-y-[28px]">
+            <div className="relative z-10 w-4/5 h-4/5 translate-y-[12px] sm:translate-y-[16px] md:translate-y-[24px] lg:translate-y-[28px]">
               <PearlScene />
             </div>
           </div>
@@ -38,7 +40,7 @@ export const Home = () => {
         </h1>
 
         {/* Buttons direkt darunter */}
-        <div className="flex flex-col sm:flex-row justify-center gap-4 px-6 py-4">
+        <div className="flex flex-col sm:flex-row justify-center gap-4 px-6 py-4 relative z-10">
           <a
             href="#projekte"
             className="px-6 py-2 rounded-full bg-white/60 border border-pink-600/20 text-pink-600 hover:bg-white/80 hover:shadow transition duration-300 ease-in-out"
