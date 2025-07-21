@@ -35,7 +35,7 @@ export const About = () => {
                 . Besonders begeistern mich elegante UI/UX-Designs und datengetriebene Anwendungen. Ich suche den Einstieg in ein innovatives Entwicklerteam.
               </p>
 
-              <h3 className="text-2xl sm:text-3xl font-semibold mb-4 text-center text-pink-600 font-dancing">Mein Studium:</h3>
+              <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-center text-pink-600 font-dancing">Mein Studium:</h2>
               <div className="border-2 border-pink-500 rounded-xl p-4 sm:mx-24 mb-12">
                 <ul className="list-disc list-inside space-y-2 text-gray-600 text-sm sm:text-base">
                   <li><strong>M.S. in Information, Medien, Bibliothek</strong> – HAW Hamburg (2017–2019)</li>

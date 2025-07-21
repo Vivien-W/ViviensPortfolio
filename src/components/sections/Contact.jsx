@@ -17,7 +17,7 @@ export const Contact = () => {
         />
         <div
           className="backdrop-blur-md bg-white/80 border border-cyan-100 rounded-2xl 
-                    hover:border-cyan-300 p-6 shadow-2xl hover:-translate-y-1 transition-transform max-w-xl w-full"
+                    hover:border-cyan-300 p-6 shadow-2xl hover:-translate-y-1 transition-transform max-w-2xl w-full"
         >
           <div className="text-center">
             <img
@@ -72,7 +72,7 @@ export const Contact = () => {
               href="https://github.com/Vivien-W"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto px-6 py-2 rounded-full bg-white/60 border border-pink-600/20 text-pink-600 hover:bg-white/80 hover:shadow transition duration-300 ease-in-out"
+              className="text-center w-full sm:w-auto px-6 py-2 rounded-full bg-white/60 border border-pink-600/20 text-pink-600 hover:bg-white/80 hover:shadow transition duration-300 ease-in-out"
               aria-label="GitHub Profil öffnen"
             >
               Mein GitHub Profil
