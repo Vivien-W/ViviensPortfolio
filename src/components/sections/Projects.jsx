@@ -1,9 +1,3 @@
-import Sternenfeuer1 from "../../assets/videos/Raketenspiel.mp4";
-import festivalwebsite from "../../assets/videos/festival-demo.mp4";
-import bibliAmour from "../../assets/videos/bibliAmour.mp4";
-import dashboard from "../../assets/videos/dashboard.mp4";
-import wetterapp from "../../assets/videos/wetter-app.mp4";
-import portfolio from "../../assets/videos/dark.mp4";
 import MeineProjekte from "../../assets/images/MeineProjekte.png";
 import SlideInWhenVisible from '../../components/SlideInWhenVisible';
 
@@ -26,7 +20,7 @@ export const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2 ">
           {/* Festival Website */}
           <ProjectCard
-            media={<video src={festivalwebsite} controls className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
+            media={<video src={`${import.meta.env.BASE_URL}videos/festival-demo.mp4`} controls className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
             title="Festival-Website mit Chatbot & Datenbank"
             description="Eine interaktive Eventplattform mit integriertem FAQ-Chatbot, Ticketshop und Datenbank für Ticketmanagement (MySQL) für effizientes Veranstaltungsmanagement."
             tech={["HTML5", "CSS3", "Javascript", "PHP", "Python", "MySQL", "Flask"]}
@@ -36,7 +30,7 @@ export const Projects = () => {
 
           {/* Bücher-App */}
           <ProjectCard
-            media={<video src={bibliAmour} controls className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
+            media={<video src={`${import.meta.env.BASE_URL}videos/buecher-app.mp4`} controls className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
             title="Bücher-App (BibliAmour)"
             description="Single-Page-Anwendung zur Buchsuche via API: Nutzer*innen können beliebte Titel entdecken, Favoriten speichern und Gelesenes markieren. Fokus auf Usability und State-Management."
             tech={["React", "HTML5", "CSS3", "Node.js", "React Router DOM", "API"]}
@@ -45,7 +39,7 @@ export const Projects = () => {
 
           {/* Sales Dashboard */}
           <ProjectCard
-            media={<video src={dashboard} controls className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
+            media={<video src={`${import.meta.env.BASE_URL}videos/dashboard.mp4`} controls className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
             title="Sales-Dashboard"
             description="Datenvisualisierung in einem modernen Dashboard mit React: Dark Mode, interaktive Diagramme, Kundenverwaltung und Einstellungen – optimiert für schnelle Insights."
             tech={["React", "Javascript", "TailwindCSS", "Dark Mode"]}
@@ -54,7 +48,7 @@ export const Projects = () => {
 
           {/* Wetter-App */}
           <ProjectCard
-            media={<video src={wetterapp} controls className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
+            media={<video src={`${import.meta.env.BASE_URL}videos/wetter-app.mp4`} controls className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
             title="Wetter-App"
             description="Wetterübersicht mit React und Open-Meteo API – Anzeige von Temperatur, Wind & Luftfeuchtigkeit. Cleanes UI, responsiv umgesetzt."
             tech={["React", "Javascript", "CSS3", "HTML5", "API"]}
@@ -63,7 +57,7 @@ export const Projects = () => {
 
           {/* Raketenspiel */}
           <ProjectCard
-            media={<video src={Sternenfeuer1} controls alt="Demo vom Spiel" className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
+            media={<video src={`${import.meta.env.BASE_URL}videos/raketenspiel.mp4`} controls alt="Demo vom Spiel" className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
             title="2D-Raketenspiel"
             description="Browserbasiertes Javascript-Spiel mit Score-System, mehreren Levels und Game-Loop-Logik. Fokus: Logik, Animation & Spielfluss."
             tech={["Javascript", "HTML5", "CSS3"]}
@@ -72,14 +66,13 @@ export const Projects = () => {
 
           {/* Portfolio */}
           <ProjectCard
-            media={<video src={portfolio} controls alt="Demo von der Portfolio-Website" className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
+            media={<video src={`${import.meta.env.BASE_URL}videos/portfolio-dark.mp4`} controls alt="Demo von der Portfolio-Website" className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
             title="Portfolio-Website: dark theme"
             description="Individuell gestaltete Portfolio-Seite mit React und TailwindCSS: animiertes Logo, Ladebildschirm, Scroll-Effekte und responsive Umsetzung."
             tech={["React", "Javascript", "TailwindCSS", "CSS3", "HTML5"]}
             link="https://github.com/Vivien-W/Portfolio"
           />
         </div>
-        
       </div>
     </section>
   );
@@ -107,7 +100,7 @@ const ProjectCard = ({ media, title, description, tech, link }) => (
       rel="noopener noreferrer"
       className="text-cyan-600 hover:text-cyan-800 transition-colors font-medium"
     >
-      View Project →
+      Zum Projekt →
     </a>
   </div>
 );
