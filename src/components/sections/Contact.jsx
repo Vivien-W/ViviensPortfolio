@@ -12,7 +12,7 @@ export const Contact = () => {
       <SlideInWhenVisible delay={0}>
         <img
           src={Kontakt}
-          alt="Überschrift Kontakt"
+          alt="Überschrift Kontakt in Wasserschrift"
           className="h-14 mx-auto mb-8"
         />
         <div
@@ -22,7 +22,7 @@ export const Contact = () => {
           <div className="text-center">
             <img
               src={Butterfische}
-              alt="Slogan mit stilisierten Fischen"
+              alt="Slogan: Jetzt mal Butter bei die Fische"
               className="h-40 mx-auto mb-6 sm:h-58"
             />
           </div>

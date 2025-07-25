@@ -35,7 +35,7 @@ export const About = () => {
                 . Besonders begeistern mich elegante UI/UX-Designs und datengetriebene Anwendungen. Ich suche den Einstieg in ein innovatives Entwicklerteam.
               </p>
 
-              <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-center text-pink-600 font-dancing">Mein Studium:</h2>
+              <h2 className="text-2xl text-shadow sm:text-3xl font-semibold mb-4 text-center text-pink-600 font-dancing">Mein Studium:</h2>
               <div className="border-2 border-pink-500 rounded-xl p-4 sm:mx-24 mb-12">
                 <ul className="list-disc list-inside space-y-2 text-gray-600 text-sm sm:text-base">
                   <li><strong>M.S. in Information, Medien, Bibliothek</strong> – HAW Hamburg (2017–2019)</li>
@@ -58,7 +58,7 @@ export const About = () => {
         <SlideInWhenVisible delay={200}>
           <div className="max-w-[95vw] sm:max-w-4xl w-full backdrop-blur-md bg-white/80 border border-cyan-100 rounded-2xl hover:border-cyan-300 shadow-2xl hover:-translate-y-1 transition-transform p-6 sm:p-10 mb-8">
             <div className="text-gray-700 leading-relaxed text-sm sm:text-base">
-              <h3 className="text-2xl sm:text-3xl font-semibold text-center mb-6 text-pink-600 font-dancing">Kenntnisse und Fähigkeiten</h3>
+              <h3 className="text-2xl sm:text-3xl text-shadow font-semibold text-center mb-6 text-pink-600 font-dancing">Kenntnisse und Fähigkeiten</h3>
               <p className="mb-6">
                 In den folgenden Bereichen verfüge ich über solide Grundkenntnisse bis hin zu routinierter Anwendung:
               </p>
@@ -173,7 +173,7 @@ export const About = () => {
         <SlideInWhenVisible delay={400}>
           <div className="max-w-[95vw] sm:max-w-4xl w-full backdrop-blur-md bg-white/80 border border-cyan-100 rounded-2xl hover:border-cyan-300 shadow-2xl hover:-translate-y-1 transition-transform p-6 sm:p-10">
             <div className="text-gray-700 leading-relaxed text-sm sm:text-base">
-              <h3 className="text-2xl sm:text-3xl font-semibold text-center mb-6 text-pink-600 font-dancing">Zukunftspläne</h3>
+              <h3 className="text-2xl sm:text-3xl text-shadow font-semibold text-center mb-6 text-pink-600 font-dancing">Zukunftspläne</h3>
               <p>
                 Ich bin von der <span className="font-semibold text-gray-600">Webentwicklung</span> fasziniert und verfolge das Ziel, mich sowohl im Frontend als auch im Backend kontinuierlich weiterzuentwickeln.
                 Besonders begeistert mich die <span className="font-semibold text-gray-600">Frontend-Entwicklung mit React</span> und modernes Webdesign. Hier kann ich meine kreative Ader voll ausleben und mein Gespür für Ästhetik und User Experience gezielt einsetzen, um <em>intuitive und ansprechende Benutzeroberflächen</em> zu gestalten.
@@ -186,8 +186,5 @@ export const About = () => {
         </SlideInWhenVisible>
       </div>
     </section>
-
-    
- 
   );
 };
