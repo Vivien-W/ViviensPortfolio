@@ -1,13 +1,18 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { Environment, OrbitControls } from "@react-three/drei";
+import { useLoader } from '@react-three/fiber';
+import { TextureLoader } from 'three';
+
+
 
 function Pearl() {
+  const colorMap = useLoader(TextureLoader, 'Perlentextur.jpg');
   return (
     <mesh castShadow receiveShadow>
       <sphereGeometry args={[1, 64, 64]} />
       <meshStandardMaterial
-        color="#fff0f5"               
+         map={colorMap}                 
         metalness={0.6}              // Für metallischen Schimmer
         roughness={0.1}              // Glatt & glänzend
         emissive="#ffeeff"           // Leichtes Leuchten von innen
