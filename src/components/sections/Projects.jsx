@@ -79,7 +79,7 @@ export const Projects = () => {
   );
 };
 
-const ProjectCard = ({ media, title, description, tech, link }) => (
+const ProjectCard = ({ media, title, description, tech, link, liveDemo }) => (
   <div className="backdrop-blur-md bg-white/80 border border-cyan-100 rounded-2xl 
                    hover:border-cyan-300 p-6 shadow-2xl hover:-translate-y-1 transition-transform">
     {media}
@@ -104,16 +104,18 @@ const ProjectCard = ({ media, title, description, tech, link }) => (
       Zum Projekt →
     </a>
 
-    {liveDemo && (
+    <div className="mb-2 mt-2">
+      {liveDemo && (
         <a
           href={liveDemo}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-pink-600 hover:text-pink-800 transition-colors font-medium"
+          className="bg-yellow-200 text-pink-600 hover:text-pink-800 transition-colors font-medium"
         >
           Live-Demo →
         </a>
       )}
+      </div>
 
   </div>
 );
