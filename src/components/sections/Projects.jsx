@@ -53,6 +53,7 @@ export const Projects = () => {
             description="Wetterübersicht mit React und Open-Meteo API – Anzeige von Temperatur, Wind & Luftfeuchtigkeit. Cleanes UI, responsiv umgesetzt."
             tech={["React", "Javascript", "CSS3", "HTML5", "API"]}
             link="https://github.com/Vivien-W/Wetter-App"
+            liveDemo="https://vivien-w.github.io/Wetter-App/"
           />
 
           {/* Raketenspiel */}
@@ -102,5 +103,17 @@ const ProjectCard = ({ media, title, description, tech, link }) => (
     >
       Zum Projekt →
     </a>
+
+    {liveDemo && (
+        <a
+          href={liveDemo}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-pink-600 hover:text-pink-800 transition-colors font-medium"
+        >
+          Live-Demo →
+        </a>
+      )}
+
   </div>
 );
