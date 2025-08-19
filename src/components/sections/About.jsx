@@ -106,7 +106,7 @@ export const About = () => {
               </div>
 
               <p className="mb-6">
-                Zusätzlich bringe ich Erfahrung im Umgang mit Tools wie Jira, Confluence, Jupyter Notebook, MS Office sowie Photoshop und GIMP mit – insbesondere im Rahmen projektbasierter Zusammenarbeit, Dokumentation und visuellem Prototyping. Ich arbeite gerne mit modernen Tools und Technologien und erweitere mein Know-how durch kontinuierliches Lernen und praktische Anwendung.
+                Zusätzlich bringe ich Erfahrung im Umgang mit Tools wie Jira, Confluence, Jupyter Notebook, MS Office sowie GIMP mit – insbesondere im Rahmen projektbasierter Zusammenarbeit, Dokumentation und visuellem Prototyping. Ich arbeite gerne mit modernen Tools und Technologien und erweitere mein Know-how durch kontinuierliches Lernen und praktische Anwendung.
               </p>
 
               {/* Lernquellen */}
@@ -121,27 +121,30 @@ export const About = () => {
                   <div className="mt-6 bg-cyan-50 border border-gray-200 rounded-xl p-6 text-sm text-gray-800 shadow-inner space-y-6"
                        aria-label="Liste meiner Lernquellen und Kursempfehlungen">
                     <div>
+                      <p className="font-semibold mb-4">Folgende Quellen haben mir geholfen, meine Fähigkeiten zu verbessern:</p>
                       <p className="font-semibold mb-1">📚 Empfehlenswerte Bücher & E-Books</p>
                       <ul className="list-disc list-inside ml-4 space-y-1">
-                        <li>Korthaus, Claudia (2018): <em>Das Design-Buch für Nicht-Designer</em>. Rheinwerk Verlag GmbH.</li>
-                        <li>Wegener, Gudrun (2020): <em>Stile & Looks: Design-Ideen für Print und Web</em>. Rheinwerk Verlag GmbH.</li>
-                        <li>Semler, Jan / Tschierschke, Kira (2019): <em>App-Design: Das umfassende Handbuch</em>. Rheinwerk Verlag GmbH.</li>
-                        <li>Jacobsen, Jens / Meyer, Lorena (2024): <em>Praxisbuch Usability und UX</em>. Rheinwerk Verlag GmbH.</li>
+                        <li>Kersken, Sascha (2023): <em>IT-Handbuch für Fachinformatiker*innen</em>. Rheinwerk Verlag GmbH.</li>
+                        <li>Haffner, Ernst-Georg (2024): <em>Informatik für Dummies. Das Lehrbuch</em>. Wiley-VCH GmbH.</li>
                         <li>Maurice, Florence (2023): <em>HTML & CSS für Dummies</em>. Wiley-VCH GmbH.</li>
                         <li>Lederer, Anke (2021): <em>GitHub – Eine praktische Einführung</em>. dpunkt.verlag GmbH.</li>
                         <li>Inden, Michael (2023): <em>Python lernen: kurz & gut</em>. dpunkt.verlag GmbH.</li>
                         <li>Zhao, Alice (2022): <em>SQL lernen: kurz & gut</em>. dpunkt.verlag GmbH.</li>
                         <li>Lampe, Jürgen (2020): <em>Clean Code für Dummies</em>. WILEY-VCH Verlag GmbH.</li>
+                        <li>Jacobsen, Jens / Meyer, Lorena (2024): <em>Praxisbuch Usability und UX</em>. Rheinwerk Verlag GmbH.</li>
                         <li>Springer, Sebastian (2023): <em>React: Das umfassende Handbuch</em>. Rheinwerk Verlag GmbH.</li>
-                        <li>Kersken, Sascha (2023): <em>IT-Handbuch für Fachinformatiker*innen</em>. Rheinwerk Verlag GmbH.</li>
+                        <li>Korthaus, Claudia (2018): <em>Das Design-Buch für Nicht-Designer</em>. Rheinwerk Verlag GmbH.</li>
+                        <li>Wegener, Gudrun (2020): <em>Stile & Looks: Design-Ideen für Print und Web</em>. Rheinwerk Verlag GmbH.</li>
                       </ul>
                     </div>
                     <div>
-                      <p className="font-semibold mb-1">💻 Online-Ressourcen</p>
+                      <p className="font-semibold mb-1 ">💻 Online-Ressourcen</p>
                       <ul className="list-disc list-inside ml-4 space-y-1">
-                        <li><a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer">TailwindCSS-Dokumentation</a></li>
-                        <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
-                        <li><a href="https://home.edx.org/" target="_blank" rel="noopener noreferrer">MOOC HarvardX CS50</a></li>
+                        <li><a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">TailwindCSS-Dokumentation</a></li>
+                        <li><a href="https://threejs.org/docs/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">ThreeJS-Dokumentation</a></li>
+                        <li><a href="https://react.dev/learn" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">React-Website: Learn React</a></li>
+                        <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">W3Schools</a></li>
+                        <li><a href="https://home.edx.org/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">MOOC HarvardX CS50</a></li>
                       </ul>
                     </div>
                     <div>

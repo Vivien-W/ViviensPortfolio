@@ -1,5 +1,6 @@
 import MeineProjekte from "../../assets/images/MeineProjekte.png";
 import SlideInWhenVisible from '../../components/SlideInWhenVisible';
+import ScreenshotPortfolio from "../../assets/images/Portfolio.JPG";
 
 export const Projects = () => {
   return (
@@ -16,17 +17,15 @@ export const Projects = () => {
                 />
         </SlideInWhenVisible>
 
-        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2 ">
-          {/* Festival Website */}
+          {/* Portfolio */}
           <ProjectCard
-            media={<video src={`${import.meta.env.BASE_URL}videos/festival-demo.mp4`} controls className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
-            title="Festival-Website mit Chatbot & Datenbank"
-            description="Eine interaktive Eventplattform mit integriertem FAQ-Chatbot, Ticketshop und Datenbank für Ticketmanagement (MySQL) für effizientes Veranstaltungsmanagement."
-            tech={["HTML5", "CSS3", "Javascript", "PHP", "Python", "MySQL", "Flask"]}
-            link="https://github.com/Vivien-W/Festival-Website-mit-FAQ-Chatbot"
+            media={<img src={ScreenshotPortfolio} alt="Screenshot von der Portfolio-Website" className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
+            title="Portfolio-Website"
+            description="Individuell gestaltete Portfolio-Seite mit React und TailwindCSS: Three.js-Animation und Hintergrundanimation, Loading Screen, Scroll-Effekte und responsive Umsetzung."
+            tech={["React", "Javascript", "TailwindCSS", "HTML5", "Three.js"]}
+            link="https://github.com/Vivien-W/ViviensPortfolio"
           />
-          
 
           {/* Bücher-App */}
           <ProjectCard
@@ -35,6 +34,16 @@ export const Projects = () => {
             description="Single-Page-Anwendung zur Buchsuche via API: Nutzer*innen können beliebte Titel entdecken, Favoriten speichern und Gelesenes markieren. Fokus auf Usability und State-Management."
             tech={["React", "HTML5", "CSS3", "Node.js", "React Router DOM", "API"]}
             link="https://github.com/Vivien-W/Buecher-App"
+          />
+
+           {/* Wetter-App */}
+          <ProjectCard
+            media={<video src={`${import.meta.env.BASE_URL}videos/wetter-app.mp4`} controls className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
+            title="Wetter-App"
+            description="Wetterübersicht mit React und Open-Meteo API – Anzeige von Temperatur, Wind & Luftfeuchtigkeit. Cleanes UI, responsiv umgesetzt."
+            tech={["React", "Javascript", "CSS3", "HTML5", "API"]}
+            link="https://github.com/Vivien-W/Wetter-App"
+            liveDemo="https://vivien-w.github.io/Wetter-App/"
           />
 
           {/* Sales Dashboard */}
@@ -46,15 +55,14 @@ export const Projects = () => {
             link="https://github.com/Vivien-W/Sales-Dashboard"
           />
 
-          {/* Wetter-App */}
+           {/* Festival Website */}
           <ProjectCard
-            media={<video src={`${import.meta.env.BASE_URL}videos/wetter-app.mp4`} controls className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
-            title="Wetter-App"
-            description="Wetterübersicht mit React und Open-Meteo API – Anzeige von Temperatur, Wind & Luftfeuchtigkeit. Cleanes UI, responsiv umgesetzt."
-            tech={["React", "Javascript", "CSS3", "HTML5", "API"]}
-            link="https://github.com/Vivien-W/Wetter-App"
-            liveDemo="https://vivien-w.github.io/Wetter-App/"
-          />
+            media={<video src={`${import.meta.env.BASE_URL}videos/festival-demo.mp4`} controls className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
+            title="Festival-Website mit Chatbot & Datenbank"
+            description="Eine interaktive Eventplattform mit integriertem FAQ-Chatbot, Ticketshop und Datenbank für Ticketmanagement (MySQL) für effizientes Veranstaltungsmanagement."
+            tech={["HTML5", "CSS3", "Javascript", "PHP", "Python", "MySQL", "Flask"]}
+            link="https://github.com/Vivien-W/Festival-Website-mit-FAQ-Chatbot"
+          />    
 
           {/* Raketenspiel */}
           <ProjectCard
@@ -63,15 +71,6 @@ export const Projects = () => {
             description="Browserbasiertes Javascript-Spiel mit Score-System, mehreren Levels und Game-Loop-Logik. Fokus: Logik, Animation & Spielfluss."
             tech={["Javascript", "HTML5", "CSS3"]}
             link="https://github.com/Vivien-W/Raketenspiel"
-          />
-
-          {/* Portfolio */}
-          <ProjectCard
-            media={<video src={`${import.meta.env.BASE_URL}videos/portfolio-dark.mp4`} controls alt="Demo von der Portfolio-Website" className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20" />}
-            title="Portfolio-Website: dark theme"
-            description="Individuell gestaltete Portfolio-Seite mit React und TailwindCSS: animiertes Logo, Ladebildschirm, Scroll-Effekte und responsive Umsetzung."
-            tech={["React", "Javascript", "TailwindCSS", "CSS3", "HTML5"]}
-            link="https://github.com/Vivien-W/Portfolio"
           />
         </div>
       </div>
