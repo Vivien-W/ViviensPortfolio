@@ -3,26 +3,24 @@
 /* dancing-script-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Dancing Script';
+  font-family: "Dancing Script";
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/dancing-script-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/fonts/dancing-script-v28-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* open-sans-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/open-sans-v43-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/fonts/open-sans-v43-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
 
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-
 
 html,
 body {
@@ -31,10 +29,11 @@ body {
   font-family: "Open Sans", sans-serif;
   background: #fcfbfb;
   color: #f3f4f6;
+  user-select: none;
 }
 
 .font-dancing {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 @layer utilities {

@@ -1,7 +1,6 @@
-// src/components/WaterEffect.jsx
-import { Canvas, useFrame } from '@react-three/fiber';
-import { useRef } from 'react';
-import * as THREE from 'three';
+import { Canvas, useFrame } from "@react-three/fiber";
+import { useRef } from "react";
+import * as THREE from "three";
 
 function SubtleWaterPlane() {
   const meshRef = useRef();
@@ -17,12 +16,13 @@ function SubtleWaterPlane() {
       <planeGeometry args={[20, 20, 100, 100]} />
       <shaderMaterial
         attach="material"
-        args={[{
-          uniforms: {
-            time: { value: 0 },
-            color: { value: new THREE.Color('#ccffff') }, // Helleres Türkis
-          },
-          vertexShader: `
+        args={[
+          {
+            uniforms: {
+              time: { value: 0 },
+              color: { value: new THREE.Color("#ccffff") }, // Helleres Türkis
+            },
+            vertexShader: `
             uniform float time;
             varying vec2 vUv;
 
@@ -34,7 +34,7 @@ function SubtleWaterPlane() {
               gl_Position = projectionMatrix * modelViewMatrix * vec4(pos, 1.0);
             }
           `,
-          fragmentShader: `
+            fragmentShader: `
             uniform vec3 color;
             varying vec2 vUv;
 
@@ -42,8 +42,9 @@ function SubtleWaterPlane() {
               gl_FragColor = vec4(color, 0.09); // sehr transparent
             }
           `,
-          transparent: true,
-        }]}
+            transparent: true,
+          },
+        ]}
       />
     </mesh>
   );

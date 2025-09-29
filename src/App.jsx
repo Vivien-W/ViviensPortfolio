@@ -9,8 +9,6 @@ import "./index.css";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/sections/Footer";
 
-
-
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,7 +17,7 @@ function App() {
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}{" "}
       <div
-        className={`relative z-10 min-h-screen transition-opacity duration-700 ${
+        className={`relative z-10 min-h-screen transition-opacity duration-400 ${
           isLoaded ? "opacity-100" : "opacity-0"
         } bg-white text-gray-100`}
       >
