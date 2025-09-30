@@ -4,6 +4,7 @@ import Lernquellen from "../../assets/images/Lernquelle.svg";
 import SlideInWhenVisible from "../../components/SlideInWhenVisible";
 import { useState } from "react";
 import WaterEffect from "../../components/WaterEffect";
+import Profilbild from "../../assets/images/Profilbild.jpg";
 
 export const About = () => {
   const frontendSkills = [
@@ -14,7 +15,22 @@ export const About = () => {
     "Javascript",
   ];
   const backendSkills = ["SQL", "Python", "Javascript", "PHP", "Flask"];
-  const softwareSkills = ["MySQL Workbench", "Github", "VS Code"];
+  const softwareSkills = [
+    "MySQL Workbench",
+    "Github",
+    "VS Code",
+    "Jira",
+    "Confluence",
+    "Slack",
+  ];
+
+  const softSkills = [
+    "Selbstorganisation",
+    "Analytisches Denken",
+    "teamfähig",
+    "kreativ",
+    "lernbereit",
+  ];
 
   const [showSources, setShowSources] = useState(false);
 
@@ -37,16 +53,28 @@ export const About = () => {
         <SlideInWhenVisible delay={0}>
           <div className="max-w-[95vw] sm:max-w-4xl w-full backdrop-blur-md bg-white/80 border border-cyan-100 rounded-2xl hover:border-cyan-300 shadow-2xl hover:-translate-y-1 transition-transform p-6 sm:p-10 mb-8">
             <div className="text-gray-700 leading-relaxed text-sm sm:text-base">
-              <p className="mb-6">
-                Ich bin angehende Softwareentwicklerin mit einem Master in
-                Informationsmanagement. Mein Fokus liegt auf moderner{" "}
-                <span className="text-gray-600 font-semibold">
-                  Webentwicklung mit React, TailwindCSS und JavaScript
-                </span>
-                . Besonders begeistern mich elegante UI/UX-Designs und
-                datengetriebene Anwendungen. Ich suche den Einstieg in ein
-                innovatives Entwicklerteam.
-              </p>
+              {/* Grid für Bild + Text */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 items-center mb-12">
+                {/* Bild */}
+                <div className="flex justify-center">
+                  <img
+                    src={Profilbild}
+                    alt="Vorstellung"
+                    className="rounded-xl shadow-lg max-h-60 object-cover"
+                  />
+                </div>
+                <p className="mt-4 mb-2">
+                  Ich bin Vivien Wallbaum, angehende Softwareentwicklerin mit
+                  einem Master in Informationsmanagement. Mein Fokus liegt auf
+                  moderner{" "}
+                  <span className="text-gray-600 font-semibold">
+                    Webentwicklung mit React, TailwindCSS und JavaScript
+                  </span>
+                  . Besonders begeistern mich elegante UI/UX-Designs und
+                  datengetriebene Anwendungen. Ich suche den Einstieg in ein
+                  innovatives Entwicklerteam.
+                </p>
+              </div>
 
               <h2 className="text-2xl text-shadow sm:text-3xl font-semibold mb-4 text-center text-pink-600 font-dancing">
                 Mein Studium:
@@ -98,18 +126,19 @@ export const About = () => {
                 Kenntnisse und Fähigkeiten
               </h3>
               <p className="mb-6">
-                Im Frontend-Bereich verfüge ich über solide Grundkenntnisse bis
-                hin zu routinierter Anwendung. Im Backend habe ich bereits erste
-                Erfahrungen gesammelt und kleinere Projekte umgesetzt, stehe
-                hier aber noch am Anfang meiner Lernkurve und erweitere
-                kontinuierlich mein Wissen.
+                Im Frontend bewege ich mich sicher von soliden Grundlagen bis
+                hin zu routinierter Anwendung – vor allem im Zusammenspiel
+                moderner Frameworks wie React und Styling mit TailwindCSS. Im
+                Backend habe ich bereits erste Erfahrungen gesammelt und
+                kleinere Projekte umgesetzt, stehe hier aber noch am Anfang
+                meiner Lernkurve und erweitere kontinuierlich mein Wissen.
               </p>
 
               {/* Skill Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-8">
                 <SlideInWhenVisible delay={200}>
                   <div>
-                    <h4 className="text-md font-semibold mb-4 text-gray-800">
+                    <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
                       Frontend
                     </h4>
                     <div className="flex flex-wrap gap-3">
@@ -127,7 +156,7 @@ export const About = () => {
 
                 <SlideInWhenVisible delay={300}>
                   <div>
-                    <h4 className="text-md font-semibold mb-4 text-gray-800">
+                    <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
                       Backend
                     </h4>
                     <div className="flex flex-wrap gap-3">
@@ -148,7 +177,7 @@ export const About = () => {
                     <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
                       Tools & Anwendungen
                     </h4>
-                    <div className="flex flex-wrap gap-3 justify-start sm:justify-center mb-6">
+                    <div className="flex flex-wrap gap-3 ">
                       {softwareSkills.map((skill, i) => (
                         <span
                           key={i}
@@ -160,15 +189,34 @@ export const About = () => {
                     </div>
                   </div>
                 </SlideInWhenVisible>
+                <SlideInWhenVisible delay={500}>
+                  <div className="md:col-span-2">
+                    <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
+                      Softskills
+                    </h4>
+                    <div className="flex flex-wrap gap-3  ">
+                      {softSkills.map((skill, i) => (
+                        <span
+                          key={i}
+                          className="bg-purple-50 text-gray-600 py-1 px-3 rounded-full text-sm hover:bg-purple-100 transition"
+                        >
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </SlideInWhenVisible>
               </div>
 
               <p className="mb-6">
-                Zusätzlich bringe ich Erfahrung im Umgang mit Tools wie Jira,
-                Confluence, Jupyter Notebook, MS Office sowie GIMP mit –
-                insbesondere im Rahmen projektbasierter Zusammenarbeit,
-                Dokumentation und visuellem Prototyping. Ich arbeite gerne mit
-                modernen Tools und Technologien und erweitere mein Know-how
-                durch kontinuierliches Lernen und praktische Anwendung.
+                Neben meiner technischen Expertise bringe ich Erfahrung im
+                Umgang mit Tools wie Jira, Confluence, Jupyter Notebook und MS
+                Office mit – insbesondere in projektbasierter Zusammenarbeit und
+                Dokumentation. Darüber hinaus zeichne ich mich in Projekten
+                durch Teamwork, strukturierte Arbeitsweise und kreative
+                Lösungsansätze aus. Meine Lernbereitschaft unterstützt mich
+                dabei, mich zügig in neue Technologien einzuarbeiten und mein
+                Know-how stetig zu erweitern.
               </p>
 
               {/* Lernquellen */}
