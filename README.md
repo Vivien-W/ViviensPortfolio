@@ -1,5 +1,6 @@
-# Portfolio-light
-Mein Projekt-Portfolio in light theme
+# Portfolio-Website
+
+Mein Projekt-Portfolio
 
 Willkommen auf dem Repository meiner persönlichen Portfolio-Website! Diese Website dient dazu, meine Fähigkeiten als Softwareentwicklerin zu präsentieren, meine Projekte vorzustellen und als zentrale Anlaufstelle für potenzielle Arbeitgeber und Kollaborationen zu dienen.
 
@@ -17,18 +18,12 @@ Funktionen
 - Projektübersicht: Eine Galerie meiner wichtigsten Projekte mit kurzen Beschreibungen, verwendeten Technologien und Links zu Live-Demos oder GitHub-Repos.
 - Kontaktmöglichkeiten: Direkte Links zur Kontaktaufnahme per E-Mail und zu meinem GitHub-Profil.
 
-Technologien 
+Technologien
 
 Diese Website wurde unter Verwendung der folgenden Haupttechnologien und Tools entwickelt:
 
-Frontend:
-    - React: Eine JavaScript-Bibliothek für die Erstellung von Benutzeroberflächen.
-    - TailwindCSS: Ein Utility-First-CSS-Framework für schnelles und flexibles Styling.
-    - JavaScript (ES6+): Die Programmiersprache der Wahl für die Interaktivität.
-    - HTML5 & CSS3: Für die Struktur und das grundlegende Styling.
-Deployment & Tools:
-    - Vite: Ein schneller Build-Tool für moderne Webprojekte.
-    - Git: Für die Versionskontrolle.
+Frontend: - React: Eine JavaScript-Bibliothek für die Erstellung von Benutzeroberflächen. - TailwindCSS: Ein Utility-First-CSS-Framework für schnelles und flexibles Styling. - JavaScript (ES6+): Die Programmiersprache der Wahl für die Interaktivität. - HTML5 & CSS3: Für die Struktur und das grundlegende Styling.
+Deployment & Tools: - Vite: Ein schneller Build-Tool für moderne Webprojekte. - Git: Für die Versionskontrolle.
 
 In den vorgestellten Projekten zusätzlich verwendete Technologien:
 

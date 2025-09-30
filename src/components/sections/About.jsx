@@ -46,19 +46,19 @@ export const About = () => {
         <img
           src={UeberMich}
           alt="Überschrift: Über mich"
-          className="h-14 mb-8 mx-auto"
+          className=" h-12 sm:h-14 mb-8 mx-auto"
         />
 
         {/* BOX 1: Vorstellung + Studium */}
         <SlideInWhenVisible delay={0}>
           <div
             className="max-w-[95vw] sm:max-w-4xl w-full p-6 sm:p-10 mt-12 mb-8 
-  rounded-3xl bg-white/70 backdrop-blur-lg 
-  border border-cyan-100 
-  shadow-[0_10px_25px_rgba(0,255,255,0.15),0_4px_10px_rgba(0,255,255,0.10)] 
-  hover:-translate-y-3 hover:scale-105 
-  hover:shadow-[0_20px_40px_rgba(0,255,255,0.25),0_10px_20px_rgba(0,255,255,0.15)] 
-  transition-transform duration-300 ease-out"
+            rounded-3xl bg-white/70 backdrop-blur-lg 
+            border border-cyan-100 
+            shadow-[0_10px_25px_rgba(0,255,255,0.15),0_4px_10px_rgba(0,255,255,0.10)] 
+            hover:-translate-y-3 hover:scale-105 
+            hover:shadow-[0_20px_40px_rgba(0,255,255,0.25),0_10px_20px_rgba(0,255,255,0.15)] 
+            transition-transform duration-300 ease-out"
           >
             <div className="text-gray-700 leading-relaxed text-sm sm:text-base">
               {/* Grid für Bild + Text */}
@@ -141,7 +141,7 @@ export const About = () => {
               <h3 className="text-2xl sm:text-3xl text-shadow font-semibold text-center mb-6 text-pink-600 font-dancing">
                 Kenntnisse und Fähigkeiten
               </h3>
-              <p className="mb-6">
+              <p className="mb-12">
                 Im Frontend bewege ich mich sicher von soliden Grundlagen bis
                 hin zu routinierter Anwendung – vor allem im Zusammenspiel
                 moderner Frameworks wie React und Styling mit TailwindCSS. Im
@@ -151,7 +151,7 @@ export const About = () => {
               </p>
 
               {/* Skill Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                 <SlideInWhenVisible delay={200}>
                   <div>
                     <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">

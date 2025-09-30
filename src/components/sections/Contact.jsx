@@ -12,7 +12,7 @@ export const Contact = () => {
         <img
           src={Kontakt}
           alt="Überschrift Kontakt in Wasserschrift"
-          className="h-14 mx-auto mb-8"
+          className="h-12 sm:h-14 mx-auto mb-8"
         />
         <div
           className="max-w-[95vw] sm:max-w-3xl w-full p-6 sm:p-10 mt-12 mb-8 

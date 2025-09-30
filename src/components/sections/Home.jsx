@@ -15,7 +15,7 @@ export const Home = () => {
       <img
         src={Header}
         alt="Titel- Portfolio in Wasserschrift"
-        className="relative w-64 max-w-5xl h-auto object-contain pointer-events-none select-none mb-4 mt-14"
+        className="relative w-48 sm:w-64 max-w-5xl h-auto object-contain pointer-events-none select-none mb-8 mt-24"
       />
 
       <div className="w-full max-w-3xl flex flex-col items-center gap-4 text-center">
@@ -27,7 +27,7 @@ export const Home = () => {
           und ich liebe es, Code und Kreativität zu verbinden.
         </h1>
 
-        <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-5xl gap-6 px-4 mb-4">
+        <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-5xl gap-6 px-4 mb-4 mt-4">
           <div className="relative z-10 w-32 h-32 sm:w-40 sm:h-40 md:w-60 md:h-60">
             <img
               src={Muschel}
@@ -45,7 +45,7 @@ export const Home = () => {
         <div className="flex flex-col sm:flex-row justify-center gap-4 px-6 py-4 relative z-10">
           <a
             href="#projekte"
-            className="px-6 py-2 rounded-full bg-white/60 border border-pink-600/20 text-pink-600 hover:bg-white/80 hover:shadow transition duration-300 ease-in-out"
+            className="px-6 py-2 rounded-full bg-white/60 border border-pink-600/20 text-pink-600 hover:bg-pink-100/60 hover:shadow-xl transition duration-300 ease-in-out"
             aria-label="zum Projektbereich navigieren"
           >
             Projekte
@@ -55,7 +55,7 @@ export const Home = () => {
               (window.location.href =
                 "mailto:vivienwbaum@gmail.com?subject=Kontaktanfrage&body=Hallo Vivien,")
             }
-            className="px-6 py-2 rounded-full bg-white/40 border border-cyan-600/20 text-cyan-600 hover:bg-white/60 hover:text-cyan-700 hover:shadow-sm transition duration-300 ease-in-out"
+            className="px-6 py-2 rounded-full bg-white/40 border border-cyan-600/20 text-cyan-600 hover:bg-cyan-100/60 hover:text-cyan-700 hover:shadow-xl transition duration-300 ease-in-out cursor-pointer"
             aria-label="E-Mail KOntakt aufnehmen"
           >
             Kontakt

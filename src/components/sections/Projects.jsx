@@ -13,7 +13,7 @@ export const Projects = () => {
           <img
             src={MeineProjekte}
             alt="Überschrift meine Projekte"
-            className="h-14 mb-8 mx-auto"
+            className="h-12 sm:h-14 mb-8 mx-auto"
           />
         </SlideInWhenVisible>
 
@@ -132,7 +132,7 @@ const ProjectCard = ({ media, title, description, tech, link, liveDemo }) => (
                    hover:border-cyan-300 p-6 shadow-2xl hover:-translate-y-1 transition-transform"
   >
     {media}
-    <h3 className="text-xl text-shadow font-bold text-pink-600 mb-2">
+    <h3 className="text-2xl text-shadow font-bold text-pink-600 mb-2 mt-4 font-dancing">
       {title}
     </h3>
     <p className="text-gray-700 mb-4">{description}</p>
