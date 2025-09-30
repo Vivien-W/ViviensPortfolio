@@ -1,5 +1,5 @@
 import UeberMich from "../../assets/images/UeberMich.png";
-import Circle from "../../assets/images/Circle.jpg";
+import Circle from "../../assets/images/Wasserblasen.png";
 import Lernquellen from "../../assets/images/Lernquelle.svg";
 import SlideInWhenVisible from "../../components/SlideInWhenVisible";
 import { useState } from "react";
@@ -51,7 +51,15 @@ export const About = () => {
 
         {/* BOX 1: Vorstellung + Studium */}
         <SlideInWhenVisible delay={0}>
-          <div className="max-w-[95vw] sm:max-w-4xl w-full backdrop-blur-md bg-white/80 border border-cyan-100 rounded-2xl hover:border-cyan-300 shadow-2xl hover:-translate-y-1 transition-transform p-6 sm:p-10 mb-8">
+          <div
+            className="max-w-[95vw] sm:max-w-4xl w-full p-6 sm:p-10 mt-12 mb-8 
+  rounded-3xl bg-white/70 backdrop-blur-lg 
+  border border-cyan-100 
+  shadow-[0_10px_25px_rgba(0,255,255,0.15),0_4px_10px_rgba(0,255,255,0.10)] 
+  hover:-translate-y-3 hover:scale-105 
+  hover:shadow-[0_20px_40px_rgba(0,255,255,0.25),0_10px_20px_rgba(0,255,255,0.15)] 
+  transition-transform duration-300 ease-out"
+          >
             <div className="text-gray-700 leading-relaxed text-sm sm:text-base">
               {/* Grid für Bild + Text */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 items-center mb-12">
@@ -120,7 +128,15 @@ export const About = () => {
 
         {/* BOX 2: Kenntnisse & Fähigkeiten */}
         <SlideInWhenVisible delay={200}>
-          <div className="max-w-[95vw] sm:max-w-4xl w-full backdrop-blur-md bg-white/80 border border-cyan-100 rounded-2xl hover:border-cyan-300 shadow-2xl hover:-translate-y-1 transition-transform p-6 sm:p-10 mb-8">
+          <div
+            className="max-w-[95vw] sm:max-w-4xl w-full p-6 sm:p-10 mt-12 mb-8 
+            rounded-3xl bg-white/70 backdrop-blur-lg 
+            border border-cyan-100 
+            shadow-[0_10px_25px_rgba(0,255,255,0.15),0_4px_10px_rgba(0,255,255,0.10)] 
+            hover:-translate-y-3 hover:scale-105 
+            hover:shadow-[0_20px_40px_rgba(0,255,255,0.25),0_10px_20px_rgba(0,255,255,0.15)] 
+            transition-transform duration-300 ease-out"
+          >
             <div className="text-gray-700 leading-relaxed text-sm sm:text-base">
               <h3 className="text-2xl sm:text-3xl text-shadow font-semibold text-center mb-6 text-pink-600 font-dancing">
                 Kenntnisse und Fähigkeiten
@@ -208,7 +224,7 @@ export const About = () => {
                 </SlideInWhenVisible>
               </div>
 
-              <p className="mb-6">
+              <p className="mb-6 mt-12">
                 Neben meiner technischen Expertise bringe ich Erfahrung im
                 Umgang mit Tools wie Jira, Confluence, Jupyter Notebook und MS
                 Office mit – insbesondere in projektbasierter Zusammenarbeit und
@@ -381,7 +397,15 @@ export const About = () => {
 
         {/* BOX 3: Zukunftspläne */}
         <SlideInWhenVisible delay={400}>
-          <div className="max-w-[95vw] sm:max-w-4xl w-full backdrop-blur-md bg-white/80 border border-cyan-100 rounded-2xl hover:border-cyan-300 shadow-2xl hover:-translate-y-1 transition-transform p-6 sm:p-10">
+          <div
+            className="max-w-[95vw] sm:max-w-4xl w-full p-6 sm:p-10 mt-12 mb-8 
+            rounded-3xl bg-white/70 backdrop-blur-lg 
+            border border-cyan-100 
+            shadow-[0_10px_25px_rgba(0,255,255,0.15),0_4px_10px_rgba(0,255,255,0.10)] 
+            hover:-translate-y-3 hover:scale-105 
+            hover:shadow-[0_20px_40px_rgba(0,255,255,0.25),0_10px_20px_rgba(0,255,255,0.15)] 
+            transition-transform duration-300 ease-out"
+          >
             <div className="text-gray-700 leading-relaxed text-sm sm:text-base">
               <h3 className="text-2xl sm:text-3xl text-shadow font-semibold text-center mb-6 text-pink-600 font-dancing">
                 Zukunftspläne
@@ -419,8 +443,8 @@ export const About = () => {
               </p>
               <img
                 src={Circle}
-                alt="Drei Kreise, die Innovation, Kreativität und Benutzerfreundlichkeit symbolisieren"
-                className="h-32 sm:h-48 mx-auto my-8"
+                alt="Drei Wasserblasen, die Innovation, Kreativität und Performanz symbolisieren"
+                className="h-32 sm:h-56 mx-auto my-6"
               />
             </div>
           </div>

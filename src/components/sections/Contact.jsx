@@ -15,8 +15,13 @@ export const Contact = () => {
           className="h-14 mx-auto mb-8"
         />
         <div
-          className="backdrop-blur-md bg-white/80 border border-cyan-100 rounded-2xl 
-                    hover:border-cyan-300 p-6 shadow-2xl hover:-translate-y-1 transition-transform max-w-2xl w-full"
+          className="max-w-[95vw] sm:max-w-3xl w-full p-6 sm:p-10 mt-12 mb-8 
+            rounded-3xl bg-white/70 backdrop-blur-lg 
+            border border-cyan-100 
+            shadow-[0_10px_25px_rgba(0,255,255,0.15),0_4px_10px_rgba(0,255,255,0.10)] 
+            hover:-translate-y-3 hover:scale-105 
+            hover:shadow-[0_20px_40px_rgba(0,255,255,0.25),0_10px_20px_rgba(0,255,255,0.15)] 
+            transition-transform duration-300 ease-out"
         >
           <div className="text-center">
             <img
@@ -63,7 +68,7 @@ export const Contact = () => {
               zu etablieren – ich bin neugierig und lernbereit für vielseitige
               Aufgaben.
             </p>
-            <p className="font-bold text-pink-600 font-dancing text-xl mt-8">
+            <p className="font-bold text-pink-600 font-dancing text-2xl mt-12">
               Haben Sie eine passende Position? Ich freue mich darauf, mehr zu
               erfahren!
             </p>
