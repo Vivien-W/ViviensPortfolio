@@ -19,7 +19,7 @@ export const Contact = () => {
             rounded-3xl bg-white/70 backdrop-blur-lg 
             border border-cyan-100 
             shadow-[0_10px_25px_rgba(0,255,255,0.15),0_4px_10px_rgba(0,255,255,0.10)] 
-            hover:-translate-y-3 hover:scale-105 
+            hover:-translate-y-1 hover:scale-100 
             hover:shadow-[0_20px_40px_rgba(0,255,255,0.25),0_10px_20px_rgba(0,255,255,0.15)] 
             transition-transform duration-300 ease-out"
         >
