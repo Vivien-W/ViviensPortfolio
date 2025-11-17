@@ -13,7 +13,7 @@ export const Projects = () => {
           <img
             src={MeineProjekte}
             alt="Überschrift meine Projekte"
-            className="h-12 sm:h-14 mb-8 mx-auto"
+            className="h-12 sm:h-14 mb-12 mx-auto"
           />
         </SlideInWhenVisible>
 

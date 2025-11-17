@@ -36,8 +36,8 @@ export const Contact = () => {
               <p>
                 Ab <strong>Herbst 2026</strong> suche ich eine neue
                 Herausforderung als (Junior){" "}
-                <strong>Frontend-Entwicklerin</strong> oder in einer
-                vergleichbaren Rolle in <strong>Hamburg</strong>.
+                <strong>Frontend- oder Fullstack-Entwicklerin</strong> in
+                <strong> Hamburg</strong> oder remote.
               </p>
             </div>
 
@@ -47,26 +47,30 @@ export const Contact = () => {
               <span className="text-gray-600 font-semibold">
                 Usability und User Experience
               </span>{" "}
-              mit. Auch mit{" "}
+              mit. Auch die Themen{" "}
               <span className="text-gray-600 font-semibold">
-                Barrierefreiheit
+                Barrierefreiheit (ARIA)
               </span>{" "}
-              von Webseiten (Stichwort: ARIA) habe ich mich intensiv befasst.
+              und zugängliches Webdesign gehören zu meinen Schwerpunkten.
             </p>
             <p className="mb-4">
-              Meine Leidenschaft für die Softwareentwicklung lebe ich in
-              Projekten mit{" "}
+              Derzeit vertiefe ich meine Kenntnisse in der{" "}
+              <span className="text-gray-600 font-semibold">
+                Fullstack-Entwicklung mit dem PERN-Stack
+              </span>{" "}
+              – inklusive Datenbankanbindung, API-Architektur, Testing (Jest)
+              und Deployment. Besonders gerne arbeite ich mit{" "}
               <span className="text-gray-600 font-semibold">
                 React, TailwindCSS und JavaScript
               </span>{" "}
-              aus, wobei ich stets Wert auf saubere Code-Struktur und
-              Wiederverwendbarkeit lege.
+              und lege viel Wert auf saubere Strukturen, Wiederverwendbarkeit
+              und eine gute Developer Experience.
             </p>
             <p className="mb-4">
               Ich bin hochmotiviert, meine Fähigkeiten in einem professionellen
-              Team weiter auszubauen und mich langfristig in der Webentwicklung
-              zu etablieren – ich bin neugierig und lernbereit für vielseitige
-              Aufgaben.
+              Team weiter auszubauen und an modernen Webprojekten mitzuwirken,
+              die echten Mehrwert schaffen. Lernbereitschaft, Eigeninitiative
+              und Teamspirit gehören für mich selbstverständlich dazu.
             </p>
             <p className="font-bold text-pink-600 font-dancing text-2xl mt-12">
               Haben Sie eine passende Position? Ich freue mich darauf, mehr zu

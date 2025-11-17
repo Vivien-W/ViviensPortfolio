@@ -15,7 +15,13 @@ export const About = () => {
     "JavaScript",
     "TypeScript",
   ];
-  const backendSkills = ["Node.js", "Express.js", "PostgreSQL", "SQL"];
+  const backendSkills = [
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "SQL",
+    "Python",
+  ];
   const softwareSkills = [
     "GitHub",
     "VS Code",
@@ -62,7 +68,8 @@ export const About = () => {
                 <img
                   src={Profilbild}
                   alt="Profilbild von Vivien"
-                  className="rounded-xl shadow-[0_0_20px_rgba(255,192,203,0.3)] h-48 sm:h-72 object-cover"
+                  className="rounded-xl shadow-[0_0_20px_rgba(255,192,203,0.3)] max-h-64 sm:max-h-72
+ object-cover"
                 />
               </div>
               <p className="mt-4 mb-2">
@@ -72,19 +79,17 @@ export const About = () => {
                 <span className="text-gray-600 font-semibold">
                   Webentwicklung mit React und TailwindCSS
                 </span>
-                . Besonders begeistern mich elegante UI/UX-Designs und
-                datengetriebene Anwendungen. Aktuell vertiefe ich meine
-                Kenntnisse im Bereich{" "}
+                . Ich liebe klare UI/UX, strukturiertes Arbeiten und
+                datengetriebene Anwendungen. Aktuell erweitere ich meine
+                Kenntnisse in der{" "}
                 <span className="text-gray-600 font-semibold">
-                  Fullstack-Entwicklung (PostgreSQL, Express, React, Node.js)
-                </span>
-                . Ich suche den Einstieg in ein innovatives Entwicklerteam, in
-                dem ich meine technischen und kreativen Fähigkeiten weiter
-                ausbauen kann."
+                  Fullstack-Entwicklung (PERN)
+                </span>{" "}
+                und suche den Einstieg in ein innovatives Entwicklerteam."
               </p>
             </div>
 
-            <h2 className="text-2xl text-shadow sm:text-3xl font-semibold mb-4 text-center text-pink-600 font-dancing">
+            <h2 className="text-2xl text-shadow sm:text-3xl font-semibold my-8 text-center text-pink-600 font-dancing">
               Mein Studium:
             </h2>
             <div className="border-2 border-pink-500 rounded-xl p-4 sm:mx-24 mb-12">
@@ -444,7 +449,7 @@ export const About = () => {
             <img
               src={Circle}
               alt="Drei Wasserblasen, die Innovation, Kreativität und Performanz symbolisieren"
-              className="h-32 sm:h-56 mx-auto my-8"
+              className="h-32 sm:h-56 mx-auto mt-12"
             />
           </div>
         </div>
