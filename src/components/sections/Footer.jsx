@@ -2,8 +2,8 @@ import Koralle from "../../assets/images/Koralle.png";
 
 export const Footer = () => {
   return (
-    <footer className="w-full mt-12 bg-gray-50 backdrop-blur-xl border-t border-cyan-300/50 shadow-[0_-8px_30px_rgba(0,0,0,0.05)]">
-      <div className="max-w-4xl mx-auto px-6 py-8 text-center">
+    <footer className="w-full mt-2 bg-gray-100 backdrop-blur-xl shadow-[0_-8px_30px_rgba(0,0,0,0.05)]">
+      <div className="max-w-4xl mx-auto px-8 py-4 text-center">
         <p className="text-sm text-gray-700">
           © 2025{" "}
           <span className="font-semibold text-gray-700">Vivien Wallbaum</span> –
@@ -21,7 +21,7 @@ export const Footer = () => {
           >
             E-Mail
           </a>
-          <img src={Koralle} alt="Icon Koralle" className="h-6 " />
+          <img src={Koralle} alt="Icon Koralle" className="h-8 " />
           <a
             href="#projekte"
             className="hover:underline hover:text-cyan-500 transition"

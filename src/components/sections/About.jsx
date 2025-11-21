@@ -1,9 +1,7 @@
 import UeberMich from "../../assets/images/UeberMich.png";
-import Circle from "../../assets/images/Wasserblasen.png";
-import Lernquellen from "../../assets/images/Lernquelle.svg";
+import Circle from "../../assets/images/Jellyfish.png";
 import SlideInWhenVisible from "../../components/SlideInWhenVisible";
 import { useState } from "react";
-import WaterEffect from "../../components/WaterEffect";
 import Profilbild from "../../assets/images/Profilbild.jpg";
 
 export const About = () => {
@@ -46,11 +44,10 @@ export const About = () => {
     <section
       id="about"
       aria-label="Über mich Bereich"
-      className="min-h-screen flex items-center justify-center bg-white py-12 md:py-24 px-4 md:px-8"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-b from-cyan-50 to-cyan-400
+  py-12 md:py-24 px-4 md:px-8"
     >
-      <WaterEffect className="hidden sm:block" />
-
-      <div className="max-w-[95vw] sm:max-w-5xl w-full mx-auto px-2 sm:px-10 z-10">
+      <div className="max-w-5xl w-full mx-auto px-2 sm:px-10 z-10">
         <img
           src={UeberMich}
           alt="Überschrift: Über mich"
@@ -59,40 +56,42 @@ export const About = () => {
 
         {/* BOX 1: Vorstellung + Studium */}
 
-        <div className="p-8">
+        <div className="px-4 sm:px-8">
           <div className="text-gray-700 leading-relaxed text-sm sm:text-base">
-            {/* Grid für Bild + Text */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 items-center mb-12">
+            {/* Bild + Text */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 items-center mb-20">
               {/* Bild */}
               <div className="flex justify-center">
                 <img
                   src={Profilbild}
                   alt="Profilbild von Vivien"
-                  className="rounded-xl shadow-[0_0_20px_rgba(255,192,203,0.3)] max-h-64 sm:max-h-72
- object-cover"
+                  className="rounded-2xl shadow-[0_0_20px_rgba(255,192,203,0.25)] max-h-72 object-cover"
                 />
               </div>
-              <p className="mt-4 mb-2">
-                "Hi, ich bin Vivien Wallbaum, angehende Softwareentwicklerin mit
-                einem Master in Informationsmanagement. Mein Fokus liegt auf
-                moderner{" "}
-                <span className="text-gray-600 font-semibold">
+
+              {/* Text */}
+              <p className="text-gray-600">
+                Hi, ich bin{" "}
+                <span className="font-semibold">Vivien Wallbaum</span>,
+                angehende Softwareentwicklerin mit einem Master in
+                Informationsmanagement. Mein Fokus liegt auf moderner{" "}
+                <span className="font-semibold text-gray-700">
                   Webentwicklung mit React und TailwindCSS
                 </span>
                 . Ich liebe klare UI/UX, strukturiertes Arbeiten und
-                datengetriebene Anwendungen. Aktuell erweitere ich meine
+                datengetriebene Anwendungen. Aktuell vertiefe ich meine
                 Kenntnisse in der{" "}
-                <span className="text-gray-600 font-semibold">
+                <span className="font-semibold text-gray-700">
                   Fullstack-Entwicklung (PERN)
-                </span>{" "}
-                und suche den Einstieg in ein innovatives Entwicklerteam."
+                </span>
+                und suche den Einstieg in ein innovatives Entwicklerteam.
               </p>
             </div>
 
-            <h2 className="text-2xl text-shadow sm:text-3xl font-semibold my-8 text-center text-pink-600 font-dancing">
+            <h2 className="text-4xl text-shadow sm:text-5xl mt-18 mb-8 text-center text-pink-600 font-dancing tracking-tight">
               Mein Studium:
             </h2>
-            <div className="border-2 border-pink-500 rounded-xl p-4 sm:mx-24 mb-12">
+            <div className="border-2 border-pink-500 rounded-xl p-4 sm:mx-24 mb-16">
               <ul className="list-disc list-inside space-y-2 text-gray-600 text-sm sm:text-base">
                 <li>
                   <strong>M.S. in Information, Medien, Bibliothek</strong> – HAW
@@ -118,7 +117,7 @@ export const About = () => {
               Backend-Bereich als auch Frontend-Bereich mit Fokus auf moderne
               Webentwicklung mit React, TailwindCSS und JavaScript.
             </p>
-            <p className="mb-6">
+            <p className="mb-20">
               Nach dem Studium war ich mehrere Jahre in einer leitenden Position
               im Kinobereich tätig. Nun, nach einer Elternzeit, habe ich mich
               bewusst für einen beruflichen Neustart entschieden: Ich möchte als
@@ -131,12 +130,12 @@ export const About = () => {
 
         {/* BOX 2: Kenntnisse & Fähigkeiten */}
 
-        <div className="p-8">
-          <div className="text-gray-700 leading-relaxed text-sm sm:text-base">
-            <h3 className="text-2xl sm:text-3xl text-shadow font-semibold text-center mb-6 text-pink-600 font-dancing">
+        <div className="px-4 sm:px-8">
+          <div className="text-gray-700 leading-relaxed">
+            <h3 className="text-4xl sm:text-5xl text-shadow  text-center mt-18 mb-12 text-pink-600 font-dancing">
               Kenntnisse und Fähigkeiten
             </h3>
-            <p className="mb-12">
+            <p className="mb-20">
               Im Frontend bewege ich mich sicher von soliden Grundlagen bis hin
               zu routinierter Anwendung – vor allem im Zusammenspiel moderner
               Frameworks wie React und Styling mit TailwindCSS. Im Backend habe
@@ -147,6 +146,7 @@ export const About = () => {
 
             {/* Skill Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+              {/* Frontend */}
               <SlideInWhenVisible delay={200}>
                 <div>
                   <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
@@ -156,7 +156,16 @@ export const About = () => {
                     {frontendSkills.map((skill, i) => (
                       <span
                         key={i}
-                        className="bg-pink-100 text-pink-600 py-1 px-3 rounded-full text-sm hover:bg-pink-200 transition"
+                        className="
+              px-3 py-1 rounded-full text-sm
+              bg-cyan-50/40
+              text-cyan-800
+              border border-cyan-200/40
+              backdrop-blur-sm
+              shadow-sm
+              hover:bg-cyan-50/60
+              transition-all
+            "
                       >
                         {skill}
                       </span>
@@ -165,6 +174,7 @@ export const About = () => {
                 </div>
               </SlideInWhenVisible>
 
+              {/* Backend */}
               <SlideInWhenVisible delay={300}>
                 <div>
                   <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
@@ -174,7 +184,16 @@ export const About = () => {
                     {backendSkills.map((skill, i) => (
                       <span
                         key={i}
-                        className="bg-cyan-100 text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-200 transition"
+                        className="
+              px-3 py-1 rounded-full text-sm
+              bg-teal-50/40
+              text-teal-800
+              border border-teal-200/40
+              backdrop-blur-sm
+              shadow-sm
+              hover:bg-teal-50/60
+              transition-all
+            "
                       >
                         {skill}
                       </span>
@@ -183,16 +202,26 @@ export const About = () => {
                 </div>
               </SlideInWhenVisible>
 
+              {/* Tools & Anwendungen */}
               <SlideInWhenVisible delay={400}>
                 <div className="md:col-span-2">
                   <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
                     Tools & Anwendungen
                   </h4>
-                  <div className="flex flex-wrap gap-3 ">
+                  <div className="flex flex-wrap gap-3">
                     {softwareSkills.map((skill, i) => (
                       <span
                         key={i}
-                        className="bg-gray-100 text-gray-500 py-1 px-3 rounded-full text-sm hover:bg-gray-200 transition"
+                        className="
+              px-3 py-1 rounded-full text-sm
+              bg-white/40
+              text-gray-700
+              border border-white/30
+              backdrop-blur-sm
+              shadow-sm
+              hover:bg-white/60
+              transition-all
+            "
                       >
                         {skill}
                       </span>
@@ -200,16 +229,27 @@ export const About = () => {
                   </div>
                 </div>
               </SlideInWhenVisible>
+
+              {/* Softskills */}
               <SlideInWhenVisible delay={500}>
                 <div className="md:col-span-2">
                   <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
                     Softskills
                   </h4>
-                  <div className="flex flex-wrap gap-3  ">
+                  <div className="flex flex-wrap gap-3">
                     {softSkills.map((skill, i) => (
                       <span
                         key={i}
-                        className="bg-purple-50 text-gray-600 py-1 px-3 rounded-full text-sm hover:bg-purple-100 transition"
+                        className="
+              px-3 py-1 rounded-full text-sm
+              bg-rose-50/40
+              text-rose-800
+              border border-rose-200/40
+              backdrop-blur-sm
+              shadow-sm
+              hover:bg-rose-50/60
+              transition-all
+            "
                       >
                         {skill}
                       </span>
@@ -219,7 +259,7 @@ export const About = () => {
               </SlideInWhenVisible>
             </div>
 
-            <p className="mb-6 mt-12">
+            <p className="mt-20">
               Neben meiner technischen Expertise bringe ich Erfahrung im Umgang
               mit Tools wie Jira, Confluence, Jupyter Notebook und MS Office mit
               – insbesondere in projektbasierter Zusammenarbeit und
@@ -232,15 +272,16 @@ export const About = () => {
 
             {/* Lernquellen */}
             <div className="mt-12 mb-8">
-              <img
-                src={Lernquellen}
-                alt="Lernquellen anzeigen"
+              <button
                 onClick={() => setShowSources(!showSources)}
-                className="h-16 cursor-pointer mb-4 hover:scale-105 transition duration-200 mx-auto"
-              />
+                className="mx-auto mb-6 cursor-pointer text-sm sm:text-md font-semibold text-cyan-700 
+             hover:text-cyan-900 transition duration-200 underline underline-offset-4"
+              >
+                Lernquellen anzeigen
+              </button>
               {showSources && (
                 <div
-                  className="mt-6 bg-cyan-50 border border-gray-200 rounded-xl p-6 text-sm text-gray-800 shadow-inner space-y-6"
+                  className="mt-6 backdrop-blur-lg bg-white/50 border border-cyan-200 rounded-3xl p-6 text-sm text-gray-800 shadow-inner space-y-6"
                   aria-label="Liste meiner Lernquellen und Kursempfehlungen"
                 >
                   <div>
@@ -384,11 +425,18 @@ export const About = () => {
           </div>
         </div>
 
+        {/* Quallenbild*/}
+        <img
+          src={Circle}
+          alt="Drei Quallen, die Intuition, Modernität und Performanz symbolisieren"
+          className="block h-40 sm:h-64 mx-auto mt-8"
+        />
+
         {/* BOX 3: Zukunftspläne */}
 
         <div className="p-8">
           <div className="text-gray-700 leading-relaxed text-sm sm:text-base">
-            <h3 className="text-2xl sm:text-3xl text-shadow font-semibold text-center mb-6 text-pink-600 font-dancing">
+            <h3 className="text-5xl sm:text-6xl text-shadow text-center mt-18 mb-12 text-pink-600 font-dancing">
               Zukunftspläne
             </h3>
             <p>
@@ -445,12 +493,6 @@ export const About = () => {
               </span>{" "}
               sind und echten <em>Mehrwert für Nutzer*innen</em> bieten.
             </p>
-
-            <img
-              src={Circle}
-              alt="Drei Wasserblasen, die Innovation, Kreativität und Performanz symbolisieren"
-              className="h-32 sm:h-56 mx-auto mt-12"
-            />
           </div>
         </div>
       </div>

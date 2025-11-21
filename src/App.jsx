@@ -19,7 +19,7 @@ function App() {
       <div
         className={`relative z-10 min-h-screen transition-opacity duration-400 ${
           isLoaded ? "opacity-100" : "opacity-0"
-        } bg-white text-gray-100`}
+        } bg-cyan-100 text-gray-100`}
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />

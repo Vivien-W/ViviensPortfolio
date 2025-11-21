@@ -39,7 +39,7 @@ function SubtleWaterPlane() {
             varying vec2 vUv;
 
             void main() {
-              gl_FragColor = vec4(color, 0.09); // sehr transparent
+              gl_FragColor = vec4(color, 0.30); // sehr transparent
             }
           `,
             transparent: true,
@@ -52,7 +52,7 @@ function SubtleWaterPlane() {
 
 export default function WaterEffect() {
   return (
-    <div className="fixed inset-0 pointer-events-none z-0">
+    <div className="absolute inset-0 pointer-events-none z-0">
       <Canvas camera={{ position: [0, 0, 5], fov: 50 }}>
         <ambientLight intensity={0.6} />
         <SubtleWaterPlane />

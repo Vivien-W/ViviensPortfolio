@@ -6,16 +6,17 @@ export const Projects = () => {
   return (
     <section
       id="projekte"
-      className="min-h-screen flex items-center justify-center bg-white py-12 md:py-24 px-4 md:px-8"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-b from-cyan-400 to-cyan-600 py-12 md:py-24 px-4 md:px-8"
     >
       <div className="w-full max-w-5xl mx-auto px-2 sm:px-4">
         <SlideInWhenVisible delay={0}>
           <img
             src={MeineProjekte}
             alt="Überschrift meine Projekte"
-            className="h-12 sm:h-14 mb-12 mx-auto"
+            className="h-12 sm:h-14 mb-8 mx-auto"
           />
         </SlideInWhenVisible>
+        <div className="w-24 h-1 bg-white/50 mx-auto rounded-full mb-12"></div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2 ">
           {/* Portfolio */}
@@ -128,11 +129,17 @@ export const Projects = () => {
 
 const ProjectCard = ({ media, title, description, tech, link, liveDemo }) => (
   <div
-    className="backdrop-blur-md bg-white/80 border border-cyan-100 rounded-2xl 
-                   hover:border-cyan-300 p-6 shadow-2xl hover:-translate-y-1 transition-transform"
+    className="backdrop-blur-xl bg-white/40 
+  border border-white/20 
+  shadow-[0_8px_20px_rgba(0,0,0,0.15)]
+  rounded-3xl p-6 
+  hover:bg-white/50 
+  hover:shadow-[0_12px_32px_rgba(0,0,0,0.25)]
+  hover:-translate-y-1
+  transition-all duration-300"
   >
     {media}
-    <h3 className="text-2xl text-shadow font-bold text-pink-600 mb-2 mt-4 font-dancing">
+    <h3 className="text-4xl text-shadow text-cyan-900 mb-2 mt-6 font-dancing">
       {title}
     </h3>
     <p className="text-gray-700 mb-4">{description}</p>
@@ -140,17 +147,34 @@ const ProjectCard = ({ media, title, description, tech, link, liveDemo }) => (
       {tech.map((item, idx) => (
         <span
           key={idx}
-          className="bg-pink-100 text-pink-600 py-1 px-3 rounded-full text-sm hover:bg-cyan-100 transition"
+          className="
+        px-3 py-1
+        rounded-full text-sm
+        bg-white/40
+        text-gray-700
+        border border-white/30
+        backdrop-blur-sm
+        shadow-sm
+        hover:bg-white/60
+        transition-all
+      "
         >
           {item}
         </span>
       ))}
     </div>
+
     <a
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="text-cyan-600 hover:text-cyan-800 transition-colors font-medium"
+      className="
+    inline-block
+    text-cyan-700 
+    hover:text-cyan-900
+    font-medium 
+    transition-colors
+  "
     >
       Zum Projekt →
     </a>
@@ -161,7 +185,18 @@ const ProjectCard = ({ media, title, description, tech, link, liveDemo }) => (
           href={liveDemo}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-yellow-200 text-pink-600 hover:text-pink-800 transition-colors font-medium"
+          className="
+        inline-block
+        px-3 py-1
+        rounded-full
+        bg-white/40
+        backdrop-blur-sm
+        text-gray-700 
+        border border-white/30
+        shadow-sm
+        hover:bg-white/60
+        transition-all
+      "
         >
           Live-Demo →
         </a>

@@ -1,6 +1,5 @@
 import Header from "../../assets/images/PortfolioHeader.png";
 import Muschel from "../../assets/images/Muschel.png";
-
 import PearlScene from "../../components/PearlScene";
 import WaterEffect from "../../components/WaterEffect";
 
@@ -10,7 +9,10 @@ export const Home = () => {
       id="home"
       className="relative min-h-screen flex flex-col items-center justify-start bg-white px-2 md:px-6 pt-20 sm:pt-32 md:pt-10 pb-6"
     >
-      <WaterEffect className="pointer-events-none" />
+      {/* WaterEffect NUR im Hero */}
+      <div className="absolute inset-0 z-0 hidden sm:block pointer-events-none">
+        <WaterEffect />
+      </div>
       {/* Header-Bild */}
       <img
         src={Header}
@@ -19,9 +21,9 @@ export const Home = () => {
       />
 
       <div className="w-full max-w-3xl flex flex-col items-center gap-4 text-center">
-        <h1 className="text-xl text-shadow sm:text-2xl md:text-3xl text-gray-800 font-dancing leading-snug max-w-[90%] sm:max-w-xl mx-auto">
+        <h1 className="text-3xl text-shadow sm:text-5xl md:text-6xl text-gray-800 font-dancing leading-snug max-w-[90%] sm:max-w-xl mx-auto">
           Hi, ich bin{" "}
-          <span className="text-pink-500 text-4xl font-dancing inline">
+          <span className="text-pink-500 text-7xl font-seminbold font-dancing inline">
             Vivien
           </span>{" "}
           und ich liebe es, Code und Kreativität zu verbinden.
@@ -45,20 +47,31 @@ export const Home = () => {
         <div className="flex flex-col sm:flex-row justify-center gap-4 px-6 py-4 relative z-10">
           <a
             href="#projekte"
-            className="px-6 py-2 rounded-full bg-white/60 border border-pink-600/20 text-pink-600 hover:bg-pink-100/60 hover:shadow-xl transition duration-300 ease-in-out"
-            aria-label="zum Projektbereich navigieren"
+            className="
+    w-full sm:w-auto px-8 py-3 rounded-full text-center
+    bg-white/60 backdrop-blur-sm
+    border border-pink-300/40
+    text-pink-700 font-semibold
+    shadow-sm
+    hover:bg-white/80 hover:shadow-md
+    transition-all duration-300
+  "
           >
             Projekte
           </a>
           <button
             onClick={() =>
               (window.location.href =
-                "mailto:vivienwbaum@gmail.com?subject=Kontaktanfrage&body=Hallo Vivien,")
+                "mailto:vivienwbaum@gmail.com?subject=Bewerbung%20als%20Junior%20Frontend-Entwicklerin")
             }
-            className="px-6 py-2 rounded-full bg-white/40 border border-cyan-600/20 text-cyan-600 hover:bg-cyan-100/60 hover:text-cyan-700 hover:shadow-xl transition duration-300 ease-in-out cursor-pointer"
-            aria-label="E-Mail KOntakt aufnehmen"
+            className="
+                w-full sm:w-auto px-8 py-3 rounded-full 
+                bg-white/80 text-cyan-900 font-semibold
+                shadow-lg hover:bg-white hover:shadow-xl
+                transition-all duration-300
+              "
           >
-            Kontakt
+            Kontakt per E-Mail
           </button>
         </div>
       </div>

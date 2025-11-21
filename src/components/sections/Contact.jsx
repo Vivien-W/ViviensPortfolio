@@ -1,103 +1,123 @@
 import Kontakt from "../../assets/images/Kontakt.png";
-import Butterfische from "../../assets/images/Butterfische.png";
 import SlideInWhenVisible from "../../components/SlideInWhenVisible";
 
 export const Contact = () => {
   return (
     <section
       id="kontakt"
-      className="min-h-screen flex items-center justify-center bg-white py-12 md:py-24 px-4 md:px-8"
+      className="
+        relative min-h-screen flex items-center justify-center 
+        bg-gradient-to-b from-cyan-600 to-cyan-900
+        px-4 md:px-8 py-20
+      "
     >
+      {/* Soft Water Light Overlay */}
+      <div className="absolute top-0 left-0 w-full h-48 bg-white/10 blur-3xl opacity-60 pointer-events-none"></div>
+
       <SlideInWhenVisible delay={0}>
-        <img
-          src={Kontakt}
-          alt="Überschrift Kontakt in Wasserschrift"
-          className="h-12 sm:h-14 mx-auto mb-8"
-        />
         <div
-          className="max-w-[95vw] sm:max-w-3xl w-full p-6 sm:p-10 mt-12 mb-8 
-            rounded-3xl bg-white/70 backdrop-blur-lg 
-            border border-cyan-100 
-            shadow-[0_10px_25px_rgba(0,255,255,0.15),0_4px_10px_rgba(0,255,255,0.10)] 
-            hover:-translate-y-1 hover:scale-100 
-            hover:shadow-[0_20px_40px_rgba(0,255,255,0.25),0_10px_20px_rgba(0,255,255,0.15)] 
-            transition-transform duration-300 ease-out"
+          className="
+            relative max-w-[95vw] sm:max-w-3xl w-full
+            p-8 sm:p-12 rounded-3xl
+            bg-white/20 backdrop-blur-2xl
+            shadow-[0_0_50px_-5px_rgba(0,200,255,0.35)]
+            ring-1 ring-white/10 border border-white/10
+            transition-all duration-300
+            hover:shadow-[0_0_80px_-5px_rgba(0,200,255,0.5)]
+            hover:-translate-y-1
+          "
         >
-          <div className="text-center">
-            <img
-              src={Butterfische}
-              alt="Slogan: Jetzt mal Butter bei die Fische"
-              className="h-40 mx-auto mb-6 sm:h-58"
-            />
-          </div>
+          {/* Titel */}
 
-          <div className="mb-12 text-gray-700 leading-relaxed text-left text-sm sm:text-base">
-            <div className="bg-pink-100 p-4 rounded mb-6">
-              <p>
-                Ab <strong>Herbst 2026</strong> suche ich eine neue
-                Herausforderung als (Junior){" "}
-                <strong>Frontend- oder Fullstack-Entwicklerin</strong> in
-                <strong> Hamburg</strong> oder remote.
-              </p>
-            </div>
+          <img
+            src={Kontakt}
+            alt="Überschrift Kontakt"
+            className="h-12 sm:h-14 mb-12 mx-auto"
+          />
 
-            <p className="mb-4">
-              Mit meinem M.S. in Informationsmanagement bringe ich eine
-              analytische Denkweise und ein tiefes Verständnis für{" "}
-              <span className="text-gray-600 font-semibold">
+          {/* Haupt-CTA */}
+          <p
+            className="text-center text-pink-600 text-2xl sm:text-3xl font-semibold mb-6 
+  bg-white/60 backdrop-blur-md border border-pink-300/30 
+  py-3 px-4 rounded-2xl shadow-sm"
+          >
+            Ich suche ab <span className="text-pink-500"> Herbst 2026 </span>
+            eine neue Herausforderung.
+          </p>
+
+          <p className="text-center text-white/90 text-lg sm:text-xl mb-12 leading-relaxed">
+            Frontend&nbsp;|&nbsp;Fullstack&nbsp;|&nbsp;UX-orientierte
+            Webentwicklung – in <strong>Hamburg</strong> oder Remote.
+          </p>
+
+          {/* Textabschnitt */}
+          <div className="text-white/90 text-sm sm:text-base leading-relaxed space-y-4 mb-10">
+            <p>
+              Mit meinem M.S. in Informationsmanagement verbinde ich
+              analytisches Denken mit einem tiefen Verständnis für{" "}
+              <span className="font-semibold text-white">
                 Usability und User Experience
-              </span>{" "}
-              mit. Auch die Themen{" "}
-              <span className="text-gray-600 font-semibold">
-                Barrierefreiheit (ARIA)
-              </span>{" "}
-              und zugängliches Webdesign gehören zu meinen Schwerpunkten.
+              </span>
+              . Auch Barrierefreiheit (ARIA) und zugängliches Webdesign gehören
+              zu meinen Schwerpunkten.
             </p>
-            <p className="mb-4">
-              Derzeit vertiefe ich meine Kenntnisse in der{" "}
-              <span className="text-gray-600 font-semibold">
+
+            <p>
+              Aktuell vertiefe ich meine Kenntnisse in der{" "}
+              <span className="font-semibold text-white">
                 Fullstack-Entwicklung mit dem PERN-Stack
-              </span>{" "}
-              – inklusive Datenbankanbindung, API-Architektur, Testing (Jest)
-              und Deployment. Besonders gerne arbeite ich mit{" "}
-              <span className="text-gray-600 font-semibold">
+              </span>
+              , inklusive Datenbanken, API-Architektur, Testing und Deployment.
+              Besonders gerne arbeite ich mit{" "}
+              <span className="font-semibold text-white">
                 React, TailwindCSS und JavaScript
-              </span>{" "}
-              und lege viel Wert auf saubere Strukturen, Wiederverwendbarkeit
-              und eine gute Developer Experience.
+              </span>
+              .
             </p>
-            <p className="mb-4">
-              Ich bin hochmotiviert, meine Fähigkeiten in einem professionellen
-              Team weiter auszubauen und an modernen Webprojekten mitzuwirken,
-              die echten Mehrwert schaffen. Lernbereitschaft, Eigeninitiative
-              und Teamspirit gehören für mich selbstverständlich dazu.
+
+            <p>
+              Ich bin hochmotiviert, moderne Webprojekte mitzugestalten, die
+              echten Mehrwert schaffen — mit Eigeninitiative, Lernbereitschaft
+              und Teamgeist.
             </p>
-            <p className="font-bold text-pink-600 font-dancing text-2xl mt-12">
-              Haben Sie eine passende Position? Ich freue mich darauf, mehr zu
-              erfahren!
+
+            <p
+              className="text-center text-pink-600 font-dancing text-3xl mt-8 
+   bg-white/70 backdrop-blur-md px-3 py-1 rounded-xl shadow-sm tracking-wide"
+            >
+              Haben Sie eine passende Position? Ich freue mich auf Ihre
+              Nachricht!
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row justify-center gap-4 px-4 py-6 bg-white/50 backdrop-blur-xl rounded-lg">
+          {/* Buttons */}
+          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
             <button
               onClick={() =>
                 (window.location.href =
-                  "mailto:vivienwbaum@gmail.com?subject=Bewerbung%20als%20Junior%20Frontend-Entwicklerin&body=Sehr%20geehrte/r%20Frau/Herr%20[Name],")
+                  "mailto:vivienwbaum@gmail.com?subject=Bewerbung%20als%20Junior%20Frontend-Entwicklerin")
               }
-              className="w-full sm:w-auto px-6 py-2 rounded-full bg-white/40 border border-cyan-600/20 text-cyan-600 hover:bg-white/60 hover:text-cyan-700 hover:shadow-sm transition duration-300 ease-in-out"
-              aria-label="E-Mail Kontakt aufnehmen"
+              className="
+                w-full sm:w-auto px-8 py-3 rounded-full 
+                bg-white/80 text-cyan-900 font-semibold
+                shadow-lg hover:bg-white hover:shadow-xl
+                transition-all duration-300
+              "
             >
-              E-Mail-Kontakt
+              Kontakt per E-Mail
             </button>
 
             <a
               href="https://github.com/Vivien-W"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-center w-full sm:w-auto px-6 py-2 rounded-full bg-white/60 border border-pink-600/20 text-pink-600 hover:bg-white/80 hover:shadow transition duration-300 ease-in-out"
-              aria-label="GitHub Profil öffnen"
+              className="
+                w-full sm:w-auto px-8 py-3 rounded-full text-center
+                bg-white/20 text-white border border-white/20
+                hover:bg-white/30 transition-all duration-300
+              "
             >
-              Mein GitHub Profil
+              GitHub ansehen
             </a>
           </div>
         </div>

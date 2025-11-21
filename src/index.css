@@ -6,7 +6,25 @@
   font-family: "Dancing Script";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/dancing-script-v28-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/fonts/dancing-script-v28-latin-regular.woff2") format("woff2");
+}
+
+/* the-nautigal-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "The Nautigal";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/the-nautigal-v8-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/montserrat-v31-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* open-sans-regular - latin */
@@ -19,7 +37,7 @@
 }
 
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 html,
@@ -33,7 +51,7 @@ body {
 }
 
 .font-dancing {
-  font-family: "Dancing Script", cursive;
+  font-family: "The Nautigal", cursive;
 }
 
 @layer utilities {

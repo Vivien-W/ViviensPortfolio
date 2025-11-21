@@ -22,7 +22,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
         </a>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex gap-6 text-sm font-medium text-gray-700">
+        <div className="hidden md:flex gap-6 text-sm font-bold text-gray-700">
           {["Home", "About", "Projekte", "Kontakt"].map((item) => (
             <a
               key={item}
