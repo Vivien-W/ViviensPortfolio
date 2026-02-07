@@ -1,6 +1,8 @@
 import MeineProjekte from "../../assets/images/MeineProjekte.png";
 import SlideInWhenVisible from "../../components/SlideInWhenVisible";
 import ScreenshotPortfolio from "../../assets/images/Portfolio.JPG";
+import ScreenshotDashboard from "../../assets/images/KI-Kosten-Dashboard.png";
+import ScreenshotLeaflist from "../../assets/images/LeafList.png";
 
 export const Projects = () => {
   return (
@@ -19,6 +21,58 @@ export const Projects = () => {
         <div className="w-24 h-1 bg-white/50 mx-auto rounded-full mb-12"></div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2 ">
+          {/* KI-Kosten-Dashboard */}
+          <ProjectCard
+            media={
+              <img
+                src={ScreenshotDashboard}
+                alt="Screenshot vom Dashboard"
+                className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20"
+              />
+            }
+            title="KI-Kosten-Dashboard"
+            description="Ein Full-Stack-Dashboard zur Simulation und Analyse von KI-Prompt-Kosten. 
+            Das Projekt bildet typische KI-Workflows nach, berechnet Token-Nutzung, Latenzen und modellabhängige Kosten, 
+            speichert alle Daten in einer PostgreSQL-Datenbank und visualisiert sie in einem interaktiven Dashboard. 
+            Der Fokus liegt auf Kostenlogik, Datenfluss, Backend-API-Design und aussagekräftiger Visualisierung."
+            tech={[
+              "React",
+              "TypeScript",
+              "Node.js",
+              "Express",
+              "PostgreSQL",
+              "TailwindCSS",
+            ]}
+            link="https://github.com/Vivien-W/KI-Kosten-Dashboard"
+            liveDemo="https://ki-kosten-dashboard.vercel.app/"
+          />
+
+          {/* To-Do-App */}
+          <ProjectCard
+            media={
+              <img
+                src={ScreenshotLeaflist}
+                alt="Screenshot von der To-Do-App"
+                className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20"
+              />
+            }
+            title="Fullstack-To-Do-App"
+            description="LeafList ist eine moderne, ruhige und bewusst minimalistisch gestaltete To-Do-Webanwendung.
+            Das Projekt wurde als Full-Stack-Portfolio-Projekt entwickelt und legt besonderen Wert auf
+            saubere Architektur, TypeScript-Typisierung, Testbarkeit und ein hochwertiges Nutzererlebnis."
+            tech={[
+              "React",
+              "TypeScript",
+              "Node.js",
+              "Express",
+              "PostgreSQL",
+              "TailwindCSS",
+              "Jest/Vitest",
+            ]}
+            link="https://github.com/Vivien-W/Fullstack-To-Do-App"
+            liveDemo="https://ki-kosten-dashboard.vercel.app/"
+          />
+
           {/* Portfolio */}
           <ProjectCard
             media={

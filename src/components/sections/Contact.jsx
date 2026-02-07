@@ -53,32 +53,39 @@ export const Contact = () => {
           {/* Textabschnitt */}
           <div className="text-white/90 text-sm sm:text-base leading-relaxed space-y-4 mb-10">
             <p>
-              Mit meinem M.S. in Informationsmanagement verbinde ich
-              analytisches Denken mit einem tiefen Verständnis für{" "}
+              Mit einem{" "}
               <span className="font-semibold text-white">
-                Usability und User Experience
-              </span>
-              . Auch Barrierefreiheit (ARIA) und zugängliches Webdesign gehören
-              zu meinen Schwerpunkten.
+                M.S. in Informationsmanagement
+              </span>{" "}
+              verbinde ich analytische Tiefe mit moderner Softwareentwicklung.
+              Mein Fokus liegt darauf, technologische Komplexität in intuitive,
+              barrierefreie Softwarelösungen zu verwandeln – von der
+              Datenbankarchitektur bis zum Frontend-Feinschliff.
             </p>
 
             <p>
-              Aktuell vertiefe ich meine Kenntnisse in der{" "}
+              Als Junior Fullstack-Entwickler bewege ich mich sicher im{" "}
               <span className="font-semibold text-white">
-                Fullstack-Entwicklung mit dem PERN-Stack
+                PERN-Stack (PostgreSQL, Express, React, Node.js)
               </span>
-              , inklusive Datenbanken, API-Architektur, Testing und Deployment.
-              Besonders gerne arbeite ich mit{" "}
-              <span className="font-semibold text-white">
-                React, TailwindCSS und JavaScript
-              </span>
-              .
+              . Projekte wie mein KI-Kosten-Dashboard zeigen, dass ich nicht nur
+              Code schreibe, sondern unternehmerisch denke: Ich entwickle
+              Datenflüsse, API-Schnittstellen und Visualisierungen, die echten
+              Mehrwert bieten.
             </p>
 
             <p>
-              Ich bin hochmotiviert, moderne Webprojekte mitzugestalten, die
-              echten Mehrwert schaffen — mit Eigeninitiative, Lernbereitschaft
-              und Teamgeist.
+              Ich suche eine Herausforderung in{" "}
+              <span className="font-semibold text-white">
+                Teilzeit (20–30 Std./Woche)
+              </span>
+              , in der ich meine Leidenschaft für sauberen Code,{" "}
+              <span className="font-semibold text-white">
+                Barrierefreiheit (ARIA)
+              </span>{" "}
+              und skalierbare Web-Technologien einbringen kann. Ob
+              Produktentwicklung oder internes Tooling – ich bin bereit, mit
+              Eigeninitiative und Teamgeist sofort loszulegen.
             </p>
 
             <p

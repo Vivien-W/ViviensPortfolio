@@ -7,35 +7,36 @@ import Profilbild from "../../assets/images/Profilbild.jpg";
 export const About = () => {
   const frontendSkills = [
     "React",
-    "HTML5",
-    "CSS3",
-    "TailwindCSS",
-    "JavaScript",
     "TypeScript",
+    "JavaScript (ES6+)",
+    "TailwindCSS",
+    "Recharts (Data Viz)",
+    "HTML5 & CSS3",
+    "Accessibility (ARIA)",
+    "Responsive Design",
   ];
   const backendSkills = [
     "Node.js",
     "Express.js",
-    "PostgreSQL",
-    "SQL",
+    "PostgreSQL / SQL",
+    "REST APIs",
     "Python",
+    "Jest / Vitest",
   ];
   const softwareSkills = [
     "GitHub",
     "VS Code",
-    "Jira",
-    "Confluence",
-    "Slack",
-    "Figma",
+    "Jira & Confluence",
+    "Figma (UI/UX)",
     "MySQL Workbench",
   ];
 
   const softSkills = [
-    "Selbstorganisation",
-    "Analytisches Denken",
-    "teamfähig",
-    "kreativ",
-    "lernbereit",
+    "Strukturierte Arbeitsweise",
+    "Kreative Problemlösung",
+    "Erfahrung in agiler Zusammenarbeit",
+    "Kommunikationsstärke",
+    "Hohe Eigeninitiative",
   ];
 
   const [showSources, setShowSources] = useState(false);
@@ -115,7 +116,14 @@ export const About = () => {
               JavaScript und MySQL entwickelte. Seit Anfang 2025 habe ich mein
               technisches Wissen aufgefrischt und gezielt vertieft – sowohl im
               Backend-Bereich als auch Frontend-Bereich mit Fokus auf moderne
-              Webentwicklung mit React, TailwindCSS und JavaScript.
+              Webentwicklung mit React, TailwindCSS und JavaScript. Heute
+              entwickle ich Fullstack-Lösungen im{" "}
+              <span className="font-semibold text-gray-700">
+                PERN-Stack (PostgreSQL, Express, React, Node.js)
+              </span>
+              . Dabei lege ich großen Wert auf sauberen, mit TypeScript
+              typisierten Code und die Absicherung durch Unit-Tests
+              (Jest/Vitest).
             </p>
             <p className="mb-20">
               Nach dem Studium war ich mehrere Jahre in einer leitenden Position
@@ -133,15 +141,27 @@ export const About = () => {
         <div className="px-4 sm:px-8">
           <div className="text-gray-700 leading-relaxed">
             <h3 className="text-4xl sm:text-5xl text-shadow  text-center mt-18 mb-12 text-pink-600 font-dancing">
-              Kenntnisse und Fähigkeiten
+              Was ich mitbringe:
             </h3>
             <p className="mb-20">
-              Im Frontend bewege ich mich sicher von soliden Grundlagen bis hin
-              zu routinierter Anwendung – vor allem im Zusammenspiel moderner
-              Frameworks wie React und Styling mit TailwindCSS. Im Backend habe
-              ich bereits erste Erfahrungen gesammelt und kleinere Projekte
-              umgesetzt, stehe hier aber noch am Anfang meiner Lernkurve und
-              erweitere kontinuierlich mein Wissen.
+              Im Frontend sorge ich mit{" "}
+              <span className="font-semibold text-gray-700">
+                React und TailwindCSS
+              </span>{" "}
+              für performante, responsive UIs, wobei{" "}
+              <span className="font-semibold text-gray-700">
+                Barrierefreiheit (ARIA)
+              </span>{" "}
+              für mich kein Extra, sondern Standard ist. Im Backend konzipiere
+              ich effiziente APIs und Datenstrukturen. Durch meine frühere
+              Leitungstätigkeit bringe ich zudem eine{" "}
+              <span className="font-semibold text-gray-700">
+                {" "}
+                strukturierte Arbeitsweise, Teamgeist und Erfahrung mit Tools
+                wie Jira und Confluence
+              </span>{" "}
+              mit – Soft Skills, die besonders in agilen Entwicklungsteams den
+              Unterschied machen.{" "}
             </p>
 
             {/* Skill Grid */}
@@ -150,7 +170,7 @@ export const About = () => {
               <SlideInWhenVisible delay={200}>
                 <div>
                   <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
-                    Frontend
+                    Frontend & Design
                   </h4>
                   <div className="flex flex-wrap gap-3">
                     {frontendSkills.map((skill, i) => (
@@ -178,7 +198,7 @@ export const About = () => {
               <SlideInWhenVisible delay={300}>
                 <div>
                   <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
-                    Backend
+                    Backend & Testing
                   </h4>
                   <div className="flex flex-wrap gap-3">
                     {backendSkills.map((skill, i) => (
@@ -206,7 +226,7 @@ export const About = () => {
               <SlideInWhenVisible delay={400}>
                 <div className="md:col-span-2">
                   <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
-                    Tools & Anwendungen
+                    Tools & Workflow
                   </h4>
                   <div className="flex flex-wrap gap-3">
                     {softwareSkills.map((skill, i) => (
@@ -261,8 +281,11 @@ export const About = () => {
 
             <p className="mt-20">
               Neben meiner technischen Expertise bringe ich Erfahrung im Umgang
-              mit Tools wie Jira, Confluence, Jupyter Notebook und MS Office mit
-              – insbesondere in projektbasierter Zusammenarbeit und
+              mit Tools wie{" "}
+              <span className="font-semibold text-gray-700">
+                Jira, Confluence, Jupyter Notebook und MS Office{" "}
+              </span>{" "}
+              mit – insbesondere in projektbasierter Zusammenarbeit und
               Dokumentation. Darüber hinaus zeichne ich mich in Projekten durch
               Teamwork, strukturierte Arbeitsweise und kreative Lösungsansätze
               aus. Meine Lernbereitschaft unterstützt mich dabei, mich zügig in
@@ -457,41 +480,20 @@ export const About = () => {
               kann.
             </p>
 
-            <p className="mt-4">
-              Aktuell erweitere ich mein{" "}
-              <span className="font-semibold text-gray-600">
-                persönliches Dashboard
-              </span>{" "}
-              um ein eigenes Backend und entwickle eine{" "}
-              <span className="font-semibold text-gray-600">
-                To-Do-App mit PostgreSQL-Datenbank
+            <p className="mb-4">
+              Aktuell vertiefe ich mein Wissen in den Bereichen{" "}
+              <span className="font-semibold text-gray-700">
+                API-Architektur und Performance-Optimierung
               </span>
-              . Darüber hinaus befasse ich mich intensiv mit{" "}
-              <span className="font-semibold text-gray-600">TypeScript</span>{" "}
-              und{" "}
-              <span className="font-semibold text-gray-600">Jest-Tests</span>,
-              um sauberen, skalierbaren und getesteten Code zu schreiben. Auch
-              Themen wie{" "}
-              <span className="font-semibold text-gray-600">Deployment</span>{" "}
-              und Performance-Optimierung gehören zunehmend zu meinem Lernfokus.
+              . Mein Ziel ist es, mich als vielseitige Entwicklerin in einem
+              Team einzubringen, das Wert auf Qualität und nutzerzentrierte
+              Lösungen legt.
             </p>
 
-            <p className="mt-4">
-              Mein Ziel ist es, meine Kenntnisse im Bereich{" "}
-              <span className="font-semibold text-gray-600">
-                Fullstack-Entwicklung
-              </span>{" "}
-              weiter auszubauen und mich als vielseitige{" "}
-              <em>Softwareentwicklerin</em> in einem modernen, kollaborativen
-              Team einzubringen. Dabei reizt mich besonders die Verbindung aus{" "}
-              <em>technischer Präzision</em> und <em>ästhetischem Anspruch</em>{" "}
-              – um Anwendungen zu schaffen, die sowohl{" "}
-              <span className="font-semibold text-gray-600">funktional</span>{" "}
-              als auch{" "}
-              <span className="font-semibold text-gray-600">
-                visuell ansprechend
-              </span>{" "}
-              sind und echten <em>Mehrwert für Nutzer*innen</em> bieten.
+            <p className="font-medium text-gray-700 italic">
+              Ich suche eine Position in Teilzeit (20–30 Std./Woche), in der ich
+              meine analytischen Fähigkeiten und meine Begeisterung für modernen
+              Code einsetzen kann.
             </p>
           </div>
         </div>
