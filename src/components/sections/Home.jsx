@@ -26,7 +26,8 @@ export const Home = () => {
           <span className="text-pink-500 text-7xl font-seminbold font-dancing inline">
             Vivien
           </span>{" "}
-          und ich liebe es, Code und Kreativität zu verbinden.
+          und ich liebe es, kreative Ideen in moderne, barrierefreie
+          Webanwendungen zu verwandeln.
         </h1>
 
         <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-5xl gap-6 px-4 mb-4 mt-4">

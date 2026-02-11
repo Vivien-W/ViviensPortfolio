@@ -59,7 +59,7 @@ export const Projects = () => {
             title="Fullstack-To-Do-App"
             description="LeafList ist eine moderne, ruhige und bewusst minimalistisch gestaltete To-Do-Webanwendung.
             Das Projekt wurde als Full-Stack-Portfolio-Projekt entwickelt und legt besonderen Wert auf
-            saubere Architektur, TypeScript-Typisierung, Testbarkeit und ein hochwertiges Nutzererlebnis."
+            saubere Architektur, TypeScript-Typisierung, Testbarkeit und ein hochwertiges Nutzererlebnis. Die Anwendung unterstützt Benutzer-Authentifizierung, Todo-Verwaltung (CRUD) und automatisierte Tests."
             tech={[
               "React",
               "TypeScript",

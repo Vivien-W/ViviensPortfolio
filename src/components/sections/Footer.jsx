@@ -6,25 +6,25 @@ export const Footer = () => {
       <div className="max-w-4xl mx-auto px-8 py-4 text-center">
         <p className="text-sm text-gray-700">
           © 2025{" "}
-          <span className="font-semibold text-gray-700">Vivien Wallbaum</span> –
+          <span className="font-semibold text-gray-900">Vivien Wallbaum</span> –
           Danke fürs Vorbeischauen!
         </p>
-        <p className="text-xs text-gray-500 mt-2">
+        <p className="text-xs text-gray-900 mt-2">
           Portfolio zu Lern- und Demonstrationszwecken. Teile des Codes basieren
           auf Tutorials. Bilder KI-generiert & z.T. mit Canva bearbeitet.
         </p>
 
-        <div className="flex justify-center gap-4 mt-4 text-cyan-400">
+        <div className="flex justify-center gap-4 mt-4 text-cyan-700">
           <a
             href="mailto:vivienwbaum@gmail.com"
-            className="hover:underline hover:text-cyan-500 transition"
+            className="hover:underline hover:text-cyan-800 transition"
           >
             E-Mail
           </a>
-          <img src={Koralle} alt="Icon Koralle" className="h-8 " />
+          <img src={Koralle} alt="Icon einer pinken Koralle" className="h-8 " />
           <a
             href="#projekte"
-            className="hover:underline hover:text-cyan-500 transition"
+            className="hover:underline hover:text-cyan-800 transition"
           >
             Projekte
           </a>
