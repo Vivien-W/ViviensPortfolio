@@ -70,7 +70,7 @@ export const Projects = () => {
               "Jest/Vitest",
             ]}
             link="https://github.com/Vivien-W/Fullstack-To-Do-App"
-            liveDemo="https://ki-kosten-dashboard.vercel.app/"
+            liveDemo="https://leaflist-to-do-app.netlify.app/"
           />
 
           {/* Portfolio */}

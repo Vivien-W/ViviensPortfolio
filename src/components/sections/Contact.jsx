@@ -64,7 +64,7 @@ export const Contact = () => {
             </p>
 
             <p>
-              Als Junior Fullstack-Entwickler bewege ich mich sicher im{" "}
+              Als Junior Fullstack-Entwicklerin bewege ich mich sicher im{" "}
               <span className="font-semibold text-white">
                 PERN-Stack (PostgreSQL, Express, React, Node.js)
               </span>
