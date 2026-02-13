@@ -41,7 +41,7 @@ export const Contact = () => {
   bg-white/60 backdrop-blur-md border border-pink-300/30 
   py-3 px-4 rounded-2xl shadow-sm"
           >
-            Ich suche ab <span className="text-pink-500"> Herbst 2026 </span>
+            Ich suche ab <span className="text-pink-500"> sofort </span>
             eine neue Herausforderung.
           </p>
 
@@ -55,41 +55,43 @@ export const Contact = () => {
             <p>
               Mit einem{" "}
               <span className="font-semibold text-white">
-                M.S. in Informationsmanagement
+                M.A. in Informationsmanagement
               </span>{" "}
               verbinde ich analytische Tiefe mit moderner Softwareentwicklung.
               Mein Fokus liegt darauf, technologische Komplexität in intuitive,
-              barrierefreie Softwarelösungen zu verwandeln – von der
-              Datenbankarchitektur bis zum Frontend-Feinschliff.
+              barrierefreie Softwarelösungen zu verwandeln – von der klaren
+              Datenstruktur bis zum feingeschliffenen Frontend.
             </p>
 
             <p>
-              Als Junior Fullstack-Entwicklerin bewege ich mich sicher im{" "}
+              Als Webentwicklerin mit Leidenschaft für das Frontend bewege ich
+              mich sicher im React-Ecosystem und verfüge über fundierte
+              Fullstack-Grundlagen im{" "}
               <span className="font-semibold text-white">
                 PERN-Stack (PostgreSQL, Express, React, Node.js)
               </span>
-              . Projekte wie mein KI-Kosten-Dashboard zeigen, dass ich nicht nur
-              Code schreibe, sondern unternehmerisch denke: Ich entwickle
-              Datenflüsse, API-Schnittstellen und Visualisierungen, die echten
-              Mehrwert bieten.
+              . Projekte wie mein KI-Kosten-Dashboard zeigen, dass ich über den
+              Tellerrand hinausschaue: Ich entwickle Datenflüsse und
+              API-Schnittstellen, die Informationen nutzbar und greifbar machen.
             </p>
 
             <p>
-              Ich suche eine Herausforderung in{" "}
+              Aktuell vertiefe ich meine Kenntnisse in skalierbaren
+              Web-Technologien und bereite mich auf den Einsatz moderner
+              Frameworks wie Vue.js vor. Ich suche eine Herausforderung in
               <span className="font-semibold text-white">
-                Teilzeit (20–30 Std./Woche)
+                Teilzeit (25–30 Std./Woche)
               </span>
-              , in der ich meine Leidenschaft für sauberen Code,{" "}
+              , in der ich meine Expertise für{" "}
               <span className="font-semibold text-white">
-                Barrierefreiheit (ARIA)
+                sauberen Code, Barrierefreiheit (ARIA) und nutzerzentrierte
+                Oberflächen{" "}
               </span>{" "}
-              und skalierbare Web-Technologien einbringen kann. Ob
-              Produktentwicklung oder internes Tooling – ich bin bereit, mit
-              Eigeninitiative und Teamgeist sofort loszulegen.
+              einbringen kann.
             </p>
 
             <p
-              className="text-center text-pink-600 font-dancing text-3xl mt-8 
+              className="text-center text-pink-600 font-dancing text-4xl mt-8 
    bg-white/70 backdrop-blur-md px-3 py-1 rounded-xl shadow-sm tracking-wide"
             >
               Haben Sie eine passende Position? Ich freue mich auf Ihre

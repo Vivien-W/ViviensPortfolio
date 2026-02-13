@@ -23,11 +23,10 @@ export const Home = () => {
       <div className="w-full max-w-3xl flex flex-col items-center gap-4 text-center">
         <h1 className="text-3xl text-shadow sm:text-5xl md:text-6xl text-gray-800 font-dancing leading-snug max-w-[90%] sm:max-w-xl mx-auto">
           Hi, ich bin{" "}
-          <span className="text-pink-500 text-7xl font-seminbold font-dancing inline">
-            Vivien
+          <span className="text-pink-500 text-8xl font-semibold font-dancing inline">
+            Vivien.
           </span>{" "}
-          und ich liebe es, kreative Ideen in moderne, barrierefreie
-          Webanwendungen zu verwandeln.
+          Ich entwickle moderne, barrierefreie Web-Apps mit Liebe zum Detail.
         </h1>
 
         <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-5xl gap-6 px-4 mb-4 mt-4">
