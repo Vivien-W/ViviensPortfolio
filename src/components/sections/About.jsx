@@ -1,5 +1,5 @@
 import UeberMich from "../../assets/images/UeberMich.png";
-import Circle from "../../assets/images/Jellyfish.png";
+import Rochen from "../../assets/images/Rochen.png";
 import SlideInWhenVisible from "../../components/SlideInWhenVisible";
 import { useState } from "react";
 import Profilbild from "../../assets/images/Profilbild.jpg";
@@ -454,12 +454,16 @@ export const About = () => {
           </div>
         </div>
 
-        {/* Quallenbild*/}
-        <img
-          src={Circle}
-          alt="Drei Quallen, die Intuition, Modernität und Performanz symbolisieren"
-          className="block h-40 sm:h-64 mx-auto mt-8"
-        />
+        <div className="relative group flex flex-col items-center">
+          {/* ROCHEN */}
+          <img
+            src={Rochen}
+            alt="Illustration eines Rochens"
+            className="h-52 sm:h-64 w-auto z-10 
+               group-hover:animate-[bubble-once_9s_ease-out_forwards]
+"
+          />
+        </div>
 
         {/* BOX 3: Zukunftspläne */}
 
