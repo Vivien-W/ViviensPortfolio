@@ -74,18 +74,25 @@ export const About = () => {
               <p className="text-gray-600">
                 Hi, ich bin{" "}
                 <span className="font-semibold">Vivien Wallbaum</span>,
-                angehende Softwareentwicklerin mit einem Master in
-                Informationsmanagement. Mein Fokus liegt auf moderner{" "}
+                Softwareentwicklerin mit einem Master in Informationsmanagement.
+                Mein Fokus liegt auf moderner{" "}
                 <span className="font-semibold text-gray-700">
-                  Webentwicklung mit React und TailwindCSS
+                  Webentwicklung mit React, JavaScript / TypeScript und
+                  TailwindCSS
                 </span>
                 . Ich liebe klare UI/UX, strukturiertes Arbeiten und
                 datengetriebene Anwendungen. Aktuell vertiefe ich meine
                 Kenntnisse in der{" "}
                 <span className="font-semibold text-gray-700">
-                  Fullstack-Entwicklung (PERN)
-                </span>
-                und suche den Einstieg in ein innovatives Entwicklerteam.
+                  Fullstack-Entwicklung (PERN),
+                </span>{" "}
+                um Anwendungen von der Datenbank bis zum feingeschliffenen UI
+                ganzheitlich zu verstehen. Ich suche ein nettes Team, das Lust
+                auf frische Impulse hat und{" "}
+                <span className="font-semibold text-gray-700">
+                  ab Herbst 2026
+                </span>{" "}
+                Platz für eine strukturierte Junior-Softwareentwicklerin hat.
               </p>
             </div>
 
@@ -116,14 +123,13 @@ export const About = () => {
               JavaScript und MySQL entwickelte. Seit Anfang 2025 habe ich mein
               technisches Wissen aufgefrischt und gezielt vertieft – sowohl im
               Backend-Bereich als auch Frontend-Bereich mit Fokus auf moderne
-              Webentwicklung mit React, TailwindCSS und JavaScript. Heute
-              entwickle ich Fullstack-Lösungen im{" "}
+              Webentwicklung mit React, TailwindCSS und Typescript/JavaScript.
+              Heute entwickle ich Fullstack-Lösungen im{" "}
               <span className="font-semibold text-gray-700">
                 PERN-Stack (PostgreSQL, Express, React, Node.js)
               </span>
-              . Dabei lege ich großen Wert auf sauberen, mit TypeScript
-              typisierten Code und die Absicherung durch Unit-Tests
-              (Jest/Vitest).
+              . Dabei lege ich großen Wert auf sauberen Code und die Absicherung
+              durch Unit-Tests (Jest/Vitest).
             </p>
             <p className="mb-20">
               Nach dem Studium war ich mehrere Jahre in einer leitenden Position
@@ -139,7 +145,7 @@ export const About = () => {
         {/* BOX 2: Kenntnisse & Fähigkeiten */}
 
         <div className="px-4 sm:px-8">
-          <div className="text-gray-700 leading-relaxed">
+          <div className="text-gray-700 leading-relaxed text-sm sm:text-base">
             <h3 className="text-4xl sm:text-5xl text-shadow  text-center mt-18 mb-12 text-pink-600 font-dancing">
               Was ich mitbringe:
             </h3>
@@ -160,8 +166,8 @@ export const About = () => {
                 strukturierte Arbeitsweise, Teamgeist und Erfahrung mit Tools
                 wie Jira und Confluence
               </span>{" "}
-              mit – Soft Skills, die besonders in agilen Entwicklungsteams den
-              Unterschied machen.{" "}
+              mit – Soft Skills, die besonders in agilen Entwicklungsteams
+              wertvoll sind.{" "}
             </p>
 
             {/* Skill Grid */}
@@ -279,7 +285,7 @@ export const About = () => {
               </SlideInWhenVisible>
             </div>
 
-            <p className="mt-20">
+            <p className="mt-20  ">
               Neben meiner technischen Expertise bringe ich Erfahrung im Umgang
               mit Tools wie{" "}
               <span className="font-semibold text-gray-700">
@@ -491,9 +497,10 @@ export const About = () => {
             </p>
 
             <p className="font-medium text-gray-700 italic">
-              Ich suche eine Position in Teilzeit (20–30 Std./Woche), in der ich
-              meine analytischen Fähigkeiten und meine Begeisterung für modernen
-              Code einsetzen kann.
+              Ich suche ab Herbst 2026 eine Herausforderung in Teilzeit (25–30
+              Std./Woche), in der ich meine Expertise für sauberen Code,
+              Barrierefreiheit (ARIA) und nutzerzentrierte Oberflächen
+              einbringen kann.
             </p>
           </div>
         </div>

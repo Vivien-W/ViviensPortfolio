@@ -47,7 +47,11 @@ body {
   font-family: "Open Sans", sans-serif;
   background: #fcfbfb;
   color: #f3f4f6;
+}
+
+.no-select {
   user-select: none;
+  -webkit-user-select: none; /* Für Safari Support */
 }
 
 .font-dancing {

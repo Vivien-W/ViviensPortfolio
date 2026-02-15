@@ -41,7 +41,7 @@ export const Contact = () => {
   bg-white/60 backdrop-blur-md border border-pink-300/30 
   py-3 px-4 rounded-2xl shadow-sm"
           >
-            Ich suche ab <span className="text-pink-500"> sofort </span>
+            Ich suche ab <span className="text-pink-500"> Herbst 2026 </span>
             eine neue Herausforderung.
           </p>
 
@@ -70,15 +70,7 @@ export const Contact = () => {
               <span className="font-semibold text-white">
                 PERN-Stack (PostgreSQL, Express, React, Node.js)
               </span>
-              . Projekte wie mein KI-Kosten-Dashboard zeigen, dass ich über den
-              Tellerrand hinausschaue: Ich entwickle Datenflüsse und
-              API-Schnittstellen, die Informationen nutzbar und greifbar machen.
-            </p>
-
-            <p>
-              Aktuell vertiefe ich meine Kenntnisse in skalierbaren
-              Web-Technologien und bereite mich auf den Einsatz moderner
-              Frameworks wie Vue.js vor. Ich suche eine Herausforderung in
+              . Ich suche eine Herausforderung in
               <span className="font-semibold text-white">
                 Teilzeit (25–30 Std./Woche)
               </span>
@@ -91,7 +83,7 @@ export const Contact = () => {
             </p>
 
             <p
-              className="text-center text-pink-600 font-dancing text-4xl mt-8 
+              className="text-center text-pink-600 text-md font-semibold mt-8 
    bg-white/70 backdrop-blur-md px-3 py-1 rounded-xl shadow-sm tracking-wide"
             >
               Haben Sie eine passende Position? Ich freue mich auf Ihre

@@ -7,7 +7,7 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex flex-col items-center justify-start bg-white px-2 md:px-6 pt-20 sm:pt-32 md:pt-10 pb-6"
+      className="relative min-h-screen flex flex-col items-center justify-start bg-white px-2 md:px-6 pt-20 sm:pt-32 md:pt-10 pb-6 no-select"
     >
       {/* WaterEffect NUR im Hero */}
       <div className="absolute inset-0 z-0 hidden sm:block pointer-events-none">
@@ -23,10 +23,10 @@ export const Home = () => {
       <div className="w-full max-w-3xl flex flex-col items-center gap-4 text-center">
         <h1 className="text-3xl text-shadow sm:text-5xl md:text-6xl text-gray-800 font-dancing leading-snug max-w-[90%] sm:max-w-xl mx-auto">
           Hi, ich bin{" "}
-          <span className="text-pink-500 text-8xl font-semibold font-dancing inline">
+          <span className="text-pink-500 sm:text-7xl md:text-8xl font-dancing inline">
             Vivien.
           </span>{" "}
-          Ich entwickle moderne, barrierefreie Web-Apps mit Liebe zum Detail.
+          Ich entwickle moderne, barrierefreie Web-Apps.
         </h1>
 
         <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-5xl gap-6 px-4 mb-4 mt-4">
