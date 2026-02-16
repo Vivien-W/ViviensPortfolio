@@ -74,25 +74,17 @@ export const About = () => {
               <p className="text-gray-600">
                 Hi, ich bin{" "}
                 <span className="font-semibold">Vivien Wallbaum</span>,
-                Softwareentwicklerin mit einem Master in Informationsmanagement.
+                Softwareentwicklerin mit einem M.A. in Informationsmanagement.
                 Mein Fokus liegt auf moderner{" "}
                 <span className="font-semibold text-gray-700">
-                  Webentwicklung mit React, JavaScript / TypeScript und
+                  Webentwicklung mit React, JavaScript, TypeScript und
                   TailwindCSS
                 </span>
-                . Ich liebe klare UI/UX, strukturiertes Arbeiten und
-                datengetriebene Anwendungen. Aktuell vertiefe ich meine
-                Kenntnisse in der{" "}
-                <span className="font-semibold text-gray-700">
-                  Fullstack-Entwicklung (PERN),
-                </span>{" "}
-                um Anwendungen von der Datenbank bis zum feingeschliffenen UI
-                ganzheitlich zu verstehen. Ich suche ein nettes Team, das Lust
-                auf frische Impulse hat und{" "}
-                <span className="font-semibold text-gray-700">
-                  ab Herbst 2026
-                </span>{" "}
-                Platz für eine strukturierte Junior-Softwareentwicklerin hat.
+                . Ich kombiniere Leidenschaft für Code mit einem Auge für klare
+                UI/UX und suche ein nettes und agiles Team, das Lust auf frische
+                Impulse und{" "}
+                <span className="font-semibold text-gray-700"></span> Platz für
+                eine strukturierte Junior-Softwareentwicklerin hat.
               </p>
             </div>
 
@@ -129,7 +121,9 @@ export const About = () => {
                 PERN-Stack (PostgreSQL, Express, React, Node.js)
               </span>
               . Dabei lege ich großen Wert auf sauberen Code und die Absicherung
-              durch Unit-Tests (Jest/Vitest).
+              durch{" "}
+              <span className="font-semibold text-gray-700">Unit-Tests</span>{" "}
+              (Jest/Vitest).
             </p>
             <p className="mb-20">
               Nach dem Studium war ich mehrere Jahre in einer leitenden Position
@@ -286,17 +280,8 @@ export const About = () => {
             </div>
 
             <p className="mt-20  ">
-              Neben meiner technischen Expertise bringe ich Erfahrung im Umgang
-              mit Tools wie{" "}
-              <span className="font-semibold text-gray-700">
-                Jira, Confluence, Jupyter Notebook und MS Office{" "}
-              </span>{" "}
-              mit – insbesondere in projektbasierter Zusammenarbeit und
-              Dokumentation. Darüber hinaus zeichne ich mich in Projekten durch
-              Teamwork, strukturierte Arbeitsweise und kreative Lösungsansätze
-              aus. Meine Lernbereitschaft unterstützt mich dabei, mich zügig in
-              neue Technologien einzuarbeiten und mein Know-how stetig zu
-              erweitern.
+              Meine Lernbereitschaft unterstützt mich dabei, mich zügig in neue
+              Technologien einzuarbeiten und mein Know-how stetig zu erweitern.
             </p>
 
             {/* Lernquellen */}
@@ -410,6 +395,16 @@ export const About = () => {
                       </li>
                       <li>
                         <a
+                          href="https://vuejs.org"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-gray-400"
+                        >
+                          Vue.js-Website: The progressive Javascript Framework
+                        </a>
+                      </li>
+                      <li>
+                        <a
                           href="https://www.w3schools.com"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -426,6 +421,36 @@ export const About = () => {
                           className="hover:text-gray-400"
                         >
                           MOOC HarvardX CS50
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.a11yproject.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-gray-400"
+                        >
+                          A11YProject - Leitfaden für Accessibility
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.w3.org/WAI/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-gray-400"
+                        >
+                          Web Accessibility Initiative WAI
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://vitest.dev/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-gray-400"
+                        >
+                          Vite Testing Framework Guide
                         </a>
                       </li>
                     </ul>
@@ -472,39 +497,35 @@ export const About = () => {
             <h3 className="text-5xl sm:text-6xl text-shadow text-center mt-18 mb-12 text-pink-600 font-dancing">
               Zukunftspläne
             </h3>
-            <p>
-              Mein Schwerpunkt liegt in der{" "}
-              <span className="font-semibold text-gray-600">
-                modernen Webentwicklung
-              </span>{" "}
-              – mit Fokus auf das{" "}
-              <span className="font-semibold text-gray-600">Frontend</span> und
-              einer langfristigen Perspektive in Richtung{" "}
-              <span className="font-semibold text-gray-600">
-                Fullstack-Entwicklung
-              </span>
-              . Besonders begeistert mich die Arbeit mit dem{" "}
-              <span className="font-semibold text-gray-600">PERN-Stack</span>{" "}
-              (PostgreSQL, Express, React, Node.js), da ich hier sowohl mein
-              technisches Verständnis als auch meine kreative Seite einbringen
-              kann.
-            </p>
 
-            <p className="mb-4">
-              Aktuell vertiefe ich mein Wissen in den Bereichen{" "}
+            <p className="mb-6">
+              Mein Ziel ist es, technologische Komplexität in intuitive
               <span className="font-semibold text-gray-700">
-                API-Architektur und Performance-Optimierung
+                , barrierefreie Softwarelösungen
               </span>
-              . Mein Ziel ist es, mich als vielseitige Entwicklerin in einem
-              Team einzubringen, das Wert auf Qualität und nutzerzentrierte
-              Lösungen legt.
+              zu verwandeln. Durch meine Projekte im PERN-Stack habe ich ein
+              tiefes Verständnis für datengetriebene Anwendungen entwickelt –
+              eine Basis, die ich nun gezielt um neue Frameworks wie{" "}
+              <span className="font-semibold text-gray-700">Vue.js</span>{" "}
+              erweitern möchte.
             </p>
 
-            <p className="font-medium text-gray-700 italic">
-              Ich suche ab Herbst 2026 eine Herausforderung in Teilzeit (25–30
-              Std./Woche), in der ich meine Expertise für sauberen Code,
-              Barrierefreiheit (ARIA) und nutzerzentrierte Oberflächen
-              einbringen kann.
+            <p className="mb-6">
+              Ich suche kein bloßes Ticket-Abarbeiten, sondern eine langfristige
+              Herausforderung, in der Code-Qualität und Nutzerzentrierung an
+              erster Stelle stehen. Dabei bringe ich meine Erfahrung in der
+              Prozesssteuerung und meine analytische Denkweise aus dem
+              Informationsmanagement ein.
+            </p>
+
+            <p className="mb-20">
+              Jetzt bin ich bereit für den nächsten Schritt: Einen beruflichen
+              Neustart in{" "}
+              <span className="font-semibold text-gray-700">
+                Teilzeit (ca. 30 Std./Woche)
+              </span>
+              , um gemeinsam mit einem professionellen Team die digitale Zukunft
+              Hamburgs mitzugestalten.
             </p>
           </div>
         </div>

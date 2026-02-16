@@ -41,7 +41,7 @@ export const Contact = () => {
   bg-white/60 backdrop-blur-md border border-pink-300/30 
   py-3 px-4 rounded-2xl shadow-sm"
           >
-            Ich suche ab <span className="text-pink-500"> Herbst 2026 </span>
+            Ich suche ab <span className="text-pink-500"> sofort </span>
             eine neue Herausforderung.
           </p>
 
@@ -67,19 +67,15 @@ export const Contact = () => {
               Als Webentwicklerin mit Leidenschaft für das Frontend bewege ich
               mich sicher im React-Ecosystem und verfüge über fundierte
               Fullstack-Grundlagen im{" "}
+              <span className="font-semibold text-white">PERN-Stack</span>.
+              Aktuell vertiefe ich mein Wissen in Vue.js, um zukunftssichere und
+              nutzerzentrierte Anwendungen für die digitale Stadt von morgen zu
+              gestalten. Ich suche eine Herausforderung in{" "}
               <span className="font-semibold text-white">
-                PERN-Stack (PostgreSQL, Express, React, Node.js)
+                Teilzeit (ca. 30 Std./Woche)
               </span>
-              . Ich suche eine Herausforderung in
-              <span className="font-semibold text-white">
-                Teilzeit (25–30 Std./Woche)
-              </span>
-              , in der ich meine Expertise für{" "}
-              <span className="font-semibold text-white">
-                sauberen Code, Barrierefreiheit (ARIA) und nutzerzentrierte
-                Oberflächen{" "}
-              </span>{" "}
-              einbringen kann.
+              , in der ich meine Expertise für sauberen Code und
+              Barrierefreiheit (ARIA) einbringen kann.
             </p>
 
             <p
