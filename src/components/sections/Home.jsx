@@ -26,7 +26,7 @@ export const Home = () => {
           <span className="text-pink-500 sm:text-7xl md:text-8xl font-dancing inline">
             Vivien.
           </span>{" "}
-          Ich entwickle moderne, barrierefreie Web-Apps.
+          Ich entwickle barrierefreie digitale Anwendungen.
         </h1>
 
         <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-5xl gap-6 px-4 mb-4 mt-4">
