@@ -46,8 +46,8 @@ export const Contact = () => {
           </p>
 
           <p className="text-center text-white/90 text-lg sm:text-xl mb-12 leading-relaxed">
-            Frontend&nbsp;|&nbsp;Fullstack&nbsp;|&nbsp;UX-orientierte
-            Webentwicklung – in <strong>Hamburg</strong> oder Remote.
+            Webentwicklung&nbsp;|&nbsp;Fullstack&nbsp;|&nbsp;Digitale
+            Anwendungen – in <strong>Hamburg</strong> oder Remote.
           </p>
 
           {/* Textabschnitt */}
@@ -57,25 +57,19 @@ export const Contact = () => {
               <span className="font-semibold text-white">
                 M.A. in Informationsmanagement
               </span>{" "}
-              verbinde ich analytische Tiefe mit moderner Softwareentwicklung.
-              Mein Fokus liegt darauf, technologische Komplexität in intuitive,
-              barrierefreie Softwarelösungen zu verwandeln – von der klaren
-              Datenstruktur bis zum feingeschliffenen Frontend.
+              verbinde ich analytisches Denken mit praktischer Erfahrung in der
+              Entwicklung datenbankgestützter Webanwendungen. In meinen
+              Projekten liegt der Schwerpunkt auf der strukturierten Umsetzung
+              fachlicher Anforderungen – von klar modellierten Datenstrukturen
+              und APIs bis hin zu nutzerfreundlichen, barrierearmen Oberflächen.
             </p>
 
             <p>
-              Als Webentwicklerin mit Leidenschaft für das Frontend bewege ich
-              mich sicher im React-Ecosystem und verfüge über fundierte
-              Fullstack-Grundlagen im{" "}
-              <span className="font-semibold text-white">PERN-Stack</span>.
-              Aktuell vertiefe ich mein Wissen in Vue.js, um zukunftssichere und
-              nutzerzentrierte Anwendungen für die digitale Stadt von morgen zu
-              gestalten. Ich suche eine Herausforderung in{" "}
-              <span className="font-semibold text-white">
-                Teilzeit (ca. 30 Std./Woche)
-              </span>
-              , in der ich meine Expertise für sauberen Code und
-              Barrierefreiheit (ARIA) einbringen kann.
+              Besonders wichtig ist mir, technische Lösungen nachvollziehbar
+              aufzubauen und komplexe Zusammenhänge verständlich abzubilden.
+              Dabei arbeite ich strukturiert, dokumentiere sauber und denke
+              Systeme ganzheitlich – sowohl aus technischer als auch aus
+              organisatorischer Perspektive.
             </p>
 
             <p

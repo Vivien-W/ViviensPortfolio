@@ -32,11 +32,11 @@ export const About = () => {
   ];
 
   const softSkills = [
-    "Strukturierte Arbeitsweise",
-    "Kreative Problemlösung",
-    "Erfahrung in agiler Zusammenarbeit",
+    "Strukturierte und Analytische Arbeitsweise",
+    "Lösungsorientiertes Denken",
+    "Teamgeist",
     "Kommunikationsstärke",
-    "Hohe Eigeninitiative",
+    "Eigeninitiative",
   ];
 
   const [showSources, setShowSources] = useState(false);
@@ -74,17 +74,15 @@ export const About = () => {
               <p className="text-gray-600">
                 Hi, ich bin{" "}
                 <span className="font-semibold">Vivien Wallbaum</span>,
-                Softwareentwicklerin mit einem M.A. in Informationsmanagement.
-                Mein Fokus liegt auf moderner{" "}
+                Softwareentwicklerin mit einem M.A. in Informationsmanagement. .
+                Ich verbinde technisches Verständnis für datenbankgestützte
+                Anwendungen mit einem strukturierten Blick auf Prozesse und
+                Nutzeranforderungen. Mein Fokus liegt auf der{" "}
                 <span className="font-semibold text-gray-700">
-                  Webentwicklung mit React, JavaScript, TypeScript und
-                  TailwindCSS
-                </span>
-                . Ich kombiniere Leidenschaft für Code mit einem Auge für klare
-                UI/UX und suche ein nettes und agiles Team, das Lust auf frische
-                Impulse und{" "}
-                <span className="font-semibold text-gray-700"></span> Platz für
-                eine strukturierte Junior-Softwareentwicklerin hat.
+                  Konzeption und Umsetzung leistungsfähiger Webanwendungen
+                </span>{" "}
+                – von responsiven, barrierearmen Benutzeroberflächen bis hin zu
+                klar strukturierten APIs und Datenmodellen.
               </p>
             </div>
 
@@ -110,28 +108,29 @@ export const About = () => {
             </div>
 
             <p className="mb-6">
-              Meine Begeisterung fürs Programmieren begann bereits im Studium,
-              als ich meine erste datenbankgestützte Webanwendung mit HTML, CSS,
-              JavaScript und MySQL entwickelte. Seit Anfang 2025 habe ich mein
-              technisches Wissen aufgefrischt und gezielt vertieft – sowohl im
-              Backend-Bereich als auch Frontend-Bereich mit Fokus auf moderne
-              Webentwicklung mit React, TailwindCSS und Typescript/JavaScript.
-              Heute entwickle ich Fullstack-Lösungen im{" "}
+              Meine Begeisterung für datenbankgestützte Anwendungen begann
+              bereits im Studium, als ich erste Webanwendungen mit HTML, CSS,
+              JavaScript und MySQL entwickelte. Seit 2025 habe ich mein
+              technisches Wissen systematisch aufgefrischt und vertieft – sowohl
+              im Backend als auch im Frontend mit modernen Technologien wie
+              React, TypeScript/JavaScript und TailwindCSS. Heute konzipiere und
+              entwickle ich Fullstack-Anwendungen im{" "}
               <span className="font-semibold text-gray-700">
                 PERN-Stack (PostgreSQL, Express, React, Node.js)
               </span>
-              . Dabei lege ich großen Wert auf sauberen Code und die Absicherung
-              durch{" "}
+              . Dabei lege ich Wert auf klar strukturierte Datenmodelle,
+              nachvollziehbare API-Architekturen und wartbaren Code, ergänzt
+              durch automatisierte{" "}
               <span className="font-semibold text-gray-700">Unit-Tests</span>{" "}
               (Jest/Vitest).
             </p>
             <p className="mb-20">
-              Nach dem Studium war ich mehrere Jahre in einer leitenden Position
-              im Kinobereich tätig. Nun, nach einer Elternzeit, habe ich mich
-              bewusst für einen beruflichen Neustart entschieden: Ich möchte als
-              Softwareentwicklerin einsteigen, meine Fähigkeiten weiter ausbauen
-              und mich langfristig in einem professionellen Entwicklungsteam
-              etablieren.
+              Nach dem Studium war ich mehrere Jahre in leitender Funktion im
+              Kulturbereich tätig. Diese Zeit hat meine strukturierte
+              Arbeitsweise, Kommunikationsfähigkeit und Organisationskompetenz
+              geprägt. Heute verbinde ich diese Erfahrung mit meiner technischen
+              Qualifikation und meinem analytischen Hintergrund aus dem
+              Informationsmanagement.
             </p>
           </div>
         </div>
@@ -144,24 +143,15 @@ export const About = () => {
               Was ich mitbringe:
             </h3>
             <p className="mb-20">
-              Im Frontend sorge ich mit{" "}
+              Im Frontend achte ich auf performante, responsive Oberflächen und
+              barrierefreie Umsetzung{" "}
+              <span className="font-semibold text-gray-700">(ARIA)</span>. Im
+              Backend stehen für mich{" "}
               <span className="font-semibold text-gray-700">
-                React und TailwindCSS
+                saubere Schnittstellen, konsistente Datenstrukturen und eine
+                verständliche Systemlogik
               </span>{" "}
-              für performante, responsive UIs, wobei{" "}
-              <span className="font-semibold text-gray-700">
-                Barrierefreiheit (ARIA)
-              </span>{" "}
-              für mich kein Extra, sondern Standard ist. Im Backend konzipiere
-              ich effiziente APIs und Datenstrukturen. Durch meine frühere
-              Leitungstätigkeit bringe ich zudem eine{" "}
-              <span className="font-semibold text-gray-700">
-                {" "}
-                strukturierte Arbeitsweise, Teamgeist und Erfahrung mit Tools
-                wie Jira und Confluence
-              </span>{" "}
-              mit – Soft Skills, die besonders in agilen Entwicklungsteams
-              wertvoll sind.{" "}
+              im Mittelpunkt.
             </p>
 
             {/* Skill Grid */}
@@ -499,33 +489,24 @@ export const About = () => {
             </h3>
 
             <p className="mb-6">
-              Mein Ziel ist es, technologische Komplexität in intuitive
+              Mein Ziel ist es, technologische Komplexität in
               <span className="font-semibold text-gray-700">
-                , barrierefreie Softwarelösungen
+                , durchdachte, nachhaltige Software- und Systemlösungen
               </span>
-              zu verwandeln. Durch meine Projekte im PERN-Stack habe ich ein
-              tiefes Verständnis für datengetriebene Anwendungen entwickelt –
-              eine Basis, die ich nun gezielt um neue Frameworks wie{" "}
-              <span className="font-semibold text-gray-700">Vue.js</span>{" "}
-              erweitern möchte.
+              zu verwandeln. In meinen Projekten im PERN-Stack habe ich ein
+              tiefes Verständnis für datengetriebene Anwendungen entwickelt und
+              gelernt, Anforderungen systematisch in tragfähige Architekturen zu
+              übersetzen.
             </p>
 
             <p className="mb-6">
-              Ich suche kein bloßes Ticket-Abarbeiten, sondern eine langfristige
-              Herausforderung, in der Code-Qualität und Nutzerzentrierung an
-              erster Stelle stehen. Dabei bringe ich meine Erfahrung in der
-              Prozesssteuerung und meine analytische Denkweise aus dem
-              Informationsmanagement ein.
-            </p>
-
-            <p className="mb-20">
-              Jetzt bin ich bereit für den nächsten Schritt: Einen beruflichen
-              Neustart in{" "}
+              Ich suche eine qualifizierte{" "}
               <span className="font-semibold text-gray-700">
-                Teilzeit (ca. 30 Std./Woche)
+                Teilzeitposition (20-30 Std./Woche)
               </span>
-              , um gemeinsam mit einem professionellen Team die digitale Zukunft
-              Hamburgs mitzugestalten.
+              , in der ich mein technisches Know-how mit analytischem Denken und
+              Prozessverständnis verbinden und aktiv zur Weiterentwicklung
+              digitaler Strukturen beitragen kann.
             </p>
           </div>
         </div>
