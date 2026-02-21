@@ -491,7 +491,7 @@ export const About = () => {
             <p className="mb-6">
               Mein Ziel ist es, technologische Komplexität in
               <span className="font-semibold text-gray-700">
-                , durchdachte, nachhaltige Software- und Systemlösungen
+                , durchdachte, nachhaltige Software- und Systemlösungen{" "}
               </span>
               zu verwandeln. In meinen Projekten im PERN-Stack habe ich ein
               tiefes Verständnis für datengetriebene Anwendungen entwickelt und
@@ -502,7 +502,7 @@ export const About = () => {
             <p className="mb-6">
               Ich suche eine qualifizierte{" "}
               <span className="font-semibold text-gray-700">
-                Teilzeitposition (20-30 Std./Woche)
+                Teilzeitposition
               </span>
               , in der ich mein technisches Know-how mit analytischem Denken und
               Prozessverständnis verbinden und aktiv zur Weiterentwicklung
