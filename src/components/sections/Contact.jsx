@@ -27,21 +27,18 @@ export const Contact = () => {
             hover:-translate-y-1
           "
         >
-          {/* Titel */}
-
           <img
             src={Kontakt}
             alt="Überschrift Kontakt"
             className="h-12 sm:h-14 mb-12 mx-auto"
           />
 
-          {/* Haupt-CTA */}
           <p
             className="text-center text-pink-600 text-2xl sm:text-3xl font-semibold mb-6 
   bg-white/60 backdrop-blur-md border border-pink-300/30 
   py-3 px-4 rounded-2xl shadow-sm"
           >
-            Ich suche ab <span className="text-pink-500"> sofort </span>
+            Ich suche ab <span className="text-pink-500"> Mai 2026 </span>
             eine neue Herausforderung.
           </p>
 
@@ -72,8 +69,15 @@ export const Contact = () => {
               organisatorischer Perspektive.
             </p>
 
+            <p>
+              Ich suche eine qualifizierte Teilzeitposition, in der ich mein
+              technisches Know-how mit analytischem Denken und
+              Prozessverständnis verbinden und aktiv zur Weiterentwicklung
+              digitaler Strukturen beitragen kann.
+            </p>
+
             <p
-              className="text-center text-pink-600 text-md font-semibold mt-8 
+              className="text-center text-pink-600 text-md font-semibold mt-12 
    bg-white/70 backdrop-blur-md px-3 py-1 rounded-xl shadow-sm tracking-wide"
             >
               Haben Sie eine passende Position? Ich freue mich auf Ihre
