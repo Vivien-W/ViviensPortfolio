@@ -74,15 +74,15 @@ export const About = () => {
               <p className="text-gray-600">
                 Hi, ich bin{" "}
                 <span className="font-semibold">Vivien Wallbaum</span>,
-                Softwareentwicklerin mit einem M.A. in Informationsmanagement. .
+                Softwareentwicklerin mit einem M.A. in Informationsmanagement.
                 Ich verbinde technisches Verständnis für datenbankgestützte
                 Anwendungen mit einem strukturierten Blick auf Prozesse und
                 Nutzeranforderungen. Mein Fokus liegt auf der{" "}
                 <span className="font-semibold text-gray-700">
-                  Konzeption und Umsetzung leistungsfähiger Webanwendungen
+                  Konzeption und Umsetzung moderner Webanwendungen
                 </span>{" "}
-                – von responsiven, barrierearmen Benutzeroberflächen bis hin zu
-                klar strukturierten APIs und Datenmodellen.
+                – von barrierearmen, responsiven Interfaces bis hin zu sauber
+                aufgebauten APIs und Datenmodellen.
               </p>
             </div>
 
@@ -142,16 +142,20 @@ export const About = () => {
             <h3 className="text-4xl sm:text-5xl text-shadow  text-center mt-18 mb-12 text-pink-600 font-dancing">
               Was ich mitbringe:
             </h3>
-            <p className="mb-20">
-              Im Frontend achte ich auf performante, responsive Oberflächen und
-              barrierefreie Umsetzung{" "}
+            <p className="mb-8">
+              Im Frontend lege ich Wert auf performante, responsive Oberflächen
+              und eine barrierearme Umsetzung{" "}
               <span className="font-semibold text-gray-700">(ARIA)</span>. Im
-              Backend stehen für mich{" "}
+              Backend arbeite ich mit{" "}
               <span className="font-semibold text-gray-700">
-                saubere Schnittstellen, konsistente Datenstrukturen und eine
-                verständliche Systemlogik
+                sauberen Schnittstellen, konsistenten Datenstrukturen und einer
+                verständlichen Systemlogik
               </span>{" "}
-              im Mittelpunkt.
+              – und entwickle mein Verständnis dafür kontinuierlich weiter.
+            </p>
+            <p className="mb-20">
+              In folgenden Technologien und Tools verfüge ich über solide
+              Grundkenntnisse und praktische Erfahrung:
             </p>
 
             {/* Skill Grid */}
@@ -494,19 +498,19 @@ export const About = () => {
                 , durchdachte, nachhaltige Software- und Systemlösungen{" "}
               </span>
               zu verwandeln. In meinen Projekten im PERN-Stack habe ich ein
-              tiefes Verständnis für datengetriebene Anwendungen entwickelt und
-              gelernt, Anforderungen systematisch in tragfähige Architekturen zu
-              übersetzen.
+              gutes Verständnis für datengetriebene Anwendungen entwickelt und
+              gelernt, fachliche Anforderungen strukturiert in funktionierende
+              Systemlösungen zu überführen.
             </p>
 
             <p className="mb-6">
-              Ich suche eine qualifizierte{" "}
+              Nun suche ich eine qualifizierte{" "}
               <span className="font-semibold text-gray-700">
                 Teilzeitposition
               </span>
-              , in der ich mein technisches Know-how mit analytischem Denken und
-              Prozessverständnis verbinden und aktiv zur Weiterentwicklung
-              digitaler Strukturen beitragen kann.
+              , in der ich mein technisches Know-how weiter vertiefen,
+              Verantwortung übernehmen und aktiv zur Entwicklung
+              nutzerorientierter, zukunftsfähiger Anwendungen beitragen kann.
             </p>
           </div>
         </div>

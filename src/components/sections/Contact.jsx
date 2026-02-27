@@ -55,25 +55,25 @@ export const Contact = () => {
                 M.A. in Informationsmanagement
               </span>{" "}
               verbinde ich analytisches Denken mit praktischer Erfahrung in der
-              Entwicklung datenbankgestützter Webanwendungen. In meinen
-              Projekten liegt der Schwerpunkt auf der strukturierten Umsetzung
-              fachlicher Anforderungen – von klar modellierten Datenstrukturen
-              und APIs bis hin zu nutzerfreundlichen, barrierearmen Oberflächen.
+              Entwicklung moderner, datenbankgestützter Webanwendungen. In
+              meinen Projekten lege ich Wert auf eine strukturierte Umsetzung
+              fachlicher Anforderungen – von klar aufgebauten APIs und
+              Datenmodellen bis hin zu nutzerfreundlichen, barrierearmen
+              Interfaces.
             </p>
 
             <p>
-              Besonders wichtig ist mir, technische Lösungen nachvollziehbar
-              aufzubauen und komplexe Zusammenhänge verständlich abzubilden.
-              Dabei arbeite ich strukturiert, dokumentiere sauber und denke
-              Systeme ganzheitlich – sowohl aus technischer als auch aus
-              organisatorischer Perspektive.
+              Besonders wichtig ist mir, technische Lösungen verständlich,
+              nachhaltig und transparent zu gestalten. Ich arbeite strukturiert,
+              dokumentiere sorgfältig und entwickle mich fachlich kontinuierlich
+              weiter.
             </p>
 
             <p>
-              Ich suche eine qualifizierte Teilzeitposition, in der ich mein
-              technisches Know-how mit analytischem Denken und
-              Prozessverständnis verbinden und aktiv zur Weiterentwicklung
-              digitaler Strukturen beitragen kann.
+              Aktuell suche ich eine qualifizierte Teilzeitposition, in der ich
+              mein Know-how vertiefen, Verantwortung übernehmen und aktiv zur
+              Entwicklung moderner, nutzerorientierter Anwendungen beitragen
+              kann.
             </p>
 
             <p
