@@ -10,7 +10,6 @@ export const About = () => {
     "TypeScript",
     "JavaScript (ES6+)",
     "TailwindCSS",
-    "Recharts (Data Viz)",
     "HTML5 & CSS3",
     "Accessibility (ARIA)",
     "Responsive Design",
@@ -20,7 +19,6 @@ export const About = () => {
     "Express.js",
     "PostgreSQL / SQL",
     "REST APIs",
-    "Python",
     "Jest / Vitest",
   ];
   const softwareSkills = [
@@ -111,25 +109,25 @@ export const About = () => {
               Meine Begeisterung für datenbankgestützte Anwendungen begann
               bereits im Studium, als ich erste Webanwendungen mit HTML, CSS,
               JavaScript und MySQL entwickelte. Seit 2025 habe ich mein
-              technisches Wissen systematisch aufgefrischt und vertieft – sowohl
-              im Backend als auch im Frontend mit modernen Technologien wie
-              React, TypeScript/JavaScript und TailwindCSS. Heute konzipiere und
-              entwickle ich Fullstack-Anwendungen im{" "}
+              technisches Wissen gezielt aufgefrischt und weiter ausgebaut –
+              sowohl im Backend als auch im Frontend mit modernen Technologien
+              wie React, TypeScript/JavaScript und TailwindCSS. Heute entwickle
+              ich Fullstack-Anwendungen im{" "}
               <span className="font-semibold text-gray-700">
                 PERN-Stack (PostgreSQL, Express, React, Node.js)
               </span>
               . Dabei lege ich Wert auf klar strukturierte Datenmodelle,
-              nachvollziehbare API-Architekturen und wartbaren Code, ergänzt
-              durch automatisierte{" "}
+              verständlich aufgebaute APIs und gut wartbaren Code, ergänzt durch
+              automatisierte{" "}
               <span className="font-semibold text-gray-700">Unit-Tests</span>{" "}
               (Jest/Vitest).
             </p>
             <p className="mb-20">
               Nach dem Studium war ich mehrere Jahre in leitender Funktion im
               Kulturbereich tätig. Diese Zeit hat meine strukturierte
-              Arbeitsweise, Kommunikationsfähigkeit und Organisationskompetenz
+              Arbeitsweise, Kommunikationsstärke und Organisationsfähigkeit
               geprägt. Heute verbinde ich diese Erfahrung mit meiner technischen
-              Qualifikation und meinem analytischen Hintergrund aus dem
+              Qualifikation und meinem analytischen Hintergrund im
               Informationsmanagement.
             </p>
           </div>
@@ -275,7 +273,10 @@ export const About = () => {
 
             <p className="mt-20  ">
               Meine Lernbereitschaft unterstützt mich dabei, mich zügig in neue
-              Technologien einzuarbeiten und mein Know-how stetig zu erweitern.
+              Technologien einzuarbeiten und mein Know-how stetig zu
+              erweitern.Zusätzlich hatte ich im Rahmen einzelner Projekte
+              bereits Berührungspunkte mit Python und Flask sowie mit Recharts
+              für Datenvisualisierung.
             </p>
 
             {/* Lernquellen */}
