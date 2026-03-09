@@ -38,13 +38,14 @@ export const Contact = () => {
   bg-white/60 backdrop-blur-md border border-pink-300/30 
   py-3 px-4 rounded-2xl shadow-sm"
           >
-            Ich suche ab <span className="text-pink-500"> Mai 2026 </span>
+            Ich suche ab <span className="text-pink-500"> Sommer 2026 </span>
             eine neue Herausforderung.
           </p>
 
           <p className="text-center text-white/90 text-lg sm:text-xl mb-12 leading-relaxed">
-            Webentwicklung&nbsp;|&nbsp;Fullstack&nbsp;|&nbsp;Digitale
-            Anwendungen – in <strong>Hamburg</strong> oder Remote.
+            Digitalisierung&nbsp;|&nbsp;Product
+            Owner&nbsp;|&nbsp;IT-Projektarbeit – in <strong>Hamburg</strong>{" "}
+            oder Remote.
           </p>
 
           {/* Textabschnitt */}
@@ -54,26 +55,27 @@ export const Contact = () => {
               <span className="font-semibold text-white">
                 M.A. in Informationsmanagement
               </span>{" "}
-              verbinde ich analytisches Denken mit praktischer Erfahrung in der
-              Entwicklung moderner, datenbankgestützter Webanwendungen. In
-              meinen Projekten lege ich Wert auf eine strukturierte Umsetzung
-              fachlicher Anforderungen – von klar aufgebauten APIs und
-              Datenmodellen bis hin zu nutzerfreundlichen, barrierearmen
-              Interfaces.
+              beschäftige ich mich mit der Frage, wie fachliche Anforderungen in
+              nutzerfreundliche digitale Lösungen übersetzt werden können. Mein
+              Schwerpunkt liegt auf der Analyse und Strukturierung von
+              Prozessen, der Gestaltung verständlicher Nutzeroberflächen sowie
+              der Zusammenarbeit zwischen Fachbereichen und IT.
             </p>
 
             <p>
-              Besonders wichtig ist mir, technische Lösungen verständlich,
-              nachhaltig und transparent zu gestalten. Ich arbeite strukturiert,
-              dokumentiere sorgfältig und entwickle mich fachlich kontinuierlich
-              weiter.
+              In meinen Projekten verbinde ich konzeptionelle Arbeit mit
+              technischem Verständnis aus der Webentwicklung. Dadurch kann ich
+              Anforderungen nicht nur fachlich strukturieren, sondern auch die
+              technische Umsetzung nachvollziehen und begleiten. Besonders
+              wichtig ist mir, digitale Lösungen verständlich, nachhaltig und
+              nutzerorientiert zu gestalten.
             </p>
 
             <p>
-              Aktuell suche ich eine qualifizierte Teilzeitposition, in der ich
-              mein Know-how vertiefen, Verantwortung übernehmen und aktiv zur
-              Entwicklung moderner, nutzerorientierter Anwendungen beitragen
-              kann.
+              Aktuell suche ich eine Teilzeitposition im Bereich
+              Digitalisierung, IT-Projektarbeit oder Product Ownership, in der
+              ich zur Weiterentwicklung moderner Verwaltungs- oder Fachverfahren
+              beitragen kann.
             </p>
 
             <p

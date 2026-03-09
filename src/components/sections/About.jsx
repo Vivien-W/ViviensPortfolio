@@ -72,15 +72,15 @@ export const About = () => {
               <p className="text-gray-600">
                 Hi, ich bin{" "}
                 <span className="font-semibold">Vivien Wallbaum</span>,
-                Softwareentwicklerin mit einem M.A. in Informationsmanagement.
-                Ich verbinde technisches Verständnis für datenbankgestützte
-                Anwendungen mit einem strukturierten Blick auf Prozesse und
-                Nutzeranforderungen. Mein Fokus liegt auf der{" "}
+                Absolventin im Bereich Informationsmanagement mit Schwerpunkt IT
+                und Usability. Ich verbinde technisches Verständnis für
+                datenbankgestützte Anwendungen mit einem strukturierten Blick
+                auf Prozesse und Nutzeranforderungen. Mein Fokus liegt auf der{" "}
                 <span className="font-semibold text-gray-700">
-                  Konzeption und Umsetzung moderner Webanwendungen
+                  Analyse und Umsetzung digitaler Lösungen
                 </span>{" "}
-                – von barrierearmen, responsiven Interfaces bis hin zu sauber
-                aufgebauten APIs und Datenmodellen.
+                – von barrierearmen Interfaces bis hin zu effizienten
+                Datenstrukturen.
               </p>
             </div>
 
@@ -496,12 +496,13 @@ export const About = () => {
             <p className="mb-6">
               Mein Ziel ist es, technologische Komplexität in
               <span className="font-semibold text-gray-700">
-                , durchdachte, nachhaltige Software- und Systemlösungen{" "}
-              </span>
-              zu verwandeln. In meinen Projekten im PERN-Stack habe ich ein
+                , durchdachte, nachhaltige und nutzerfreundliche Software- und
+                Systemlösungen{" "}
+              </span>{" "}
+              zu verwandeln. Durch meine Projekte im PERN-Stack habe ich ein
               gutes Verständnis für datengetriebene Anwendungen entwickelt und
               gelernt, fachliche Anforderungen strukturiert in funktionierende
-              Systemlösungen zu überführen.
+              Systeme zu überführen.
             </p>
 
             <p className="mb-6">
@@ -509,9 +510,9 @@ export const About = () => {
               <span className="font-semibold text-gray-700">
                 Teilzeitposition
               </span>
-              , in der ich mein technisches Know-how weiter vertiefen,
-              Verantwortung übernehmen und aktiv zur Entwicklung
-              nutzerorientierter, zukunftsfähiger Anwendungen beitragen kann.
+              , in der ich mein technisches Know-how gezielt einbringen,
+              Verantwortung übernehmen und aktiv die Weiterentwicklung digitaler
+              Prozesse und Anwendungen vorantreiben kann.
             </p>
           </div>
         </div>
