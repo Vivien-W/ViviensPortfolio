@@ -494,25 +494,25 @@ export const About = () => {
             </h3>
 
             <p className="mb-6">
-              Mein Ziel ist es, technologische Komplexität in
+              Meine Vision:{" "}
               <span className="font-semibold text-gray-700">
-                , durchdachte, nachhaltige und nutzerfreundliche Software- und
-                Systemlösungen{" "}
+                Digitale Prozesse mit Struktur gestalten.{" "}
               </span>{" "}
-              zu verwandeln. Durch meine Projekte im PERN-Stack habe ich ein
-              gutes Verständnis für datengetriebene Anwendungen entwickelt und
-              gelernt, fachliche Anforderungen strukturiert in funktionierende
-              Systeme zu überführen.
+              Durch meine Projekte in der Webentwicklung habe ich gelernt, wie
+              datengetriebene Anwendungen unter der Haube funktionieren. Dieses
+              Wissen nutze ich heute, um technologische Komplexität in
+              durchdachte Strategien zu verwandeln. Mein Ziel ist es, die
+              Digitalisierung aktiv mitzugestalten – sei es durch präzise
+              Anforderungsanalysen, die Strukturierung von IT-Projekten oder die
+              Rolle als Product Owner. Ich verstehe beide Seiten: Die Sprache
+              der Fachbereiche und die Logik der Entwicklung.
             </p>
 
             <p className="mb-6">
-              Nun suche ich eine qualifizierte{" "}
-              <span className="font-semibold text-gray-700">
-                Teilzeitposition
-              </span>
-              , in der ich mein technisches Know-how gezielt einbringen,
-              Verantwortung übernehmen und aktiv die Weiterentwicklung digitaler
-              Prozesse und Anwendungen vorantreiben kann.
+              Nun suche ich eine qualifizierte Teilzeitposition (ca 30h), in der
+              ich mein technisches Know-how gezielt einbringen, Verantwortung
+              übernehmen und aktiv die Weiterentwicklung digitaler Prozesse und
+              Anwendungen vorantreiben kann.
             </p>
           </div>
         </div>
