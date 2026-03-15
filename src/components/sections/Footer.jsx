@@ -1,4 +1,5 @@
 import Koralle from "../../assets/images/Koralle.png";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -14,20 +15,23 @@ export const Footer = () => {
           KI-generiert, mein Profilbild ist echt (Fotografin: Jana Nemitz).
         </p>
 
-        <div className="flex justify-center gap-4 mt-4 text-cyan-700">
+        <div className="flex justify-center gap-4 mt-4 text-cyan-700 text-sm">
           <a
             href="mailto:vivienwbaum@gmail.com"
             className="hover:underline hover:text-cyan-800 transition"
           >
             E-Mail
           </a>
-          <img src={Koralle} alt="Icon einer pinken Koralle" className="h-8 " />
+
           <a
             href="#projekte"
             className="hover:underline hover:text-cyan-800 transition"
           >
             Projekte
           </a>
+          <img src={Koralle} alt="Icon einer pinken Koralle" className="h-8 " />
+          <Link to="/impressum">Impressum</Link>
+          <Link to="/datenschutz">Datenschutz</Link>
         </div>
       </div>
     </footer>
