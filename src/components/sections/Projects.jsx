@@ -24,9 +24,9 @@ export const Projects = () => {
           {/* KI-Kosten-Dashboard */}
           <ProjectCard
             media={
-              <img
-                src={ScreenshotDashboard}
-                alt="Screenshot vom Dashboard"
+              <video
+                src={`${import.meta.env.BASE_URL}videos/Ki-Dashboard.mp4`}
+                controls
                 className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20"
               />
             }
@@ -44,15 +44,14 @@ export const Projects = () => {
               "TailwindCSS",
             ]}
             link="https://github.com/Vivien-W/KI-Kosten-Dashboard"
-            liveDemo="https://ki-kosten-dashboard.vercel.app/"
           />
 
           {/* To-Do-App */}
           <ProjectCard
             media={
-              <img
-                src={ScreenshotLeaflist}
-                alt="Screenshot von der To-Do-App"
+              <video
+                src={`${import.meta.env.BASE_URL}videos/Leaflist-App.mp4`}
+                controls
                 className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20"
               />
             }
@@ -70,7 +69,6 @@ export const Projects = () => {
               "Jest/Vitest",
             ]}
             link="https://github.com/Vivien-W/Fullstack-To-Do-App"
-            liveDemo="https://fullstack-to-do-app-rho.vercel.app/"
           />
 
           {/* Portfolio */}
@@ -101,7 +99,6 @@ export const Projects = () => {
             description="BibliAmour ist eine interaktive Single-Page-Anwendung, die Nutzer*innen ermöglicht, Bücher über eine API zu entdecken und zu verwalten. Die App bietet Funktionen wie Favoriten speichern, Gelesenes markieren und eine intuitive Buchsuche. Durch den Einsatz von React Router DOM können unterschiedliche Views nahtlos innerhalb der SPA navigiert werden, während State-Management sicherstellt, dass Benutzerinteraktionen und Daten konsistent bleiben. Besonderer Fokus liegt auf Usability, responsivem Design und einer übersichtlichen, modernen Benutzeroberfläche."
             tech={["React", "CSS3", "Node.js", "React Router DOM", "API"]}
             link="https://github.com/Vivien-W/Buecher-App"
-            liveDemo="https://vivien-w.github.io/Buecher-App/"
           />
 
           {/* Wetter-App */}
@@ -117,7 +114,6 @@ export const Projects = () => {
             description="Interaktive Wetter-App, die aktuelle Wetterdaten für jeden Standort über die Open-Meteo API abruft. Die App zeigt übersichtlich Temperatur, Windgeschwindigkeit und Luftfeuchtigkeit an. Besonderes Augenmerk lag auf einem cleanen, modernen UI und einer vollständig responsiven Gestaltung für Desktop- und Mobilgeräte. Das Projekt demonstriert den Umgang mit API-Integration, State-Management und dynamischem Rendering in React."
             tech={["React", "Node.js", "Javascript", "CSS3", "API"]}
             link="https://github.com/Vivien-W/Wetter-App"
-            liveDemo="https://vivien-w.github.io/Wetter-App/"
           />
 
           {/* Sales Dashboard */}
@@ -133,7 +129,6 @@ export const Projects = () => {
             description="Modernes Sales-Dashboard zur Datenvisualisierung und Kundenverwaltung. Das Dashboard bietet interaktive Diagramme, Dark Mode-Support und anpassbare Einstellungen, um schnelle Insights für Geschäftsdaten zu ermöglichen. Besonderer Fokus liegt auf reaktiver Darstellung, intuitivem UI/UX und nahtloser API-Integration für dynamische Datenaktualisierung. Das Projekt demonstriert die Umsetzung von State-Management, komponentenbasiertem Aufbau und responsive Design mit TailwindCSS."
             tech={["React", "Javascript", "TailwindCSS", "API"]}
             link="https://github.com/Vivien-W/Sales-Dashboard"
-            liveDemo="https://vivien-w.github.io/Sales-Dashboard/"
           />
 
           {/* Festival Website */}
