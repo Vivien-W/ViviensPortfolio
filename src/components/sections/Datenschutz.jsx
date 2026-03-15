@@ -12,16 +12,38 @@ export default function Datenschutz() {
             Verantwortlich für die Datenverarbeitung auf dieser Website ist:
           </p>
           <p className="mt-2">
-            Vivien Wallbaum
+            <span
+              style={{
+                unicodeBidi: "bidi-override",
+                direction: "rtl",
+                textAlign: "left",
+              }}
+            >
+              muabllaW neiviV
+            </span>
             <br />
-            Hofweide 28
+            <span
+              style={{
+                unicodeBidi: "bidi-override",
+                direction: "rtl",
+                textAlign: "left",
+              }}
+            >
+              82 ediewfoH
+            </span>
             <br />
             21031 Hamburg
             <br />
             E-Mail:{" "}
-            <a href="vivienwbaum@gmail.com" className="underline text-blue-600">
-              vivienwbaum@gmail.com
-            </a>
+            <span
+              style={{
+                unicodeBidi: "bidi-override",
+                direction: "rtl",
+                textAlign: "left",
+              }}
+            >
+              moc.liamg@muabw.neiviv
+            </span>
           </p>
         </section>
 

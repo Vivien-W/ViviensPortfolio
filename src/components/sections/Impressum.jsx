@@ -7,9 +7,25 @@ export default function Impressum() {
         <section>
           <h2 className="font-semibold text-sm mb-2">Angaben gemäß § 5 DDG</h2>
           <p>
-            Vivien Wallbaum
+            <span
+              style={{
+                unicodeBidi: "bidi-override",
+                direction: "rtl",
+                textAlign: "left",
+              }}
+            >
+              muabllaW neiviV
+            </span>
             <br />
-            Hofweide 28
+            <span
+              style={{
+                unicodeBidi: "bidi-override",
+                direction: "rtl",
+                textAlign: "left",
+              }}
+            >
+              82 ediewfoH
+            </span>
             <br />
             21031 Hamburg
             <br />
@@ -21,12 +37,15 @@ export default function Impressum() {
           <h2 className="font-semibold text-sm mb-2">Kontakt</h2>
           <p>
             E-Mail:{" "}
-            <a
-              href="mailto:vivienwbaum@gmail.com"
-              className="text-blue-600 underline"
+            <span
+              style={{
+                unicodeBidi: "bidi-override",
+                direction: "rtl",
+                textAlign: "left",
+              }}
             >
-              vivienwbaum@gmail.com
-            </a>
+              moc.liamg@muabw.neiviv
+            </span>
           </p>
         </section>
 
@@ -35,7 +54,15 @@ export default function Impressum() {
             Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
           </h2>
           <p>
-            Vivien Wallbaum
+            <span
+              style={{
+                unicodeBidi: "bidi-override",
+                direction: "rtl",
+                textAlign: "left",
+              }}
+            >
+              muabllaW neiviV
+            </span>
             <br />
             Adresse wie oben
           </p>
