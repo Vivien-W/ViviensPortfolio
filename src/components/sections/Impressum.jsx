@@ -44,7 +44,7 @@ export default function Impressum() {
                 textAlign: "left",
               }}
             >
-              moc.liamg@muabw.neiviv
+              moc.liamg@muabwneiviv
             </span>
           </p>
         </section>

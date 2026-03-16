@@ -42,7 +42,7 @@ export default function Datenschutz() {
                 textAlign: "left",
               }}
             >
-              moc.liamg@muabw.neiviv
+              moc.liamg@muabwneiviv
             </span>
           </p>
         </section>
