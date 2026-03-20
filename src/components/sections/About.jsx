@@ -30,9 +30,9 @@ export const About = () => {
   ];
 
   const softSkills = [
-    "Strukturierte und Analytische Arbeitsweise",
+    "Strukturierte und analytische Arbeitsweise",
+    "Schnittstellenkompetenz",
     "Lösungsorientiertes Denken",
-    "Teamgeist",
     "Kommunikationsstärke",
     "Eigeninitiative",
   ];
@@ -75,11 +75,13 @@ export const About = () => {
                 Absolventin im Bereich Informationsmanagement mit Schwerpunkt IT
                 und Usability. Ich verbinde technisches Verständnis für
                 datenbankgestützte Anwendungen mit einem strukturierten Blick
-                auf Prozesse und Nutzeranforderungen. Mein Fokus liegt auf der{" "}
+                auf Prozesse und Nutzeranforderungen. Mein Fokus liegt darauf,
+                fachliche Anforderungen zu{" "}
                 <span className="font-semibold text-gray-700">
-                  Analyse und Umsetzung digitaler Lösungen
-                </span>{" "}
-                – von barrierearmen Interfaces bis hin zu effizienten
+                  analysieren, verständlich zu strukturieren und in digitale
+                  Lösungen zu übersetzen{" "}
+                </span>
+                – von barrierearmen Interfaces bis hin zu klar aufgebauten
                 Datenstrukturen.
               </p>
             </div>
@@ -100,7 +102,8 @@ export const About = () => {
                   – HAW Hamburg (2013–2017)
                 </li>
                 <li>
-                  Fokus: IT-Grundlagen, Datenbanktechnologie, Usability & UX
+                  Fokus: IT-Grundlagen, Datenbanktechnologie, Usability & UX,
+                  Informationssysteme und Projektarbeit
                 </li>
               </ul>
             </div>
@@ -112,23 +115,27 @@ export const About = () => {
               technisches Wissen gezielt aufgefrischt und weiter ausgebaut –
               sowohl im Backend als auch im Frontend mit modernen Technologien
               wie React, TypeScript/JavaScript und TailwindCSS. Heute entwickle
-              ich Fullstack-Anwendungen im{" "}
+              ich Anwendungen im{" "}
               <span className="font-semibold text-gray-700">
                 PERN-Stack (PostgreSQL, Express, React, Node.js)
               </span>
-              . Dabei lege ich Wert auf klar strukturierte Datenmodelle,
-              verständlich aufgebaute APIs und gut wartbaren Code, ergänzt durch
-              automatisierte{" "}
-              <span className="font-semibold text-gray-700">Unit-Tests</span>{" "}
-              (Jest/Vitest).
+              und habe dadurch ein fundiertes Verständnis für Datenstrukturen,
+              Schnittstellen und Anwendungslogiken aufgebaut. Dabei lege ich
+              Wert auf klar strukturierte Datenmodelle, verständlich aufgebaute
+              APIs und gut wartbaren Code.
             </p>
             <p className="mb-20">
-              Nach dem Studium war ich mehrere Jahre in leitender Funktion im
-              Kulturbereich tätig. Diese Zeit hat meine strukturierte
-              Arbeitsweise, Kommunikationsstärke und Organisationsfähigkeit
-              geprägt. Heute verbinde ich diese Erfahrung mit meiner technischen
-              Qualifikation und meinem analytischen Hintergrund im
-              Informationsmanagement.
+              Nach meinem Studium war ich mehrere Jahre im Kulturbereich tätig
+              und habe dort Abläufe organisiert, strukturiert und
+              weiterentwickelt. In dieser Zeit wurde mir zunehmend bewusst, wie
+              wichtig gut funktionierende digitale Systeme für effiziente
+              Prozesse sind. Daher habe ich meine technischen Kenntnisse gezielt
+              ausgebaut und mich intensiv mit Webentwicklung und
+              datenbankgestützten Anwendungen beschäftigt. Heute verbinde ich
+              meine Erfahrung aus der Praxis mit technischem Verständnis und
+              kann Anforderungen strukturiert erfassen, verständlich aufbereiten
+              und sowohl aus fachlicher als auch aus technischer Perspektive
+              betrachten.
             </p>
           </div>
         </div>
@@ -141,19 +148,17 @@ export const About = () => {
               Was ich mitbringe:
             </h3>
             <p className="mb-8">
-              Im Frontend lege ich Wert auf performante, responsive Oberflächen
-              und eine barrierearme Umsetzung{" "}
-              <span className="font-semibold text-gray-700">(ARIA)</span>. Im
-              Backend arbeite ich mit{" "}
-              <span className="font-semibold text-gray-700">
-                sauberen Schnittstellen, konsistenten Datenstrukturen und einer
-                verständlichen Systemlogik
-              </span>{" "}
-              – und entwickle mein Verständnis dafür kontinuierlich weiter.
+              Ich arbeite sowohl im Frontend als auch im Backend und habe
+              dadurch ein gutes Verständnis für den Aufbau und die
+              Funktionsweise digitaler Anwendungen. Dabei lege ich Wert auf
+              performante, responsive Oberflächen sowie auf klar strukturierte
+              Datenmodelle, verständliche Schnittstellen und eine
+              nachvollziehbare Systemlogik. Aspekte wie Barrierefreiheit (ARIA)
+              und Nutzerfreundlichkeit beziehe ich dabei bewusst mit ein.
             </p>
             <p className="mb-20">
-              In folgenden Technologien und Tools verfüge ich über solide
-              Grundkenntnisse und praktische Erfahrung:
+              In folgenden Technologien und Tools verfüge ich über praktische
+              Erfahrung und ein solides Grundverständnis:
             </p>
 
             {/* Skill Grid */}
@@ -190,7 +195,7 @@ export const About = () => {
               <SlideInWhenVisible delay={300}>
                 <div>
                   <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
-                    Backend & Testing
+                    Backend & Datenverarbeitung
                   </h4>
                   <div className="flex flex-wrap gap-3">
                     {backendSkills.map((skill, i) => (
@@ -218,7 +223,7 @@ export const About = () => {
               <SlideInWhenVisible delay={400}>
                 <div className="md:col-span-2">
                   <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
-                    Tools & Workflow
+                    Tools & Zusammenarbeit
                   </h4>
                   <div className="flex flex-wrap gap-3">
                     {softwareSkills.map((skill, i) => (
@@ -271,12 +276,11 @@ export const About = () => {
               </SlideInWhenVisible>
             </div>
 
-            <p className="mt-20  ">
-              Meine Lernbereitschaft unterstützt mich dabei, mich zügig in neue
-              Technologien einzuarbeiten und mein Know-how stetig zu
-              erweitern.Zusätzlich hatte ich im Rahmen einzelner Projekte
-              bereits Berührungspunkte mit Python und Flask sowie mit Recharts
-              für Datenvisualisierung.
+            <p className="mt-20">
+              Ich arbeite mich schnell in neue Technologien und Systeme ein und
+              entwickle mein Wissen kontinuierlich weiter. Im Rahmen einzelner
+              Projekte habe ich zudem erste Erfahrungen mit Python und Flask
+              sowie mit Datenvisualisierung (Recharts) gesammelt.
             </p>
 
             {/* Lernquellen */}
@@ -494,25 +498,25 @@ export const About = () => {
             </h3>
 
             <p className="mb-6">
-              Meine Vision:{" "}
-              <span className="font-semibold text-gray-700">
-                Digitale Prozesse mit Struktur gestalten.{" "}
-              </span>{" "}
-              Durch meine Projekte in der Webentwicklung habe ich gelernt, wie
-              datengetriebene Anwendungen unter der Haube funktionieren. Dieses
-              Wissen nutze ich heute, um technologische Komplexität in
-              durchdachte Strategien zu verwandeln. Mein Ziel ist es, die
-              Digitalisierung aktiv mitzugestalten – sei es durch präzise
-              Anforderungsanalysen, die Strukturierung von IT-Projekten oder die
-              Rolle als Product Owner. Ich verstehe beide Seiten: Die Sprache
-              der Fachbereiche und die Logik der Entwicklung.
+              Mein Ziel ist es, an der Gestaltung und Weiterentwicklung
+              digitaler Anwendungen und Prozesse mitzuwirken. Durch meine
+              Projekte in der Webentwicklung habe ich ein gutes Verständnis
+              dafür entwickelt, wie datenbasierte Anwendungen aufgebaut sind und
+              funktionieren.
+            </p>
+            <p className="mb-6">
+              Dieses Wissen verbinde ich mit meinem Hintergrund im
+              Informationsmanagement, um Anforderungen strukturiert zu erfassen,
+              verständlich aufzubereiten und in digitale Lösungen zu überführen.
+              Ich möchte insbesondere dort arbeiten, wo fachliche Anforderungen
+              und technische Umsetzung zusammenkommen – beispielsweise im
+              Kontext von Verwaltung oder digitalen Fachverfahren.
             </p>
 
             <p className="mb-6">
-              Nun suche ich eine qualifizierte Teilzeitposition (ca 30h), in der
-              ich mein technisches Know-how gezielt einbringen, Verantwortung
-              übernehmen und aktiv die Weiterentwicklung digitaler Prozesse und
-              Anwendungen vorantreiben kann.
+              Aktuell suche ich eine qualifizierte Teilzeitposition (ca. 30
+              Stunden), in der ich meine Kenntnisse einbringen und
+              weiterentwickeln kann.
             </p>
           </div>
         </div>
