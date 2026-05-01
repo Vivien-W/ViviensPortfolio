@@ -42,20 +42,15 @@ export const Contact = () => {
           </p>
 
           <p className="text-center text-white/90 text-lg sm:text-xl mb-12 leading-relaxed">
-            Digitalisierung&nbsp;|&nbsp;IT-Anwendungen&nbsp;|&nbsp;Projektarbeit
-            – in <strong>Hamburg</strong> oder Remote.
+            Digitalisierung&nbsp;|&nbsp;Organisation&nbsp;|&nbsp;Projektarbeit
           </p>
 
           {/* Textabschnitt */}
           <div className="text-white/90 text-sm sm:text-base leading-relaxed space-y-6 mb-10">
             <p>
-              Ab{" "}
-              <span className="font-semibold text-white text-lg">
-                Sommer 2026
-              </span>{" "}
-              suche ich eine Position an der Schnittstelle von Fachbereich und
-              IT. Mein Fokus liegt auf der Analyse, Strukturierung und
-              Weiterentwicklung digitaler Anwendungen und Prozesse.
+              Ich interessiere mich für Tätigkeiten an der Schnittstelle von
+              Fachbereich und digitalen Anwendungen – insbesondere im Umfeld von
+              Verwaltung oder Hochschulen.
             </p>
 
             <div className="space-y-3">
@@ -93,21 +88,9 @@ export const Contact = () => {
             </div>
 
             <p>
-              <span className="font-semibold text-white underline decoration-pink-500/50 underline-offset-4">
-                Mein Ziel:
-              </span>{" "}
-              Ich suche eine Teilzeitposition (ca. 30 Stunden), in der ich an
-              der Weiterentwicklung digitaler Anwendungen oder Fachverfahren
-              mitwirken kann – insbesondere im Umfeld von Verwaltung oder
-              organisationellen Strukturen.
-            </p>
-
-            <p
-              className="text-center text-pink-700 text-md font-bold mt-12 
-    bg-white/80 backdrop-blur-md px-4 py-2 rounded-xl shadow-lg tracking-wide uppercase italic"
-            >
-              Haben Sie eine passende Position? Ich freue mich über Ihre
-              Nachricht.
+              Ich suche eine Teilzeitposition (20 – 30 Wochenstunden), in der
+              ich an der Weiterentwicklung digitaler Prozesse und Anwendungen
+              mitwirken kann.
             </p>
           </div>
 

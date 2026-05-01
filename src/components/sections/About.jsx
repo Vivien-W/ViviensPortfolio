@@ -9,7 +9,7 @@ export const About = () => {
     "React",
     "TypeScript",
     "JavaScript (ES6+)",
-    "TailwindCSS",
+    "UI/UX (Basics)",
     "HTML5 & CSS3",
     "Accessibility (ARIA)",
     "Responsive Design",
@@ -19,7 +19,7 @@ export const About = () => {
     "Express.js",
     "PostgreSQL / SQL",
     "REST APIs",
-    "Jest / Vitest",
+    "Datenstrukturen",
   ];
   const softwareSkills = [
     "GitHub",
@@ -30,11 +30,12 @@ export const About = () => {
   ];
 
   const softSkills = [
-    "Strukturierte und analytische Arbeitsweise",
+    "Strukturierte Arbeitsweise",
+    "Serviceorientierung",
     "Schnittstellenkompetenz",
-    "Lösungsorientiertes Denken",
     "Kommunikationsstärke",
-    "Eigeninitiative",
+    "Hohe Eigeninitiative",
+    "Strukturierte Denkweise",
   ];
 
   const [showSources, setShowSources] = useState(false);
@@ -70,19 +71,15 @@ export const About = () => {
 
               {/* Text */}
               <p className="text-gray-600">
-                Hi, ich bin{" "}
+                Moin, ich bin{" "}
                 <span className="font-semibold">Vivien Wallbaum</span>,
                 Absolventin im Bereich Informationsmanagement mit Schwerpunkt IT
-                und Usability. Ich verbinde technisches Verständnis für
-                datenbankgestützte Anwendungen mit einem strukturierten Blick
-                auf Prozesse und Nutzeranforderungen. Mein Fokus liegt darauf,
-                fachliche Anforderungen zu{" "}
-                <span className="font-semibold text-gray-700">
-                  analysieren, verständlich zu strukturieren und in digitale
-                  Lösungen zu übersetzen{" "}
-                </span>
-                – von barrierearmen Interfaces bis hin zu klar aufgebauten
-                Datenstrukturen.
+                und Usability. Ich verbinde organisatorische Erfahrung aus dem
+                Kulturbereich mit einem fundierten Verständnis für digitale
+                Systeme. Dabei liegt mein Fokus darauf, Anforderungen klar zu
+                strukturieren, verständlich aufzubereiten und in praktikable
+                Lösungen zu überführen – sowohl im organisatorischen als auch im
+                digitalen Kontext.{" "}
               </p>
             </div>
 
@@ -109,22 +106,6 @@ export const About = () => {
             </div>
 
             <p className="mb-6">
-              Meine Begeisterung für datenbankgestützte Anwendungen begann
-              bereits im Studium, als ich erste Webanwendungen mit HTML, CSS,
-              JavaScript und MySQL entwickelte. Seit 2025 habe ich mein
-              technisches Wissen gezielt aufgefrischt und weiter ausgebaut –
-              sowohl im Backend als auch im Frontend mit modernen Technologien
-              wie React, TypeScript/JavaScript und TailwindCSS. Heute entwickle
-              ich Anwendungen im{" "}
-              <span className="font-semibold text-gray-700">
-                PERN-Stack (PostgreSQL, Express, React, Node.js)
-              </span>
-              und habe dadurch ein fundiertes Verständnis für Datenstrukturen,
-              Schnittstellen und Anwendungslogiken aufgebaut. Dabei lege ich
-              Wert auf klar strukturierte Datenmodelle, verständlich aufgebaute
-              APIs und gut wartbaren Code.
-            </p>
-            <p className="mb-20">
               Nach meinem Studium war ich mehrere Jahre im Kulturbereich tätig
               und habe dort Abläufe organisiert, strukturiert und
               weiterentwickelt. In dieser Zeit wurde mir zunehmend bewusst, wie
@@ -148,17 +129,37 @@ export const About = () => {
               Was ich mitbringe:
             </h3>
             <p className="mb-8">
-              Ich arbeite sowohl im Frontend als auch im Backend und habe
-              dadurch ein gutes Verständnis für den Aufbau und die
-              Funktionsweise digitaler Anwendungen. Dabei lege ich Wert auf
-              performante, responsive Oberflächen sowie auf klar strukturierte
-              Datenmodelle, verständliche Schnittstellen und eine
-              nachvollziehbare Systemlogik. Aspekte wie Barrierefreiheit (ARIA)
-              und Nutzerfreundlichkeit beziehe ich dabei bewusst mit ein.
+              Ich bringe eine{" "}
+              <span className="bg-pink-100/60 px-1 rounded">
+                strukturierte und zuverlässige Arbeitsweise
+              </span>{" "}
+              mit, die ich sowohl in organisatorischen als auch in digitalen
+              Kontexten einsetzen konnte. Durch meine{" "}
+              <span className="bg-pink-100/60 px-1 rounded">
+                Erfahrung in Koordination, Projektunterstützung und
+                administrativen Abläufen
+              </span>{" "}
+              arbeite ich mich schnell in neue Strukturen und Systeme ein und
+              behalte auch in komplexeren Prozessen den Überblick.
+            </p>
+            <p className="mb-8">
+              Ich habe ein{" "}
+              <span className="bg-pink-100/60 px-1 rounded">
+                gutes Verständnis für digitale Anwendungen
+              </span>{" "}
+              und dafür, wie Informationen, Daten und Prozesse zusammenwirken.
+              Dabei ist mir wichtig, fachliche Anforderungen nachvollziehbar zu
+              erfassen und in klar strukturierte, praktikable Lösungen zu
+              überführen.
             </p>
             <p className="mb-20">
-              In folgenden Technologien und Tools verfüge ich über praktische
-              Erfahrung und ein solides Grundverständnis:
+              Besonders achte ich auf{" "}
+              <span className="bg-pink-100/60 px-1 rounded">
+                Verständlichkeit, Nutzerfreundlichkeit und barrierearme
+                Gestaltung.
+              </span>{" "}
+              Diese Aspekte fließen für mich selbstverständlich sowohl in
+              organisatorische Abläufe als auch in digitale Anwendungen ein.
             </p>
 
             {/* Skill Grid */}
@@ -167,7 +168,7 @@ export const About = () => {
               <SlideInWhenVisible delay={200}>
                 <div>
                   <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
-                    Frontend & Design
+                    Digitale Anwendungen
                   </h4>
                   <div className="flex flex-wrap gap-3">
                     {frontendSkills.map((skill, i) => (
@@ -195,7 +196,7 @@ export const About = () => {
               <SlideInWhenVisible delay={300}>
                 <div>
                   <h4 className="text-md font-semibold mb-4 text-gray-800 text-start sm:text-center">
-                    Backend & Datenverarbeitung
+                    Daten & Systemlogik
                   </h4>
                   <div className="flex flex-wrap gap-3">
                     {backendSkills.map((skill, i) => (
@@ -498,24 +499,18 @@ export const About = () => {
             </h3>
 
             <p className="mb-6">
-              Mein Ziel ist es, an der Gestaltung und Weiterentwicklung
-              digitaler Anwendungen und Prozesse mitzuwirken. Durch meine
-              Projekte in der Webentwicklung habe ich ein gutes Verständnis
-              dafür entwickelt, wie datenbasierte Anwendungen aufgebaut sind und
-              funktionieren.
-            </p>
-            <p className="mb-6">
-              Dieses Wissen verbinde ich mit meinem Hintergrund im
-              Informationsmanagement, um Anforderungen strukturiert zu erfassen,
-              verständlich aufzubereiten und in digitale Lösungen zu überführen.
-              Ich möchte insbesondere dort arbeiten, wo fachliche Anforderungen
-              und technische Umsetzung zusammenkommen – beispielsweise im
-              Kontext von Verwaltung oder digitalen Fachverfahren.
+              Ich möchte meine organisatorischen Fähigkeiten und mein digitales
+              Verständnis in einem Umfeld einbringen, in dem strukturierte
+              Prozesse, Kommunikation und digitale Anwendungen zusammenkommen –
+              beispielsweise im Hochschul- oder Verwaltungskontext. Dabei
+              interessiert mich insbesondere die Schnittstelle zwischen
+              fachlichen Anforderungen, organisatorischen Abläufen und digitalen
+              Lösungen.
             </p>
 
             <p className="mb-6">
-              Aktuell suche ich eine qualifizierte Teilzeitposition (ca. 30
-              Stunden), in der ich meine Kenntnisse einbringen und
+              Aktuell suche ich eine qualifizierte Teilzeitposition ( 20 - 30
+              Wochenstunden), in der ich meine Kenntnisse einbringen und
               weiterentwickeln kann.
             </p>
           </div>

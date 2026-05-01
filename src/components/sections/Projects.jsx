@@ -1,8 +1,6 @@
 import MeineProjekte from "../../assets/images/MeineProjekte.png";
 import SlideInWhenVisible from "../../components/SlideInWhenVisible";
 import ScreenshotPortfolio from "../../assets/images/Portfolio.JPG";
-import ScreenshotDashboard from "../../assets/images/KI-Kosten-Dashboard.png";
-import ScreenshotLeaflist from "../../assets/images/LeafList.png";
 
 export const Projects = () => {
   return (
@@ -31,10 +29,10 @@ export const Projects = () => {
               />
             }
             title="KI-Kosten-Dashboard"
-            description="Ein Full-Stack-Dashboard zur Simulation und Analyse von KI-Prompt-Kosten. 
-            Das Projekt bildet typische KI-Workflows nach, berechnet Token-Nutzung, Latenzen und modellabhängige Kosten, 
-            speichert alle Daten in einer PostgreSQL-Datenbank und visualisiert sie in einem interaktiven Dashboard. 
-            Der Fokus liegt auf Kostenlogik, Datenfluss, Backend-API-Design und aussagekräftiger Visualisierung."
+            description="Webbasierte Anwendung zur Analyse und Visualisierung von Kosten und Datenflüssen im Kontext von KI-Anwendungen.
+Das Projekt bildet typische Nutzungsszenarien ab, verarbeitet die entstehenden Daten strukturiert und stellt sie in einem interaktiven Dashboard übersichtlich dar.
+
+Der Fokus lag auf der Nachvollziehbarkeit von Kostenlogik, der Strukturierung von Daten sowie der verständlichen Aufbereitung komplexer Informationen."
             tech={[
               "React",
               "TypeScript",
@@ -56,9 +54,10 @@ export const Projects = () => {
               />
             }
             title="Fullstack-To-Do-App"
-            description="LeafList ist eine moderne, ruhige und bewusst minimalistisch gestaltete To-Do-Webanwendung.
-            Das Projekt wurde als Full-Stack-Portfolio-Projekt entwickelt und legt besonderen Wert auf
-            saubere Architektur, TypeScript-Typisierung, Testbarkeit und ein hochwertiges Nutzererlebnis. Die Anwendung unterstützt Benutzer-Authentifizierung, Todo-Verwaltung (CRUD) und automatisierte Tests."
+            description="Webanwendung zur strukturierten Erfassung und Organisation von Aufgaben.
+Die Anwendung ermöglicht es, Inhalte übersichtlich zu verwalten und individuell anzupassen.
+
+Der Fokus lag auf einer klaren Struktur der Anwendung, einer nachvollziehbaren Datenlogik sowie einer einfachen und intuitiven Nutzerführung. Ergänzend wurden grundlegende Funktionen wie Benutzerverwaltung und automatisierte Tests umgesetzt."
             tech={[
               "React",
               "TypeScript",
@@ -96,7 +95,10 @@ export const Projects = () => {
               />
             }
             title="Bücher-App (BibliAmour)"
-            description="BibliAmour ist eine interaktive Single-Page-Anwendung, die Nutzer*innen ermöglicht, Bücher über eine API zu entdecken und zu verwalten. Die App bietet Funktionen wie Favoriten speichern, Gelesenes markieren und eine intuitive Buchsuche. Durch den Einsatz von React Router DOM können unterschiedliche Views nahtlos innerhalb der SPA navigiert werden, während State-Management sicherstellt, dass Benutzerinteraktionen und Daten konsistent bleiben. Besonderer Fokus liegt auf Usability, responsivem Design und einer übersichtlichen, modernen Benutzeroberfläche."
+            description="Interaktive Webanwendung zur Recherche und Organisation von Büchern.
+Die Anwendung ermöglicht es, Titel zu suchen, zu verwalten und individuell zu markieren (Favoriten/ bereits gelesen).
+
+Der Fokus lag auf einer intuitiven Navigation, einer klar strukturierten Darstellung von Informationen sowie einer nutzerfreundlichen und responsiven Gestaltung. Ziel war es, Inhalte einfach zugänglich zu machen und eine übersichtliche Nutzung über verschiedene Endgeräte hinweg zu ermöglichen."
             tech={["React", "CSS3", "Node.js", "React Router DOM", "API"]}
             link="https://github.com/Vivien-W/Buecher-App"
           />
@@ -164,8 +166,14 @@ export const Projects = () => {
                 className="w-full h-52 object-cover rounded-lg mb-4 border border-white/20"
               />
             }
-            title="Bonus-Spaßprojekt: 2D-Raketenspiel"
-            description="Browserbasiertes 2D-Raketenspiel, das den Spieler*innen mehrere Levels mit Score-System, Animationen und Game-Loop-Logik bietet. Das Projekt legt den Fokus auf Spielfluss, Performance und interaktive Mechaniken, inklusive reaktiver Steuerung und dynamischer Level-Progression. Es demonstriert das Verständnis von DOM-Manipulation, Event-Handling, Timing-Mechanismen und grundlegender Spielentwicklung im Browser."
+            title="Bonusprojekt: kleines Spiel für zwischendurch 🎮"
+            description="Falls Sie bis hierhin gescrollt haben: Hier eine kleine Abwechslung 😊
+
+Browserbasiertes 2D-Raketenspiel mit mehreren Levels, Score-System und interaktiven Elementen.
+
+Im Fokus standen die Umsetzung von Spiellogik, Reaktionsverhalten und flüssigen Abläufen im Browser.
+
+Das Projekt zeigt auf spielerische Weise mein Verständnis für dynamische Prozesse, Eventsteuerung und die Entwicklung interaktiver Anwendungen."
             tech={["Javascript", "HTML5", "CSS3"]}
             link="https://github.com/Vivien-W/Raketenspiel"
             liveDemo="https://vivien-w.github.io/Raketenspiel/"
@@ -235,19 +243,22 @@ const ProjectCard = ({ media, title, description, tech, link, liveDemo }) => (
           target="_blank"
           rel="noopener noreferrer"
           className="
-        inline-block
-        px-3 py-1
-        rounded-full
-        bg-white/40
-        backdrop-blur-sm
-        text-gray-700 
-        border border-white/30
-        shadow-sm
-        hover:bg-white/60
-        transition-all
-      "
+  inline-block
+  px-4 py-2
+  rounded-full
+  bg-gradient-to-r from-pink-200/60 to-cyan-200/60
+  backdrop-blur-md
+  text-gray-800
+  border border-white/40
+  shadow-md
+  hover:from-pink-300/70 hover:to-cyan-300/70
+  hover:shadow-lg
+  hover:-translate-y-0.5
+  active:scale-95
+  transition-all duration-300
+"
         >
-          Live-Demo →
+          Eine Runde spielen →
         </a>
       )}
     </div>

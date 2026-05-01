@@ -24,10 +24,12 @@ export const Home = () => {
         <h1 className="text-3xl text-shadow sm:text-5xl md:text-6xl text-gray-800 font-dancing leading-snug max-w-[90%] sm:max-w-xl mx-auto">
           Hi, ich bin{" "}
           <span className="text-pink-500 sm:text-7xl md:text-8xl font-dancing inline">
-            Vivien.
+            Vivien. <br></br>
           </span>{" "}
-          Ich entwickle durchdachte digitale Anwendungen.
         </h1>
+        <h2 className="text-3xl text-shadow sm:text-4xl md:text-5xl text-gray-800 font-dancing leading-snug max-w-[90%] sm:max-w-xl mx-auto">
+          Organisation & digitale Anwendungen
+        </h2>
 
         <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-5xl gap-6 px-4 mb-4 mt-4">
           <div className="relative z-10 w-32 h-32 sm:w-40 sm:h-40 md:w-60 md:h-60">
