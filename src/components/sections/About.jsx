@@ -76,10 +76,11 @@ export const About = () => {
                 Absolventin im Bereich Informationsmanagement mit Schwerpunkt IT
                 und Usability. Ich verbinde organisatorische Erfahrung aus dem
                 Kulturbereich mit einem fundierten Verständnis für digitale
-                Systeme. Dabei liegt mein Fokus darauf, Anforderungen klar zu
-                strukturieren, verständlich aufzubereiten und in praktikable
-                Lösungen zu überführen – sowohl im organisatorischen als auch im
-                digitalen Kontext.{" "}
+                Prozesse und Informationssysteme. Dabei liegt mein Fokus auf der
+                strukturierten Analyse von Anforderungen, der verständlichen
+                Aufbereitung komplexer Inhalte sowie der Entwicklung
+                praktikabler, nutzerorientierter Lösungen im organisatorischen
+                und digitalen Kontext.{" "}
               </p>
             </div>
 
@@ -99,8 +100,9 @@ export const About = () => {
                   – HAW Hamburg (2013–2017)
                 </li>
                 <li>
-                  Fokus: IT-Grundlagen, Datenbanktechnologie, Usability & UX,
-                  Informationssysteme und Projektarbeit
+                  Fokus: : Informationsmanagement, digitale Informationssysteme,
+                  Prozessgestaltung, Usability sowie projektorientiertes
+                  Arbeiten
                 </li>
               </ul>
             </div>
@@ -129,31 +131,29 @@ export const About = () => {
               Was ich mitbringe:
             </h3>
             <p className="mb-8">
-              Ich bringe eine{" "}
+              Ich arbeite{" "}
               <span className="bg-pink-100/60 px-1 rounded">
-                strukturierte und zuverlässige Arbeitsweise
+                strukturiert, zuverlässig
               </span>{" "}
-              mit, die ich sowohl in organisatorischen als auch in digitalen
-              Kontexten einsetzen konnte. Durch meine{" "}
+              und behalte auch in komplexeren organisatorischen und digitalen
+              Abläufen den Überblick. Durch meine
               <span className="bg-pink-100/60 px-1 rounded">
                 Erfahrung in Koordination, Projektunterstützung und
-                administrativen Abläufen
+                administrativen Prozessen
               </span>{" "}
-              arbeite ich mich schnell in neue Strukturen und Systeme ein und
-              behalte auch in komplexeren Prozessen den Überblick.
+              finde ich mich schnell in neue Strukturen und Systeme ein.
             </p>
             <p className="mb-8">
-              Ich habe ein{" "}
+              Besonders interessieren mich die Zusammenhänge zwischen
+              Informationen, Daten, Prozessen und digitalen Anwendungen. Dabei
+              ist es mir wichtig,{" "}
               <span className="bg-pink-100/60 px-1 rounded">
-                gutes Verständnis für digitale Anwendungen
+                Anforderungen verständlich zu erfassen, sinnvoll zu
+                strukturieren und in praktikable Lösungen zu überführen.
               </span>{" "}
-              und dafür, wie Informationen, Daten und Prozesse zusammenwirken.
-              Dabei ist mir wichtig, fachliche Anforderungen nachvollziehbar zu
-              erfassen und in klar strukturierte, praktikable Lösungen zu
-              überführen.
             </p>
             <p className="mb-20">
-              Besonders achte ich auf{" "}
+              Großen Wert lege ich auf{" "}
               <span className="bg-pink-100/60 px-1 rounded">
                 Verständlichkeit, Nutzerfreundlichkeit und barrierearme
                 Gestaltung.
@@ -499,18 +499,23 @@ export const About = () => {
             </h3>
 
             <p className="mb-6">
-              Ich möchte meine organisatorischen Fähigkeiten und mein digitales
-              Verständnis in einem Umfeld einbringen, in dem strukturierte
-              Prozesse, Kommunikation und digitale Anwendungen zusammenkommen –
-              beispielsweise im Hochschul- oder Verwaltungskontext. Dabei
-              interessiert mich insbesondere die Schnittstelle zwischen
-              fachlichen Anforderungen, organisatorischen Abläufen und digitalen
-              Lösungen.
+              Ich möchte meine organisatorischen Fähigkeiten, mein digitales
+              Verständnis und meine strukturierte Arbeitsweise in einem Umfeld
+              einbringen, in dem Prozesse, Kommunikation und digitale
+              Anwendungen zusammenkommen – insbesondere im Hochschul-,
+              Verwaltungs- oder organisationsnahen Kontext.
+            </p>
+            <p className="mb-6">
+              Besonders interessieren mich Tätigkeiten an der Schnittstelle
+              zwischen fachlichen Anforderungen, organisatorischen Abläufen und
+              digitalen Lösungen. Dabei reizt mich vor allem die Möglichkeit,
+              Prozesse aktiv mitzugestalten, unterschiedliche Perspektiven
+              zusammenzubringen und komplexe Themen strukturiert aufzubereiten.
             </p>
 
             <p className="mb-6">
-              Aktuell suche ich eine qualifizierte Teilzeitposition ( 20 - 30
-              Wochenstunden), in der ich meine Kenntnisse einbringen und
+              Aktuell suche ich eine neue berufliche Herausforderung in Teilzeit
+              oder Vollzeit, in der ich meine Kenntnisse einbringen und
               weiterentwickeln kann.
             </p>
           </div>

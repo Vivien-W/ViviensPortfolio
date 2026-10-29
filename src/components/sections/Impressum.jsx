@@ -24,10 +24,10 @@ export default function Impressum() {
                 textAlign: "left",
               }}
             >
-              82 ediewfoH
+              Adresse
             </span>
             <br />
-            21031 Hamburg
+            XXXXX Hamburg
             <br />
             Deutschland
           </p>

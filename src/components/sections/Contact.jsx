@@ -38,7 +38,7 @@ export const Contact = () => {
   bg-white/60 backdrop-blur-md border border-pink-300/30 
   py-3 px-4 rounded-2xl shadow-sm"
           >
-            Ich suche eine neue Herausforderung!
+            Ich suche eine neue berufliche Herausforderung
           </p>
 
           <p className="text-center text-white/90 text-lg sm:text-xl mb-12 leading-relaxed">
@@ -49,8 +49,8 @@ export const Contact = () => {
           <div className="text-white/90 text-sm sm:text-base leading-relaxed space-y-6 mb-10">
             <p>
               Ich interessiere mich für Tätigkeiten an der Schnittstelle von
-              Fachbereich und digitalen Anwendungen – insbesondere im Umfeld von
-              Verwaltung oder Hochschulen.
+              Organisation, Kommunikation und digitalen Prozessen – insbesondere
+              im Hochschul-, Verwaltungs- oder organisationsnahen Umfeld.
             </p>
 
             <div className="space-y-3">
@@ -79,18 +79,21 @@ export const Contact = () => {
                 <li className="flex gap-2">
                   <span className="text-pink-100">•</span>
                   <span>
-                    <strong className="text-white">Nutzerorientierung:</strong>{" "}
-                    Ich lege Wert auf verständliche, barrierearme und
-                    praxistaugliche Lösungen
+                    <strong className="text-white">
+                      Organisations- & Digitalisierungskompetenz:
+                    </strong>{" "}
+                    Ich verbinde praktische Organisationserfahrung mit digitalem
+                    Verständnis und interessiere mich für die Weiterentwicklung
+                    strukturierter und nutzerorientierter Prozesse.
                   </span>
                 </li>
               </ul>
             </div>
 
             <p>
-              Ich suche eine Teilzeitposition (20 – 30 Wochenstunden), in der
-              ich an der Weiterentwicklung digitaler Prozesse und Anwendungen
-              mitwirken kann.
+              Aktuell suche ich eine neue Position in Teilzeit oder Vollzeit, in
+              der ich meine organisatorischen, analytischen und digitalen
+              Fähigkeiten einbringen und weiterentwickeln kann.
             </p>
           </div>
 
